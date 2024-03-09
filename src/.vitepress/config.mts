@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "JSFullStack",
   description: "A VitePress Site",
+  base: "/JSFullStack/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
