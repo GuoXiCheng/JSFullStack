@@ -1,5 +1,8 @@
 {
   "devDependencies": {
+    "markmap-lib": "^0.16.0",
+    "markmap-toolbar": "^0.16.0",
+    "markmap-view": "^0.16.0",
     "vitepress": "^1.0.0-rc.45"
   },
   "scripts": {
