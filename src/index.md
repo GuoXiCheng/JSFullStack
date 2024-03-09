@@ -9,8 +9,8 @@ import MarkMap from './MarkMap.vue';
 
 <MarkMap markdown="
 # JS全栈技能树
-## JavaScript
-### ECMAScript
-### DOM
-### BOM
+- [JavaScript](javascript/index)
+    - [ECMAScript](javascript/ecmascript/index)
+    - DOM
+    - BOM
 "/>
