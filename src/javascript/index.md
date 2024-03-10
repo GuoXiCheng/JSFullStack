@@ -4,7 +4,7 @@
 
 1989年，欧洲核子研究组织提出创造一个全球互联的信息共享网络，以解决分散的信息资源问题。
 
-1990年，这一概念通过实现世界上第一个网页和浏览器——WorldWideWeb和Nexus浏览器成为现实。同时，超文本标记语言（HTML）诞生，HTML成为构建网页的基石。
+1990年，这一构想通过实现世界上第一个网页和浏览器——WorldWideWeb和Nexus浏览器成为现实。同时，超文本标记语言（HTML）诞生，HTML成为构建网页的基石。
 
 1993年，Mosaic浏览器问世，它是第一个支持图像显示的图形界面网页浏览器。
 
@@ -24,6 +24,15 @@
 
 自此以后，各家浏览器均以ECMAScript作为自己JavaScript实现的依据，虽然具体实现各有不同。
 
+2002年，Firefox浏览器发布，它的JavaScript引擎SpiderMonkey是第一个完全开源的JavaScript引擎。
+
+2008年，Google发布了Chrome浏览器，它的JavaScript引擎V8是第一个性能超过IE的JavaScript引擎。
+
+2009年，Ryan Dahl采用V8引擎开发了Node.js，使得JavaScript可以在服务器端运行。
+
+至此，JavaScript从简单的客户端表单验证脚本发展成为一门全栈技术的核心语言，成为了世界上最流行的编程语言之一。
+
+
 ## JavaScript的实现
 
-![](/javascript/javascript-implementation.jpg)
+![](/images/javascript/javascript-implementation.jpg)
