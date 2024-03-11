@@ -5,7 +5,14 @@ export default defineConfig({
   title: "JSFullStack",
   description: "A VitePress Site",
   base: "/",
+  lastUpdated: true,
   themeConfig: {
+    editLink: {
+      pattern: 'https://github.com/GuoXiCheng/JSFullStack/edit/main/src/:path'
+    },
+    outline: {
+      level: 'deep'
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
@@ -17,9 +24,26 @@ export default defineConfig({
       '/javascript': [
         {
           text: 'ECMAScript',
-          link: '/javascript/ecmascript/index',
-          items: []
+          link: '/javascript/ecma-script/index',
+          items: [
+            { 
+              text: '基本引用类型',
+              items: [
+                { text: 'Date', link: '/javascript/ecma-script/basic-reference/date' },
+                { text: '正则表达式', link: '/javascript/ecma-script/basic-reference/reg-exp' }
+              ]
+            }
+          ]
         },
+        {
+          text: 'BOM',
+          items: [
+            {
+              text: 'screen',
+              link: '/javascript/bom/screen'
+            }
+          ]
+        }
         // {
         //   text: 'DOM',
         //   link: '/javascript/dom/index',
