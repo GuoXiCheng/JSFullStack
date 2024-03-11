@@ -6,6 +6,9 @@ export default defineConfig({
   description: "A VitePress Site",
   base: "/",
   themeConfig: {
+    outline: {
+      level: 'deep'
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
@@ -23,6 +26,7 @@ export default defineConfig({
               text: '基本引用类型',
               items: [
                 { text: 'Date', link: '/javascript/ecma-script/basic-reference/date' },
+                { text: '正则表达式', link: '/javascript/ecma-script/basic-reference/reg-exp' }
               ]
             }
           ]

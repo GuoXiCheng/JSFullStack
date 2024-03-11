@@ -13,6 +13,7 @@ import MarkMap from './MarkMap.vue';
     - [ECMAScript](javascript/ecma-script/index)
       - 基本引用类型
         - [Date](javascript/ecma-script/basic-reference/date)
+        - [RegExp](javascript/ecma-script/basic-reference/reg-exp)
       - 集合引用类型
     - DOM
     - BOM
