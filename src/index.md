@@ -15,7 +15,15 @@ import MarkMap from './MarkMap.vue';
         - [Date](javascript/ecma-script/basic-reference/date)
         - [RegExp](javascript/ecma-script/basic-reference/reg-exp)
       - 集合引用类型
+        - Array
+        - Map
+        - Set
     - DOM
     - BOM
+      - window
+      - location
+      - navigator
+      - [screen](javascript/bom/screen)
+      - history
 - NodeJS
 "/>

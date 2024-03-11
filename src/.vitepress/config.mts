@@ -5,7 +5,11 @@ export default defineConfig({
   title: "JSFullStack",
   description: "A VitePress Site",
   base: "/",
+  lastUpdated: true,
   themeConfig: {
+    editLink: {
+      pattern: 'https://github.com/GuoXiCheng/JSFullStack/edit/main/src/:path'
+    },
     outline: {
       level: 'deep'
     },
@@ -31,6 +35,15 @@ export default defineConfig({
             }
           ]
         },
+        {
+          text: 'BOM',
+          items: [
+            {
+              text: 'screen',
+              link: '/javascript/bom/screen'
+            }
+          ]
+        }
         // {
         //   text: 'DOM',
         //   link: '/javascript/dom/index',
