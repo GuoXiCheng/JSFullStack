@@ -10,7 +10,10 @@ import MarkMap from './MarkMap.vue';
 <MarkMap markdown="
 # JS全栈技能树
 - [JavaScript](javascript/index)
-    - [ECMAScript](javascript/ecmascript/index)
+    - [ECMAScript](javascript/ecma-script/index)
+      - 基本引用类型
+        - [Date](javascript/ecma-script/basic-reference/date)
+      - 集合引用类型
     - DOM
     - BOM
 - NodeJS

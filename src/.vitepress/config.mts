@@ -17,8 +17,15 @@ export default defineConfig({
       '/javascript': [
         {
           text: 'ECMAScript',
-          link: '/javascript/ecmascript/index',
-          items: []
+          link: '/javascript/ecma-script/index',
+          items: [
+            { 
+              text: '基本引用类型',
+              items: [
+                { text: 'Date', link: '/javascript/ecma-script/basic-reference/date' },
+              ]
+            }
+          ]
         },
         // {
         //   text: 'DOM',
