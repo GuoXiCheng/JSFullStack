@@ -8,7 +8,7 @@ import MarkMap from './MarkMap.vue';
 </script>
 
 <MarkMap markdown="
-# JS全栈技能树
+# JS全栈
 - [JavaScript](javascript/index)
     - [ECMAScript](javascript/ecma-script/index)
       - 基本引用类型
@@ -25,5 +25,6 @@ import MarkMap from './MarkMap.vue';
       - navigator
       - [screen](javascript/bom/screen)
       - history
-- NodeJS
+- [NodeJS](nodejs/index)
+  - [EventEmitter](nodejs/event-emitter)
 "/>

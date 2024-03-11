@@ -19,7 +19,9 @@ export default defineConfig(
       nav: [
         { text: 'Home', link: '/' },
         { text: 'JavaScript', link: '/javascript/index' },
-        { text: 'Examples', link: '/markdown-examples' }
+        { text: 'NodeJS', link: '/nodejs/index' },
+        { text: 'Examples', link: '/markdown-examples' },
+        { text: '参考', link: '/reference'}
       ],
   
       sidebar: {
@@ -46,15 +48,12 @@ export default defineConfig(
               }
             ]
           }
-          // {
-          //   text: 'DOM',
-          //   link: '/javascript/dom/index',
-          //   items: []
-          // },{
-          //   text: 'BOM',
-          //   link: '/javascript/bom/index',
-          //   items: []
-          // }
+        ],
+        '/nodejs': [
+          {
+            text: 'EventEmitter',
+            link: '/nodejs/event-emitter'
+          }
         ],
         '/markdown-examples': [
           {
