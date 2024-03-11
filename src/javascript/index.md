@@ -36,6 +36,18 @@ JavaScript的历史展示了它是如何从一个用于简单客户端数据验�
 至此，JavaScript从简单的客户端表单验证脚本发展成为一门全栈技术的核心语言，成为了世界上最流行的编程语言之一。
 
 
-<!-- ## JavaScript的实现 -->
+## JavaScript的实现
 
-<!-- ![](/images/javascript/javascript-implementation.jpg) -->
+```mermaid
+graph TD
+    subgraph A[JavaScript]
+        B[ECMAScript]
+        C[DOM（文档对象模型）]
+        D[BOM（浏览器对象模型）]
+    end
+```
+
+完整的JavaScript包含以下三个部分：
+- ECMAScript：由ECMA-262定义并提供核心功能
+- DOM：提供与网页内容交互的方法和接口
+- BOM：提供与浏览器交互的方法和接口
