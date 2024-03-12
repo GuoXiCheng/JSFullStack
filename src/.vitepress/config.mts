@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import { DefaultTheme, defineConfig } from 'vitepress'
 import { withMermaid } from 'vitepress-plugin-mermaid';
 
 // https://vitepress.dev/reference/site-config
@@ -25,30 +25,7 @@ export default defineConfig(
       ],
   
       sidebar: {
-        '/javascript': [
-          {
-            text: 'ECMAScript',
-            link: '/javascript/ecma-script/index',
-            items: [
-              { 
-                text: '基本引用类型',
-                items: [
-                  { text: 'Date', link: '/javascript/ecma-script/basic-reference/date' },
-                  { text: '正则表达式', link: '/javascript/ecma-script/basic-reference/reg-exp' }
-                ]
-              }
-            ]
-          },
-          {
-            text: 'BOM',
-            items: [
-              {
-                text: 'screen',
-                link: '/javascript/bom/screen'
-              }
-            ]
-          }
-        ],
+        '/javascript': sidebarJS(),
         '/nodejs': [
           {
             text: 'EventEmitter',
@@ -72,3 +49,28 @@ export default defineConfig(
     }
   })
 )
+
+function sidebarJS(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: 'ECMAScript',
+      link: '/javascript/ecma-script/index',
+      items: [
+        {
+          text: '基本引用类型',
+          base: '/javascript/ecma-script/basic-reference',
+          items: [
+            { text: 'Date', link: '/date' },
+            { text: '正则表达式', link: '/reg-exp' }
+          ]
+        }
+      ]
+    }, {
+      text: 'BOM',
+      base: '/javascript/bom',
+      items: [
+        { text: 'screen', link: '/screen' }
+      ]
+    }
+  ]
+}
