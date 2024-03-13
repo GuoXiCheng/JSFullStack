@@ -63,6 +63,12 @@ function sidebarJS(): DefaultTheme.SidebarItem[] {
             { text: 'Date', link: '/date' },
             { text: '正则表达式', link: '/reg-exp' }
           ]
+        }, {
+          text: '迭代器',
+          link: '/javascript/ecma-script/iterator'
+        }, {
+          text: '生成器',
+          link: '/javascript/ecma-script/generator'
         }
       ]
     }, {
