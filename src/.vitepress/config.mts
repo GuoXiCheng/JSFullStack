@@ -21,9 +21,9 @@ export default defineConfig(
         { text: 'JavaScript', link: '/javascript/index' },
         { text: 'NodeJS', link: '/nodejs/index' },
         { text: 'Examples', link: '/markdown-examples' },
-        { text: '参考', link: '/reference'}
+        { text: '参考', link: '/reference' }
       ],
-  
+
       sidebar: {
         '/javascript': sidebarJS(),
         '/nodejs': [
@@ -42,7 +42,7 @@ export default defineConfig(
           }
         ]
       },
-  
+
       socialLinks: [
         { icon: 'github', link: 'https://github.com/GuoXiCheng' }
       ]
@@ -62,6 +62,12 @@ function sidebarJS(): DefaultTheme.SidebarItem[] {
           items: [
             { text: 'Date', link: '/date' },
             { text: '正则表达式', link: '/reg-exp' }
+          ]
+        }, {
+          text: '集合引用类型',
+          base: '/javascript/ecma-script/collection-reference',
+          items: [
+            { text: 'Array', link: '/array' },
           ]
         }, {
           text: '迭代器',
