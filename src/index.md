@@ -20,6 +20,7 @@ import MarkMap from './MarkMap.vue';
         - Set
       - [迭代器](javascript/ecma-script/iterator)
       - [生成器](javascript/ecma-script/generator)
+      - [JSON](javascript/ecma-script/json)
     - DOM
     - BOM
       - window
