@@ -75,6 +75,9 @@ function sidebarJS(): DefaultTheme.SidebarItem[] {
         }, {
           text: '生成器',
           link: '/javascript/ecma-script/generator'
+        }, {
+          text: 'JSON',
+          link: '/javascript/ecma-script/json'
         }
       ]
     }, {
