@@ -1,6 +1,6 @@
 <template>
     <div>
-        <svg id="markmap" style="width: 100%; height: 600px"></svg>
+        <svg id="markmap" style="width: 100%; height: 90vh"></svg>
     </div>
 </template>
 
