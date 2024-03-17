@@ -68,6 +68,8 @@ function sidebarJS(): DefaultTheme.SidebarItem[] {
           base: '/javascript/ecma-script/collection-reference',
           items: [
             { text: 'Array', link: '/array' },
+            { text: 'Map', link: '/map' },
+            { text: 'Set', link: '/set' }
           ]
         }, {
           text: '迭代器',
