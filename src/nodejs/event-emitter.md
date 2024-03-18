@@ -172,3 +172,6 @@ class EventEmitter {
   }
 }
 ```
+
+## API 文档参考
+- [Node.js Events Documentation](https://nodejs.org/docs/latest/api/events.html)
