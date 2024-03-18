@@ -33,8 +33,7 @@ m.delete("key1");
 m.clear();
 ```
 :::tip
-- 与Object只能使用数值、字符串或符号作为键不同，Map可以使用任何JavaScript数据类型作为键。
-- 与Object类似的是，Map映射的值是没有限制的。
+- Map可以使用任何JavaScript数据类型作为键，并且Map映射的值也是没有限制的。
 - Map内部使用SameValueZero（基本相当于使用严格相等）来检查键的匹配性。
 :::
 
@@ -55,7 +54,7 @@ for (const pair of m.entries()) {
 // 直接使用扩展操作符
 const result = [...m];
 
-m.forEach((key: string, val: string) => {
+m.forEach((val: string, key: string) => {
     console.log(`${key} -> ${val}`)
 });
 
@@ -71,7 +70,7 @@ for (const val of m.values()) {
 ```
 
 ## Object vs Map
-- 内存占用：Map大约比Object多存储50%的键值对。
+- 内存占用：对于相同数量的键值对，Map大约比Object多存储50%的键值对。
 - 插入性能：如果涉及大量插入操作，Map性能更佳。
 - 查找速度：如果涉及大量查找操作，某些情况下（例如使用连续整数作为属性）Object更好。
 - 删除性能：如果涉及大量删除操作，毫无疑问应该选择Map。

@@ -20,7 +20,6 @@ export default defineConfig(
         { text: 'Home', link: '/' },
         { text: 'JavaScript', link: '/javascript/index' },
         { text: 'NodeJS', link: '/nodejs/index' },
-        { text: 'Examples', link: '/markdown-examples' },
         { text: '参考', link: '/reference' }
       ],
 
@@ -30,15 +29,9 @@ export default defineConfig(
           {
             text: 'EventEmitter',
             link: '/nodejs/event-emitter'
-          }
-        ],
-        '/markdown-examples': [
-          {
-            text: 'Examples',
-            items: [
-              { text: 'Markdown Examples', link: '/markdown-examples' },
-              { text: 'Runtime API Examples', link: '/api-examples' }
-            ]
+          }, {
+            text: 'File System',
+            link: '/nodejs/file-system'
           }
         ]
       },
