@@ -1,5 +1,6 @@
-import { DefaultTheme, defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress'
 import { withMermaid } from 'vitepress-plugin-mermaid';
+import { sidebarJS } from './sidebars/javascript';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig(
@@ -19,19 +20,37 @@ export default defineConfig(
       nav: [
         { text: 'Home', link: '/' },
         { text: 'JavaScript', link: '/javascript/index' },
-        { text: 'NodeJS', link: '/nodejs/index' },
+        { text: '前端', link: '/frontend/react/jsx' },
+        { text: '后端', link: '/backend/nodejs/index' },
         { text: '参考', link: '/reference' }
       ],
 
       sidebar: {
         '/javascript': sidebarJS(),
-        '/nodejs': [
+        '/backend': [
           {
-            text: 'EventEmitter',
-            link: '/nodejs/event-emitter'
-          }, {
-            text: 'File System',
-            link: '/nodejs/file-system'
+            text: 'Node.js',
+            link: '/backend/nodejs/index',
+            items: [
+              {
+                text: 'EventEmitter',
+                link: '/backend/nodejs/event-emitter'
+              }, {
+                text: 'File System',
+                link: '/backend/nodejs/file-system'
+              }
+            ]
+          }
+        ],
+        '/frontend': [
+          {
+            text: 'React',
+            items: [
+              {
+                text: 'JSX',
+                link: '/frontend/react/jsx'
+              }
+            ]
           }
         ]
       },
@@ -42,45 +61,3 @@ export default defineConfig(
     }
   })
 )
-
-function sidebarJS(): DefaultTheme.SidebarItem[] {
-  return [
-    {
-      text: 'ECMAScript',
-      link: '/javascript/ecma-script/index',
-      items: [
-        {
-          text: '基本引用类型',
-          base: '/javascript/ecma-script/basic-reference',
-          items: [
-            { text: 'Date', link: '/date' },
-            { text: '正则表达式', link: '/reg-exp' }
-          ]
-        }, {
-          text: '集合引用类型',
-          base: '/javascript/ecma-script/collection-reference',
-          items: [
-            { text: 'Array', link: '/array' },
-            { text: 'Map', link: '/map' },
-            { text: 'Set', link: '/set' }
-          ]
-        }, {
-          text: '迭代器',
-          link: '/javascript/ecma-script/iterator'
-        }, {
-          text: '生成器',
-          link: '/javascript/ecma-script/generator'
-        }, {
-          text: 'JSON',
-          link: '/javascript/ecma-script/json'
-        }
-      ]
-    }, {
-      text: 'BOM',
-      base: '/javascript/bom',
-      items: [
-        { text: 'screen', link: '/screen' }
-      ]
-    }
-  ]
-}
