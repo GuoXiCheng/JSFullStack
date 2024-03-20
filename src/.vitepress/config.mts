@@ -54,7 +54,7 @@ export default defineConfig(
                 items: [
                   {
                     text: 'props',
-                    link: '/frontend/react/intercomponent-communication/props'
+                    link: '/frontend/react/component-interaction/props'
                   }
                 ]
               }
