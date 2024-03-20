@@ -33,7 +33,9 @@ import MarkMap from './MarkMap.vue';
       - history
 - 前端
   - React
-    - [JSX](frontend/react/jsx)
+    - [JSX语法](frontend/react/jsx)
+    - 组件间通信
+      - [props](frontend/react/intercomponent-communication/props)
 - 后端
   - [NodeJS](backend/nodejs/index)
     - [EventEmitter](backend/nodejs/event-emitter)
