@@ -47,8 +47,16 @@ export default defineConfig(
             text: 'React',
             items: [
               {
-                text: 'JSX',
+                text: 'JSX语法',
                 link: '/frontend/react/jsx'
+              }, {
+                text: '组件间通信',
+                items: [
+                  {
+                    text: 'props',
+                    link: '/frontend/react/intercomponent-communication/props'
+                  }
+                ]
               }
             ]
           }

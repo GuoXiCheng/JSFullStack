@@ -31,11 +31,13 @@ import MarkMap from './MarkMap.vue';
       - navigator
       - [screen](javascript/bom/screen)
       - history
+- 前端
+  - React
+    - [JSX语法](frontend/react/jsx)
+    - 组件间通信
+      - [props](frontend/react/intercomponent-communication/props)
 - 后端
   - [NodeJS](backend/nodejs/index)
     - [EventEmitter](backend/nodejs/event-emitter)
     - [File System](backend/nodejs/file-system)
-- 前端
-  - React
-    - [JSX](frontend/react/jsx)
 "/>
