@@ -71,3 +71,33 @@ function Demo() {
     return <div style={{ color: 'red', fontSize: '20px' }}>Hello, React</div>;
 }
 ```
+
+### 使用图片
+URL导入图片
+```jsx
+function Demo() {
+    return <img src="https://www.example.com/example.jpg" alt="example" />;
+}
+```
+导入本地图片
+```jsx
+import example from './assets/example.jpg';
+
+function Demo() {
+    return <img src={example} alt="example" />;
+}
+```
+
+### 使用map
+```jsx
+function Demo() {
+    const list = ['React', 'Vue', 'Angular'];
+    return (
+        <ul>
+            {list.map((item, index) => (
+                <li key={index}>{item}</li>
+            ))}
+        </ul>
+    );
+}
+```
