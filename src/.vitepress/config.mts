@@ -55,6 +55,9 @@ export default defineConfig(
                   {
                     text: 'props',
                     link: '/frontend/react/component-interaction/props'
+                  }, {
+                    text: 'state',
+                    link: '/frontend/react/component-interaction/state'
                   }
                 ]
               }

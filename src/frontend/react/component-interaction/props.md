@@ -117,7 +117,7 @@ export function Demo({ children, clickBtn }) {
 }
 ```
 ```jsx
-import Demo from './Demo.jsx';
+import { Demo } from './Demo.jsx';
 
 function App() {
     const doClick = (value) => console.log(value);

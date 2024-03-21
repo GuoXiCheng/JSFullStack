@@ -34,18 +34,6 @@ function Demo() {
     );
 }
 ```
-不可以在JSX中使用if语句，可以使用三元运算符或者逻辑与运算符代替
-```jsx
-function DemoA() {
-    const isShow = true;
-    return <div>{isShow ? <h1>Hello, React</h1> : null}</div>;
-}
-
-function DemoB() {
-    const isShow = true;
-    return <div>{isShow && <h1>Hello, React</h1>}</div>;
-}
-```
 
 ### 使用样式
 
@@ -61,8 +49,12 @@ function Demo() {
 ```
 使用`className`属性设置类名
 ```jsx
-function Demo() {
-    return <div className="demo">Hello, React</div>;
+function DemoA() {
+    return <div className='active'>Hello, React</div>;
+}
+
+function DemoB({selected}) {
+    return <div className={selected ? 'active' : 'inactive'}>Hello, React</div>;
 }
 ```
 也可以直接在标签中定义样式
@@ -99,5 +91,31 @@ function Demo() {
             ))}
         </ul>
     );
+}
+```
+
+### 条件渲染
+使用三元运算符或者逻辑与运算符进行条件渲染。
+```jsx
+function DemoA() {
+    const isShow = true;
+    return <div>{isShow ? <h1>Hello, React</h1> : <h1>Hello, Angular</h1>}</div>;
+}
+
+function DemoB() {
+    const isShow = true;
+    return <div>{isShow && <h1>Hello, React</h1>}</div>;
+}
+```
+使用`if`语句进行条件渲染
+```jsx
+function Demo({ isShow }) {
+    let content = 'Hello, React';
+
+    if (isShow) {
+        content = 'Hello, Angular';
+    }
+
+    return <>{content}</>;
 }
 ```
