@@ -8,7 +8,7 @@ props是**只读**的，子组件不能修改props，以保证数据的单向流
 ### 基本用法
 在父组件中将数据作为属性传递给子组件，子组件通过props接收数据。
 ```jsx
-export function Demo(props) {
+export default function Demo(props) {
     return (
         <>
             <h3>{props.title}</h3>
@@ -19,7 +19,7 @@ export function Demo(props) {
 ```
 
 ```jsx
-import { Demo } from './Demo.jsx';
+import Demo from './Demo.jsx';
 
 function App() {
     const content = [
@@ -44,12 +44,14 @@ function App() {
         </>
     );
 }
+
+export default App;
 ```
 
 ### 简写形式
 利用解构赋值，直接将父组件传递的对象解构到子组件的props中。
 ```jsx
-export function Demo({ title, desc }) {
+export default function Demo({ title, desc }) {
     return (
         <>
             <h3>{title}</h3>
@@ -59,7 +61,7 @@ export function Demo({ title, desc }) {
 }
 ```
 ```jsx
-import { Demo } from './Demo.jsx';
+import Demo from './Demo.jsx';
 
 function App() {
     const content = [
@@ -84,11 +86,13 @@ function App() {
         </>
     );
 }
+
+export default App;
 ```
 ### 传递函数
 通过props传递函数，子组件可以调用父组件的函数，实现父子组件的通信。
 ```jsx
-export function Demo({ clickBtn }) {
+export default function Demo({ clickBtn }) {
     return (
         <>
             <button onClick={() => clickBtn('demo')}>click</button>
@@ -97,30 +101,33 @@ export function Demo({ clickBtn }) {
 }
 ```
 ```jsx
-import { Demo } from './Demo.jsx';
+import Demo from './Demo.jsx';
 
 function App() {
     const doClick = (value) => console.log(value);
     return <Demo clickBtn={doClick} />;
 }
+
+export default App;
 ```
 
-### children
-`props.children`是一个特殊的prop，它包含了父组件标签内的所有子节点。
+### 剩余参数
+剩余参数`...props`可以用来收集未被显式列出的props。
 ```jsx
-export function Demo({ children, clickBtn }) {
+export default function Demo({ children, ...props }) {
     return (
         <>
-            <button onClick={() => clickBtn('demo')}>{children}</button>
+            <button {...props}>{children}</button>
         </>
     );
 }
 ```
 ```jsx
-import { Demo } from './Demo.jsx';
+import Demo from './Demo.jsx';
 
 function App() {
     const doClick = (value) => console.log(value);
-    return <Demo clickBtn={doClick} >Demo Button</Demo>;
+    return <Demo onClick={() => doClick('hello')}>Demo Button</Demo>;
 }
+export default App;
 ```
