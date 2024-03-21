@@ -5,16 +5,8 @@
 
 ### props.children
 `props.children`是一个特殊的prop，它包含了父组件标签内的所有子节点。
-```jsx
-export default function Demo({ children, clickBtn }) {
-    return (
-        <>
-            <button onClick={() => clickBtn('demo')}>{children}</button>
-        </>
-    );
-}
-```
-```jsx
+::: code-group
+```jsx [App.jsx]
 import Demo from './Demo.jsx';
 
 function App() {
@@ -24,21 +16,20 @@ function App() {
 
 export default App;
 ```
-
-### 具名插槽
-具名插槽可以让父组件在子组件中插入多个自定义内容或组件。
-```jsx
-export default function Demo({ header, footer }) {
+```jsx [Demo.jsx]
+export default function Demo({ children, clickBtn }) {
     return (
         <>
-            <header>{header}</header>
-            <main>main content</main>
-            <footer>{footer}</footer>
+            <button onClick={() => clickBtn('demo')}>{children}</button>
         </>
     );
 }
 ```
-```jsx
+:::
+### 具名插槽
+具名插槽可以让父组件在子组件中插入多个自定义内容或组件。
+::: code-group
+```jsx [App.jsx]
 import Demo from './Demo.jsx';
 
 function App() {
@@ -50,3 +41,15 @@ function App() {
     );
 }
 ```
+```jsx [Demo.jsx]
+export default function Demo({ header, footer }) {
+    return (
+        <>
+            <header>{header}</header>
+            <main>main content</main>
+            <footer>{footer}</footer>
+        </>
+    );
+}
+```
+:::
