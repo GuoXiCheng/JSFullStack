@@ -34,8 +34,11 @@ import MarkMap from './MarkMap.vue';
 - 前端
   - React
     - [JSX语法](frontend/react/jsx)
+    - [插槽](frontend/react/slot)
+    - [动态组件标识符](frontend/react/dynamic-component-identifier)
     - 组件间通信
       - [props](frontend/react/component-interaction/props)
+      - [state](frontend/react/component-interaction/state)
 - 后端
   - [NodeJS](backend/nodejs/index)
     - [EventEmitter](backend/nodejs/event-emitter)

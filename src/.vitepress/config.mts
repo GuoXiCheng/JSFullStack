@@ -50,11 +50,20 @@ export default defineConfig(
                 text: 'JSX语法',
                 link: '/frontend/react/jsx'
               }, {
+                text: '插槽',
+                link: '/frontend/react/slot'
+              }, {
+                text: '动态组件标识符',
+                link: '/frontend/react/dynamic-component-identifier'
+              }, {
                 text: '组件间通信',
                 items: [
                   {
                     text: 'props',
                     link: '/frontend/react/component-interaction/props'
+                  }, {
+                    text: 'state',
+                    link: '/frontend/react/component-interaction/state'
                   }
                 ]
               }
