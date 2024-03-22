@@ -39,6 +39,7 @@ import MarkMap from './MarkMap.vue';
     - 组件间通信
       - [props](frontend/react/component-interaction/props)
       - [state](frontend/react/component-interaction/state)
+      - [双向绑定](frontend/react/component-interaction/two-way-binding)
 - 后端
   - [NodeJS](backend/nodejs/index)
     - [EventEmitter](backend/nodejs/event-emitter)

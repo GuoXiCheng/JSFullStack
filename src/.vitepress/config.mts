@@ -64,6 +64,9 @@ export default defineConfig(
                   }, {
                     text: 'state',
                     link: '/frontend/react/component-interaction/state'
+                  }, {
+                    text: '双向绑定',
+                    link: '/frontend/react/component-interaction/two-way-binding'
                   }
                 ]
               }

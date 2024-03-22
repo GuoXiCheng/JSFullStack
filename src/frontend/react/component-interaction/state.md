@@ -8,7 +8,7 @@ state是组件内部的状态管理机制。当state的值发生变化时，组�
 ```jsx
 import { useState } from 'react';
 
-export function Demo() {
+export default function Demo() {
     const [count, setCount] = useState(0);
 
     return (
@@ -24,13 +24,39 @@ export function Demo() {
 ```jsx
 import { useState } from 'react';
 
-export function Demo() {
+export default function Demo() {
     const [count, setCount] = useState(0);
 
     return (
         <>
             <p>{count}</p>
             <button onClick={() => setCount((pre) => pre + 1)}>click</button>
+        </>
+    );
+}
+```
+### 更新部分属性
+使用展开运算符：`...pre`，更新状态对象的部分属性，保持其他属性不变。
+```jsx
+import { useState } from 'react';
+
+export default function Demo() {
+    const [person, setPerson] = useState({
+        name: 'Joe',
+        age: 18,
+    });
+
+    return (
+        <>
+            <p>Name: {person.name}</p>
+            <p>Age: {person.age}</p>
+            <button
+                onClick={() =>
+                    setPerson((pre) => ({ ...pre, age: pre.age + 1 }))
+                }
+            >
+                click
+            </button>
         </>
     );
 }
