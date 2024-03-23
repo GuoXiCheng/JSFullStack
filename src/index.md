@@ -12,6 +12,7 @@ import MarkMap from './MarkMap.vue';
 - Web
   - HTML
   - CSS
+    - Tailwind CSS
 - [JavaScript](javascript/index)
     - [ECMAScript](javascript/ecma-script/index)
       - 基本引用
@@ -36,6 +37,7 @@ import MarkMap from './MarkMap.vue';
     - [JSX语法](frontend/react/jsx)
     - [插槽](frontend/react/slot)
     - [动态组件标识符](frontend/react/dynamic-component-identifier)
+    - Styled Components
     - 组件间通信
       - [props](frontend/react/component-interaction/props)
       - [state](frontend/react/component-interaction/state)
