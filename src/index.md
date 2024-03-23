@@ -40,6 +40,7 @@ import MarkMap from './MarkMap.vue';
       - [props](frontend/react/component-interaction/props)
       - [state](frontend/react/component-interaction/state)
       - [双向绑定](frontend/react/component-interaction/two-way-binding)
+      - [状态提升](frontend/react/component-interaction/lifting-state-up)
 - 后端
   - [NodeJS](backend/nodejs/index)
     - [EventEmitter](backend/nodejs/event-emitter)
