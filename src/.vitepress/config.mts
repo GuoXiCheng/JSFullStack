@@ -67,6 +67,9 @@ export default defineConfig(
                   }, {
                     text: '双向绑定',
                     link: '/frontend/react/component-interaction/two-way-binding'
+                  }, {
+                    text: '状态提升',
+                    link: '/frontend/react/component-interaction/lifting-state-up'
                   }
                 ]
               }
