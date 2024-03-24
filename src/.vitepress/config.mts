@@ -72,6 +72,23 @@ export default defineConfig(
                     link: '/frontend/react/component-interaction/lifting-state-up'
                   }
                 ]
+              }, {
+                text: 'styles',
+                items: [
+                  {
+                    text: 'Stylesheets',
+                    link: '/frontend/react/styles/stylesheets'
+                  }, {
+                    text: 'CSS Modules',
+                    link: '/frontend/react/styles/css-modules'
+                  }, {
+                    text: 'Styled Components',
+                    link: '/frontend/react/styles/styled-components'
+                  }, {
+                    text: 'Tailwind CSS',
+                    link: '/frontend/react/styles/tailwind-css'
+                  }
+                ]
               }
             ]
           }
