@@ -12,7 +12,6 @@ import MarkMap from './MarkMap.vue';
 - Web
   - HTML
   - CSS
-    - Tailwind CSS
 - [JavaScript](javascript/index)
     - [ECMAScript](javascript/ecma-script/index)
       - 基本引用
@@ -43,6 +42,11 @@ import MarkMap from './MarkMap.vue';
       - [state](frontend/react/component-interaction/state)
       - [双向绑定](frontend/react/component-interaction/two-way-binding)
       - [状态提升](frontend/react/component-interaction/lifting-state-up)
+    - styles
+      - [Stylesheets](frontend/react/styles/stylesheets)
+      - [CSS Modules](frontend/react/styles/css-modules)
+      - [Styled Components](frontend/react/styles/styled-components)
+      - [Tailwind CSS](frontend/react/styles/tailwind-css)
 - 后端
   - [NodeJS](backend/nodejs/index)
     - [EventEmitter](backend/nodejs/event-emitter)
