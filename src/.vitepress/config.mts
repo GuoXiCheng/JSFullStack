@@ -56,6 +56,9 @@ export default defineConfig(
                 text: '动态组件标识符',
                 link: '/frontend/react/dynamic-component-identifier'
               }, {
+                text: 'React 严格模式',
+                link: '/frontend/react/strict-mode'
+              }, {
                 text: '组件间通信',
                 items: [
                   {
