@@ -56,6 +56,12 @@ export default defineConfig(
                 text: '动态组件标识符',
                 link: '/frontend/react/dynamic-component-identifier'
               }, {
+                text: 'React 严格模式',
+                link: '/frontend/react/strict-mode'
+              }, {
+                text: 'createPortal',
+                link: '/frontend/react/create-portal'
+              }, {
                 text: '组件间通信',
                 items: [
                   {
@@ -87,6 +93,17 @@ export default defineConfig(
                   }, {
                     text: 'Tailwind CSS',
                     link: '/frontend/react/styles/tailwind-css'
+                  }
+                ]
+              }, {
+                text: 'ref',
+                items: [
+                  {
+                    text: 'ref 引用值',
+                    link: '/frontend/react/ref/ref-value'
+                  }, {
+                    text: 'ref 操作 DOM',
+                    link: '/frontend/react/ref/ref-dom'
                   }
                 ]
               }

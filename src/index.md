@@ -36,7 +36,7 @@ import MarkMap from './MarkMap.vue';
     - [JSX语法](frontend/react/jsx)
     - [插槽](frontend/react/slot)
     - [动态组件标识符](frontend/react/dynamic-component-identifier)
-    - Styled Components
+    - [React 严格模式](frontend/react/strict-mode)
     - 组件间通信
       - [props](frontend/react/component-interaction/props)
       - [state](frontend/react/component-interaction/state)
@@ -47,6 +47,10 @@ import MarkMap from './MarkMap.vue';
       - [CSS Modules](frontend/react/styles/css-modules)
       - [Styled Components](frontend/react/styles/styled-components)
       - [Tailwind CSS](frontend/react/styles/tailwind-css)
+    - ref
+      - [ref 引用值](frontend/react/ref/ref-value)
+      - [ref 操作 DOM](frontend/react/ref/ref-dom)
+    - [createPortal](frontend/react/create-portal)
 - 后端
   - [NodeJS](backend/nodejs/index)
     - [EventEmitter](backend/nodejs/event-emitter)
