@@ -16,24 +16,41 @@ export const DemoContext = createContext({
     item: [],
 });
 ```
-```jsx [App.jsx]
-import { DemoContext } from './store/demo-context.js';
+```jsx [DemoA.jsx]
+import DemoB from './DemoB.jsx';
 
-function DemoA() {
+export default function DemoA() {
     return (
         <>
             <DemoB />
         </>
     );
 }
+```
+```jsx [DemoB.jsx]
+import DemoC from './DemoC.jsx';
 
-function DemoB() {
+export default function DemoB() {
+    return (
+        <>
+            <DemoC />
+        </>
+    );
+}
+```
+```jsx [DemoC.jsx]
+import { DemoContext } from './store/demo-context.js';
+
+function DemoC() {
     return (
         <DemoContext.Consumer>
-            {(value) => value.item.map((it) => <p key={it}>{it}</p>)}
+            {(value) => value.item.map((it, index) => <p key={index}>{it}</p>)}
         </DemoContext.Consumer>
     );
 }
+```
+```jsx [App.jsx]
+import { DemoContext } from './store/demo-context.js';
 
 function App() {
     const defaultItems = [1, 2, 3, 4, 5];

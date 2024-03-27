@@ -113,8 +113,20 @@ export default defineConfig(
                   {
                     text: 'createContext',
                     link: '/frontend/react/context/create-context'
+                  }, {
+                    text: 'useContext',
+                    link: '/frontend/react/context/use-context'
+                  }, {
+                    text: '结合使用 Reducer 和 Context',
+                    link: '/frontend/react/context/reducer-and-context'
                   }
                 ]
+              }, {
+                text: 'useEffect',
+                link: '/frontend/react/use-effect'
+              }, {
+                text: 'useCallback',
+                link: '/frontend/react/use-callback'
               }
             ]
           }
