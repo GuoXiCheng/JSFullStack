@@ -124,6 +124,9 @@ export default defineConfig(
               }, {
                 text: 'useEffect',
                 link: '/frontend/react/use-effect'
+              }, {
+                text: 'useCallback',
+                link: '/frontend/react/use-callback'
               }
             ]
           }
