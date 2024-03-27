@@ -116,6 +116,9 @@ export default defineConfig(
                   }, {
                     text: 'useContext',
                     link: '/frontend/react/context/use-context'
+                  }, {
+                    text: '结合使用 Reducer 和 Context',
+                    link: '/frontend/react/context/reducer-and-context'
                   }
                 ]
               }
