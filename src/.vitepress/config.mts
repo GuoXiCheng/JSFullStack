@@ -121,6 +121,9 @@ export default defineConfig(
                     link: '/frontend/react/context/reducer-and-context'
                   }
                 ]
+              }, {
+                text: 'useEffect',
+                link: '/frontend/react/use-effect'
               }
             ]
           }
