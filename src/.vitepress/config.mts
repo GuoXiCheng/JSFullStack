@@ -113,6 +113,9 @@ export default defineConfig(
                   {
                     text: 'createContext',
                     link: '/frontend/react/context/create-context'
+                  }, {
+                    text: 'useContext',
+                    link: '/frontend/react/context/use-context'
                   }
                 ]
               }

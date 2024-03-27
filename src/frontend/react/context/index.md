@@ -16,7 +16,7 @@ Prop Drilling（属性钻取）是指在多层数据传递中，顶层组件拥�
 对于不直接使用数据的中间层组件，可以将JSX作为children传递，这样也可以减少定义数据的组件和使用数据的组件之间的层级。
 
 ::: code-group
-```jsx [直接传递 props]
+```jsx [方式一：直接传递 props]
 function Layout({ posts }) {
     return (
         <div className="layout">
@@ -46,7 +46,7 @@ function App() {
 
 export default App;
 ```
-```jsx [组件组合]
+```jsx [方式二：使用组件组合]
 function Layout({ children }) {
     return <div className="layout">{children}</div>;
 }
