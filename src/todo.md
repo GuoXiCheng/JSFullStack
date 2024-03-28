@@ -1,4 +1,0 @@
-- React memo 用于在函数组件props不变的情况下避免不必要的渲染
-- useCallback 用于缓存函数，避免不必要的渲染
-- useMemo 用于缓存值，避免不必要的计算
-- 虚拟DOM和Key的作用，使用key重置组件状态
