@@ -49,6 +49,8 @@ import MarkMap from './MarkMap.vue';
         - [Reducer and Context](frontend/react/context/reducer-and-context)
       - [useEffect](frontend/react/use-effect)
       - [useCallback](frontend/react/use-callback)
+      - [memo](frontend/react/memo)
+      - [useMemo](frontend/react/use-memo)
   - 后端
     - [NodeJS](backend/nodejs/index)
       - [EventEmitter](backend/nodejs/event-emitter)

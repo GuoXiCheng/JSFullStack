@@ -9,8 +9,40 @@ useCallback 是一个允许在多次渲染中缓存函数的 Hook。
 
 ## 基本用法
 
-### 防止频繁触发Effect
+### 跳过组件的重新渲染
+如果父组件传递给子组件的函数是一个新的函数，那么子组件会重新渲染。使用useCallback可以缓存函数，避免不必要的渲染。
+```jsx
+import React, { useState, useCallback } from 'react';
 
+const SearchComponent = React.memo(({ onSearch }) => {
+    return <button onClick={onSearch}>Search</button>;
+});
+
+function App() {
+    const [query, setQuery] = useState('');
+
+    const handleSearch = useCallback(() => {
+        console.log(`Searching for ${query}`);
+    }, [query]);
+
+    return (
+        <div>
+            <input
+                type="text"
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+            />
+            <SearchComponent onSearch={handleSearch} />
+        </div>
+    );
+}
+
+export default App;
+```
+
+
+### 防止频繁触发Effect
+如果useEffect中使用函数作为依赖项，那么每次渲染都会生成一个新的函数，导致useEffect每次都会执行。使用useCallback可以缓存函数，避免不必要的渲染。
 ```jsx
 
 import React, { useState, useEffect, useCallback } from 'react';

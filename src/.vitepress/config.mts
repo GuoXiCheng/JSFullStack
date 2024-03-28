@@ -85,6 +85,7 @@ export default defineConfig(
                 link: '/frontend/react/create-portal'
               }, {
                 text: '组件间通信',
+                collapsed: true,
                 items: [
                   {
                     text: 'props',
@@ -102,6 +103,7 @@ export default defineConfig(
                 ]
               }, {
                 text: 'styles',
+                collapsed: true,
                 items: [
                   {
                     text: 'Stylesheets',
@@ -119,6 +121,7 @@ export default defineConfig(
                 ]
               }, {
                 text: 'ref',
+                collapsed: true,
                 items: [
                   {
                     text: 'ref 引用值',
@@ -131,6 +134,7 @@ export default defineConfig(
               }, {
                 text: 'Context',
                 link: '/frontend/react/context/index',
+                collapsed: true,
                 items: [
                   {
                     text: 'createContext',
@@ -149,6 +153,12 @@ export default defineConfig(
               }, {
                 text: 'useCallback',
                 link: '/frontend/react/use-callback'
+              }, {
+                text: 'memo',
+                link: '/frontend/react/memo'
+              }, {
+                text: 'useMemo',
+                link: '/frontend/react/use-memo'
               }
             ]
           }
