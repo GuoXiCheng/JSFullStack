@@ -162,6 +162,21 @@ export default defineConfig(
               }, {
                 text: '自定义 Hook',
                 link: '/frontend/react/custom-hook'
+              }, {
+                text: '处理表单',
+                collapsed: true,
+                items: [
+                  {
+                    text: '受控组件',
+                    link: '/frontend/react/form/controlled-component'
+                  }, {
+                    text: '非受控组件',
+                    link: '/frontend/react/form/uncontrolled-component'
+                  }, {
+                    text: 'FormData',
+                    link: '/frontend/react/form/form-data'
+                  }
+                ]
               }
             ]
           }
