@@ -159,6 +159,9 @@ export default defineConfig(
               }, {
                 text: 'useMemo',
                 link: '/frontend/react/use-memo'
+              }, {
+                text: '自定义 Hook',
+                link: '/frontend/react/custom-hook'
               }
             ]
           }
