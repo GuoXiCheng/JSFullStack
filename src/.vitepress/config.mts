@@ -1,12 +1,11 @@
 import { defineConfig } from 'vitepress'
 import { withMermaid } from 'vitepress-plugin-mermaid';
-import { sidebarJS } from './sidebars/javascript';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig(
   withMermaid({
     title: "JSFullStack",
-    description: "A VitePress Site",
+    description: "JavaScript full stack knowledge",
     base: "/",
     lastUpdated: true,
     themeConfig: {
@@ -26,19 +25,42 @@ export default defineConfig(
       ],
 
       sidebar: {
-        '/javascript': sidebarJS(),
-        '/backend': [
+        '/javascript': [
           {
-            text: 'Node.js',
-            link: '/backend/nodejs/index',
+            text: 'ECMAScript',
+            link: '/javascript/ecma-script/index',
             items: [
               {
-                text: 'EventEmitter',
-                link: '/backend/nodejs/event-emitter'
+                text: '基本引用',
+                base: '/javascript/ecma-script/basic-reference',
+                items: [
+                  { text: 'Date', link: '/date' },
+                  { text: '正则表达式', link: '/reg-exp' }
+                ]
               }, {
-                text: 'File System',
-                link: '/backend/nodejs/file-system'
+                text: '集合引用',
+                base: '/javascript/ecma-script/collection-reference',
+                items: [
+                  { text: 'Array', link: '/array' },
+                  { text: 'Map', link: '/map' },
+                  { text: 'Set', link: '/set' }
+                ]
+              }, {
+                text: '迭代器',
+                link: '/javascript/ecma-script/iterator'
+              }, {
+                text: '生成器',
+                link: '/javascript/ecma-script/generator'
+              }, {
+                text: 'JSON',
+                link: '/javascript/ecma-script/json'
               }
+            ]
+          }, {
+            text: 'BOM',
+            base: '/javascript/bom',
+            items: [
+              { text: 'screen', link: '/screen' }
             ]
           }
         ],
@@ -107,7 +129,7 @@ export default defineConfig(
                   }
                 ]
               }, {
-                text: 'context',
+                text: 'Context',
                 link: '/frontend/react/context/index',
                 items: [
                   {
@@ -117,7 +139,7 @@ export default defineConfig(
                     text: 'useContext',
                     link: '/frontend/react/context/use-context'
                   }, {
-                    text: '结合使用 Reducer 和 Context',
+                    text: 'Reducer and Context',
                     link: '/frontend/react/context/reducer-and-context'
                   }
                 ]
@@ -127,6 +149,21 @@ export default defineConfig(
               }, {
                 text: 'useCallback',
                 link: '/frontend/react/use-callback'
+              }
+            ]
+          }
+        ],
+        '/backend': [
+          {
+            text: 'NodeJS',
+            link: '/backend/nodejs/index',
+            items: [
+              {
+                text: 'EventEmitter',
+                link: '/backend/nodejs/event-emitter'
+              }, {
+                text: 'File System',
+                link: '/backend/nodejs/file-system'
               }
             ]
           }
