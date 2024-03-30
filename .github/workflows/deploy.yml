@@ -44,6 +44,8 @@ jobs:
       - name: Install dependencies
         run: npm ci 
       - name: Sync Projects
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm run sync
       - name: Build with VitePress
         run: npm run docs:build 
