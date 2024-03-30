@@ -15,5 +15,4 @@ examples-temp
 node_modules
 pnpm-global
 TODOs.md
-/src/projects/*
-!/src/projects/.gitkeep
+/projects
