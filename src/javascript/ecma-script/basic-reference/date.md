@@ -33,3 +33,5 @@ const date = new Date();
 | `toLocaleDateString()`          | 根据本地时间格式，返回日期部分的字符串（例：2024/3/11）            |
 | `toLocaleTimeString()`          | 根据本地时间格式，返回时间部分的字符串（例：09:42:45）             |
 | `toLocaleString()`              | 根据本地时间格式，返回日期和时间的字符串（例：2024/3/11 09:43:05） |
+
+<<< @/../projects/javascript-sandbox/src/date.js
