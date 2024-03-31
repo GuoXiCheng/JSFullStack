@@ -8,30 +8,130 @@ const date = new Date();
 
 ## 常用方法
 
-| 方法                            | 描述                                                               |
-| ------------------------------- | ------------------------------------------------------------------ |
-| `getDate()`                     | 返回日期对象中的日（1-31）                                         |
-| `getDay()`                      | 返回星期几（0-6，0表示周日，6表示周六）                            |
-| `getMonth()`                    | 返回月份（0-11，0表示一月，11表示十二月）                          |
-| `getFullYear()`                 | 返回四位数年份                                                     |
-| `getHours()`                    | 返回小时（0-23）                                                   |
-| `getMinutes()`                  | 返回分钟（0-59）                                                   |
-| `getSeconds()`                  | 返回秒数（0-59）                                                   |
-| `getMilliseconds()`             | 返回毫秒（0-999）                                                  |
-| `getTime()`                     | 返回自1970年1月1日以来的毫秒数                                     |
-| `setDate(date)`                 | 设置日期对象的日（如果date大于该月天数，则加月）                   |
-| `setMonth(month)`               | 设置日期对象的月份（month为大于0的数值，大于11加年）               |
-| `setFullYear(year)`             | 设置日期对象的年份（设置日期的年（year必须是4位数）                |
-| `setHours(hour)`                | 设置日期对象的小时（如果hours大于23，则加日）                      |
-| `setMinutes(minutes)`           | 设置日期对象的分钟（如果minutes大于59，则加时）                    |
-| `setSeconds(seconds)`           | 设置日期对象的秒数（如果seconds大于59，则加分）                    |
-| `setMilliseconds(milliseconds)` | 设置日期对象的毫秒数                                               |
-| `setTime(milliseconds)`         | 以毫秒为单位设置日期对象的时间，修改整个日期                       |
-| `Date.now()`                    | 返回当前时间的毫秒数（例：1710120399964）                          |
-| `toDateString()`                | 将日期部分转换为易读格式，不包括时间（例：Mon Mar 11 2024）        |
-| `toISOString()`                 | 返回一个ISO格式的字符串（例：2024-03-11T01:41:54.770Z）            |
-| `toLocaleDateString()`          | 根据本地时间格式，返回日期部分的字符串（例：2024/3/11）            |
-| `toLocaleTimeString()`          | 根据本地时间格式，返回时间部分的字符串（例：09:42:45）             |
-| `toLocaleString()`              | 根据本地时间格式，返回日期和时间的字符串（例：2024/3/11 09:43:05） |
+<table>
+    <thead>
+        <tr>
+        <th>方法</th>
+        <th>描述</th>
+        <th>示例</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td><code>new Date()</code></td>
+        <td>获取日期对象</td>
+        <td>{{new Date()}}</td>
+        </tr>
+        <tr>
+        <td><code>getFullYear()</code></td>
+        <td>获取四位数的年份</td>
+        <td>{{currentDate.getFullYear()}}</td>
+        </tr>
+        <tr>
+        <td><code>getMonth()</code></td>
+        <td>获取月份（0-11，0代表一月，11代表十二月）</td>
+        <td>{{currentDate.getMonth()}}</td>
+        </tr>
+        <tr>
+        <td><code>getDate()</code></td>
+        <td>获取月份中的日（1-31）</td>
+        <td>{{currentDate.getDate()}}</td>
+        </tr>
+        <tr>
+        <td><code>getDay()</code></td>
+        <td>获取星期几（0-6，0代表星期日，6代表星期六）</td>
+        <td>{{currentDate.getDay()}}</td>
+        </tr>
+        <tr>
+        <td><code>getHours()</code></td>
+        <td>获取小时数（0-23）</td>
+        <td>{{currentDate.getHours()}}</td>
+        </tr>
+        <tr>
+        <td><code>getMinutes()</code></td>
+        <td>获取分钟数（0-59）</td>
+        <td>{{currentDate.getMinutes()}}</td>
+        </tr>
+        <tr>
+        <td><code>getSeconds()</code></td>
+        <td>获取秒数（0-59）</td>
+        <td>{{currentDate.getSeconds()}}</td>
+        </tr>
+        <tr>
+        <td><code>getMilliseconds()</code></td>
+        <td>获取毫秒数（0-999）</td>
+        <td>{{currentDate.getMilliseconds()}}</td>
+        </tr>
+        <tr>
+        <td><code>getTime()</code></td>
+        <td>获取自1970年1月1日以来的毫秒数</td>
+        <td>{{currentDate.getTime()}}</td>
+        </tr>
+        <tr>
+        <td><code>Date.now()</code></td>
+        <td>返回当前时间的毫秒数</td>
+        <td>{{Date.now()}}</td>
+        </tr>
+        <tr>
+        <td><code>toDateString()</code></td>
+        <td>将日期部分转换为易读格式，不包括时间</td>
+        <td>{{currentDate.toDateString()}}</td>
+        </tr>
+        <tr>
+        <td><code>toTimeString()</code></td>
+        <td>将时间部分转换为易读格式</td>
+        <td>{{currentDate.toTimeString()}}</td>
+        </tr>
+        <tr>
+        <td><code>toLocaleDateString()</code></td>
+        <td>根据本地时间格式，返回日期部分的字符串</td>
+        <td>{{currentDate.toLocaleDateString()}}</td>
+        </tr>
+        <tr>
+        <td><code>toLocaleTimeString()</code></td>
+        <td>根据本地时间格式，返回时间部分的字符串</td>
+        <td>{{currentDate.toLocaleTimeString()}}</td>
+        </tr>
+        <tr>
+        <td><code>toLocaleString()</code></td>
+        <td>根据本地时间格式，返回日期和时间的字符串</td>
+        <td>{{currentDate.toLocaleString()}}</td>
+        </tr>
+        <tr>
+        <td><code>toISOString()</code></td>
+        <td>以ISO格式返回字符串</td>
+        <td>{{currentDate.toISOString()}}</td>
+        </tr>
+        <tr>
+        <td><code>toJSON()</code></td>
+        <td>以JSON格式返回日期字符串</td>
+        <td>{{currentDate.toJSON()}}</td>
+        </tr>
+        <tr>
+        <td><code>toString()</code></td>
+        <td>将日期转换为完整的字符串表示</td>
+        <td>{{currentDate.toString()}}</td>
+        </tr>
+        <tr>
+        <td><code>toUTCString()</code></td>
+        <td>将日期转换为UTC格式的字符串</td>
+        <td>{{currentDate.toUTCString()}}</td>
+        </tr>
+        <tr>
+        <td><code>valueOf()</code></td>
+        <td>返回日期对象的原始值，即自1970年1月1日以来的毫秒数</td>
+        <td>{{currentDate.valueOf()}}</td>
+        </tr>
+    </tbody>
+</table>
 
-<<< @/../projects/javascript-sandbox/src/date.js
+
+<script>
+export default {
+  data() {
+    return {
+      currentDate: new Date(),
+    };
+  },
+};
+</script>
