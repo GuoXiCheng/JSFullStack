@@ -32,8 +32,6 @@
 /frontend:
   - text: React
     items:
-      - text: JSX语法
-        link: /frontend/react/jsx
       - text: 插槽
         link: /frontend/react/slot
       - text: 动态组件标识符
@@ -107,6 +105,10 @@
             link: /frontend/react/react-redux/redux
           - text: Redux Toolkit
             link: /frontend/react/react-redux/redux-toolkit
+      - text: 核心概念
+        items:
+          - text: JSX 语法
+            link: /frontend/react/core-concepts/jsx
 /backend:
   - text: NodeJS
     link: /backend/nodejs/index
