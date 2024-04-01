@@ -25,7 +25,6 @@ import MarkMap from './MarkMap.vue';
         - [screen](javascript/bom/screen)
   - 前端
     - React
-      - [JSX语法](frontend/react/jsx)
       - [插槽](frontend/react/slot)
       - [动态组件标识符](frontend/react/dynamic-component-identifier)
       - [React 严格模式](frontend/react/strict-mode)
@@ -59,6 +58,8 @@ import MarkMap from './MarkMap.vue';
       - React Redux
         - [Redux](frontend/react/react-redux/redux)
         - [Redux Toolkit](frontend/react/react-redux/redux-toolkit)
+      - 核心概念
+        - [JSX语法](frontend/react/core-concepts/jsx)
   - 后端
     - [NodeJS](backend/nodejs/index)
       - [EventEmitter](backend/nodejs/event-emitter)

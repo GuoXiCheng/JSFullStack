@@ -3,7 +3,7 @@ import fs from "fs";
 
 (async () => {
     const projectsDir = './projects';
-    const repoURL = 'https://github.com/GuoXiCheng/javascript-sandbox.git';
+    const repoURL = 'https://github.com/GuoXiCheng/react-sandbox.git';
     let cloneCommand;
 
     if (!fs.existsSync(projectsDir)) {
