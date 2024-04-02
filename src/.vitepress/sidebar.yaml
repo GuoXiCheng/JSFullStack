@@ -51,17 +51,6 @@
             link: /frontend/react/component-interaction/two-way-binding
           - text: 状态提升
             link: /frontend/react/component-interaction/lifting-state-up
-      - text: styles
-        collapsed: true
-        items:
-          - text: Stylesheets
-            link: /frontend/react/styles/stylesheets
-          - text: CSS Modules
-            link: /frontend/react/styles/css-modules
-          - text: Styled Components
-            link: /frontend/react/styles/styled-components
-          - text: Tailwind CSS
-            link: /frontend/react/styles/tailwind-css
       - text: ref
         collapsed: true
         items:
@@ -109,6 +98,18 @@
         items:
           - text: JSX 语法
             link: /frontend/react/core-concepts/jsx
+          - text: styles
+            items:
+              - text: 内联样式
+                link: /frontend/react/core-concepts/styles/inline-style
+              - text: 外部样式
+                link: /frontend/react/core-concepts/styles/external-style
+              - text: CSS Modules
+                link: /frontend/react/core-concepts/styles/css-modules
+              - text: Styled Components
+                link: /frontend/react/core-concepts/styles/styled-components
+              - text: Tailwind CSS
+                link: /frontend/react/core-concepts/styles/tailwind-css
 /backend:
   - text: NodeJS
     link: /backend/nodejs/index

@@ -34,11 +34,6 @@ import MarkMap from './MarkMap.vue';
         - [state](frontend/react/component-interaction/state)
         - [双向绑定](frontend/react/component-interaction/two-way-binding)
         - [状态提升](frontend/react/component-interaction/lifting-state-up)
-      - styles
-        - [Stylesheets](frontend/react/styles/stylesheets)
-        - [CSS Modules](frontend/react/styles/css-modules)
-        - [Styled Components](frontend/react/styles/styled-components)
-        - [Tailwind CSS](frontend/react/styles/tailwind-css)
       - ref
         - [ref 引用值](frontend/react/ref/ref-value)
         - [ref 操作 DOM](frontend/react/ref/ref-dom)
@@ -60,6 +55,12 @@ import MarkMap from './MarkMap.vue';
         - [Redux Toolkit](frontend/react/react-redux/redux-toolkit)
       - 核心概念
         - [JSX语法](frontend/react/core-concepts/jsx)
+        - styles
+          - [内联样式](frontend/react/core-concepts/styles/inline-style)
+          - [外部样式](frontend/react/core-concepts/styles/external-style)
+          - [CSS Modules](frontend/react/core-concepts/styles/css-modules)
+          - [Styled Components](frontend/react/core-concepts/styles/styled-components)
+          - [Tailwind CSS](frontend/react/core-concepts/styles/tailwind-css)
   - 后端
     - [NodeJS](backend/nodejs/index)
       - [EventEmitter](backend/nodejs/event-emitter)
