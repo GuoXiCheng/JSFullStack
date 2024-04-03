@@ -51,13 +51,6 @@
             link: /frontend/react/component-interaction/two-way-binding
           - text: 状态提升
             link: /frontend/react/component-interaction/lifting-state-up
-      - text: ref
-        collapsed: true
-        items:
-          - text: ref 引用值
-            link: /frontend/react/ref/ref-value
-          - text: ref 操作 DOM
-            link: /frontend/react/ref/ref-dom
       - text: Context
         link: /frontend/react/context/index
         collapsed: true
@@ -110,6 +103,12 @@
                 link: /frontend/react/core-concepts/styles/styled-components
               - text: Tailwind CSS
                 link: /frontend/react/core-concepts/styles/tailwind-css
+      - text: Hook API
+        items:
+          - text: useRef
+            link: /frontend/react/hook-api/use-ref
+          - text: useImperativeHandle
+            link: /frontend/react/hook-api/use-imperative-handle
 /backend:
   - text: NodeJS
     link: /backend/nodejs/index
