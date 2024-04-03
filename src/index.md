@@ -34,9 +34,6 @@ import MarkMap from './MarkMap.vue';
         - [state](frontend/react/component-interaction/state)
         - [双向绑定](frontend/react/component-interaction/two-way-binding)
         - [状态提升](frontend/react/component-interaction/lifting-state-up)
-      - ref
-        - [ref 引用值](frontend/react/ref/ref-value)
-        - [ref 操作 DOM](frontend/react/ref/ref-dom)
       - [Context](frontend/react/context/index)
         - [createContext](frontend/react/context/create-context)
         - [useContext](frontend/react/context/use-context)
@@ -61,6 +58,9 @@ import MarkMap from './MarkMap.vue';
           - [CSS Modules](frontend/react/core-concepts/styles/css-modules)
           - [Styled Components](frontend/react/core-concepts/styles/styled-components)
           - [Tailwind CSS](frontend/react/core-concepts/styles/tailwind-css)
+      - Hook API
+        - [useRef](frontend/react/hook-api/use-ref)
+        - [useImperativeHandle](frontend/react/hook-api/use-imperative-handle)
   - 后端
     - [NodeJS](backend/nodejs/index)
       - [EventEmitter](backend/nodejs/event-emitter)
