@@ -61,8 +61,6 @@
             link: /frontend/react/context/use-context
           - text: Reducer and Context
             link: /frontend/react/context/reducer-and-context
-      - text: useEffect
-        link: /frontend/react/use-effect
       - text: useCallback
         link: /frontend/react/use-callback
       - text: memo
@@ -109,6 +107,8 @@
             link: /frontend/react/hook-api/use-ref
           - text: useImperativeHandle
             link: /frontend/react/hook-api/use-imperative-handle
+          - text: useEffect
+            link: /frontend/react/hook-api/use-effect
 /backend:
   - text: NodeJS
     link: /backend/nodejs/index

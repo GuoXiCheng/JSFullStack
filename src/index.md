@@ -38,7 +38,6 @@ import MarkMap from './MarkMap.vue';
         - [createContext](frontend/react/context/create-context)
         - [useContext](frontend/react/context/use-context)
         - [Reducer and Context](frontend/react/context/reducer-and-context)
-      - [useEffect](frontend/react/use-effect)
       - [useCallback](frontend/react/use-callback)
       - [memo](frontend/react/memo)
       - [useMemo](frontend/react/use-memo)
@@ -61,6 +60,7 @@ import MarkMap from './MarkMap.vue';
       - Hook API
         - [useRef](frontend/react/hook-api/use-ref)
         - [useImperativeHandle](frontend/react/hook-api/use-imperative-handle)
+        - [useEffect](frontend/react/hook-api/use-effect)
   - 后端
     - [NodeJS](backend/nodejs/index)
       - [EventEmitter](backend/nodejs/event-emitter)
