@@ -1,13 +1,19 @@
 # useCallback
 
 ## 什么是 useCallback
-useCallback 是一个允许在多次渲染中缓存函数的 Hook。
 
-## useCallback(fn, dependencies)
-- fn: 需要缓存的函数。
-- dependencies: 依赖项数组，用于控制缓存函数的执行时机。
+`useCallback` 可以用于缓存函数，避免在每次渲染时都创建新的函数。
 
-## 基本用法
+## 基本语法
+
+```tsx
+const memoizedCallback = useCallback(() => {
+    // do something
+}, [dependencies]);
+```
+
+
+<!-- ## 基本用法
 
 ### 跳过组件的重新渲染
 如果父组件传递给子组件的函数是一个新的函数，那么子组件会重新渲染。使用useCallback可以缓存函数，避免不必要的渲染。
@@ -91,4 +97,4 @@ export default function Demo() {
         </div>
     );
 }
-```
+``` -->
