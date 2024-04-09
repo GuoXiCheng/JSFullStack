@@ -63,10 +63,6 @@
             link: /frontend/react/context/reducer-and-context
       - text: memo
         link: /frontend/react/memo
-      - text: useMemo
-        link: /frontend/react/use-memo
-      - text: 自定义 Hook
-        link: /frontend/react/custom-hook
       - text: 处理表单
         collapsed: true
         items:
@@ -109,6 +105,10 @@
             link: /frontend/react/hook-api/use-effect
           - text: useCallback
             link: /frontend/react/hook-api/use-callback
+          - text: useMemo
+            link: /frontend/react/hook-api/use-memo
+          - text: 自定义 Hook
+            link: /frontend/react/hook-api/custom-hook
 /backend:
   - text: NodeJS
     link: /backend/nodejs/index

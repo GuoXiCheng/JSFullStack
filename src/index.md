@@ -39,8 +39,6 @@ import MarkMap from './MarkMap.vue';
         - [useContext](frontend/react/context/use-context)
         - [Reducer and Context](frontend/react/context/reducer-and-context)
       - [memo](frontend/react/memo)
-      - [useMemo](frontend/react/use-memo)
-      - [自定义 Hook](frontend/react/custom-hook)
       - 处理表单
         - [受控组件](frontend/react/form/controlled-component)
         - [非受控组件](frontend/react/form/uncontrolled-component)
@@ -61,6 +59,8 @@ import MarkMap from './MarkMap.vue';
         - [useImperativeHandle](frontend/react/hook-api/use-imperative-handle)
         - [useEffect](frontend/react/hook-api/use-effect)
         - [useCallback](frontend/react/hook-api/use-callback)
+        - [useMemo](frontend/react/hook-api/use-memo)
+        - [自定义 Hook](frontend/react/hook-api/custom-hook)
   - 后端
     - [NodeJS](backend/nodejs/index)
       - [EventEmitter](backend/nodejs/event-emitter)
