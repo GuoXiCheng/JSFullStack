@@ -65,4 +65,6 @@ import MarkMap from './MarkMap.vue';
     - [NodeJS](backend/nodejs/index)
       - [EventEmitter](backend/nodejs/event-emitter)
       - [File System](backend/nodejs/file-system)
+  - AI
+    - [OpenAI API](artificial-intelligence/openai-api)
 "/>
