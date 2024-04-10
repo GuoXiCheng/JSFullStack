@@ -20,8 +20,9 @@ export default defineConfig(
       nav: [
         { text: 'Home', link: '/' },
         { text: 'JavaScript', link: '/javascript/index' },
-        { text: '前端', link: '/frontend/react/jsx' },
+        { text: '前端', link: '/frontend/index' },
         { text: '后端', link: '/backend/nodejs/index' },
+        { text: 'AI', link: '/artificial-intelligence/index'},
         { text: '参考', link: '/reference' }
       ],
 

@@ -117,3 +117,6 @@
         link: /backend/nodejs/event-emitter
       - text: File System
         link: /backend/nodejs/file-system
+/artificial-intelligence:
+  - text: OpenAI API
+    link: /artificial-intelligence/openai-api
