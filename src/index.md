@@ -36,7 +36,6 @@ import MarkMap from './MarkMap.vue';
         - [状态提升](frontend/react/component-interaction/lifting-state-up)
       - [Context](frontend/react/context/index)
         - [createContext](frontend/react/context/create-context)
-        - [useContext](frontend/react/context/use-context)
         - [Reducer and Context](frontend/react/context/reducer-and-context)
       - [memo](frontend/react/memo)
       - 处理表单
@@ -60,6 +59,7 @@ import MarkMap from './MarkMap.vue';
         - [useEffect](frontend/react/hook-api/use-effect)
         - [useCallback](frontend/react/hook-api/use-callback)
         - [useMemo](frontend/react/hook-api/use-memo)
+        - [useContext](frontend/react/hook-api/use-context)
         - [自定义 Hook](frontend/react/hook-api/custom-hook)
   - 后端
     - [NodeJS](backend/nodejs/index)

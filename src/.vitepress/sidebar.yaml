@@ -57,8 +57,6 @@
         items:
           - text: createContext
             link: /frontend/react/context/create-context
-          - text: useContext
-            link: /frontend/react/context/use-context
           - text: Reducer and Context
             link: /frontend/react/context/reducer-and-context
       - text: memo
@@ -107,6 +105,8 @@
             link: /frontend/react/hook-api/use-callback
           - text: useMemo
             link: /frontend/react/hook-api/use-memo
+          - text: useContext
+            link: /frontend/react/hook-api/use-context
           - text: 自定义 Hook
             link: /frontend/react/hook-api/custom-hook
 /backend:
