@@ -40,17 +40,6 @@
         link: /frontend/react/strict-mode
       - text: createPortal
         link: /frontend/react/create-portal
-      - text: 组件间通信
-        collapsed: true
-        items:
-          - text: props
-            link: /frontend/react/component-interaction/props
-          - text: state
-            link: /frontend/react/component-interaction/state
-          - text: 双向绑定
-            link: /frontend/react/component-interaction/two-way-binding
-          - text: 状态提升
-            link: /frontend/react/component-interaction/lifting-state-up
       - text: Context
         link: /frontend/react/context/index
         collapsed: true
@@ -93,6 +82,14 @@
                 link: /frontend/react/core-concepts/styles/styled-components
               - text: Tailwind CSS
                 link: /frontend/react/core-concepts/styles/tailwind-css
+          - text: 状态管理
+            items:
+              - text: state
+                link: /frontend/react/core-concepts/state-management/state
+              - text: props
+                link: /frontend/react/core-concepts/state-management/props
+              - text: 状态提升
+                link: /frontend/react/core-concepts/state-management/lifting-state-up
       - text: Hook API
         items:
           - text: useRef
