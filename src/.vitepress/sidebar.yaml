@@ -40,14 +40,6 @@
         link: /frontend/react/strict-mode
       - text: createPortal
         link: /frontend/react/create-portal
-      - text: Context
-        link: /frontend/react/context/index
-        collapsed: true
-        items:
-          - text: createContext
-            link: /frontend/react/context/create-context
-          - text: Reducer and Context
-            link: /frontend/react/context/reducer-and-context
       - text: memo
         link: /frontend/react/memo
       - text: 处理表单
@@ -90,6 +82,10 @@
                 link: /frontend/react/core-concepts/state-management/props
               - text: 状态提升
                 link: /frontend/react/core-concepts/state-management/lifting-state-up
+              - text: Context
+                link: /frontend/react/core-concepts/state-management/context
+              - text: Reducer 和 Context
+                link: /frontend/react/core-concepts/state-management/reducer-and-context
       - text: Hook API
         items:
           - text: useRef
