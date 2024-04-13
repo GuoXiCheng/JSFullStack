@@ -29,9 +29,6 @@ import MarkMap from './MarkMap.vue';
       - [动态组件标识符](frontend/react/dynamic-component-identifier)
       - [React 严格模式](frontend/react/strict-mode)
       - [createPortal](frontend/react/create-portal)
-      - [Context](frontend/react/context/index)
-        - [createContext](frontend/react/context/create-context)
-        - [Reducer and Context](frontend/react/context/reducer-and-context)
       - [memo](frontend/react/memo)
       - 处理表单
         - [受控组件](frontend/react/form/controlled-component)
@@ -52,6 +49,8 @@ import MarkMap from './MarkMap.vue';
           - [state](frontend/react/core-concepts/state-management/state)
           - [props](frontend/react/core-concepts/state-management/props)
           - [状态提升](frontend/react/core-concepts/state-management/lifting-state-up)
+          - [Context](frontend/react/core-concepts/state-management/context)
+          - [Reducer 和 Context](frontend/react/core-concepts/state-management/reducer-and-context)
       - Hook API
         - [useRef](frontend/react/hook-api/use-ref)
         - [useImperativeHandle](frontend/react/hook-api/use-imperative-handle)
