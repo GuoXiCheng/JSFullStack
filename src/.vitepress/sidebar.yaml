@@ -51,13 +51,6 @@
             link: /frontend/react/form/uncontrolled-component
           - text: FormData
             link: /frontend/react/form/form-data
-      - text: React Redux
-        collapsed: true
-        items:
-          - text: Redux
-            link: /frontend/react/react-redux/redux
-          - text: Redux Toolkit
-            link: /frontend/react/react-redux/redux-toolkit
       - text: 核心概念
         items:
           - text: JSX 语法
@@ -102,6 +95,12 @@
             link: /frontend/react/hook-api/use-context
           - text: 自定义 Hook
             link: /frontend/react/hook-api/custom-hook
+      - text: React Redux
+        items:
+          - text: Redux 核心概念
+            link: /frontend/react/react-redux/redux-core-concept
+          - text: Redux Toolkit
+            link: /frontend/react/react-redux/redux-toolkit
 /backend:
   - text: NodeJS
     link: /backend/nodejs/index

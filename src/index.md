@@ -34,9 +34,6 @@ import MarkMap from './MarkMap.vue';
         - [受控组件](frontend/react/form/controlled-component)
         - [非受控组件](frontend/react/form/uncontrolled-component)
         - [FormData](frontend/react/form/form-data)
-      - React Redux
-        - [Redux](frontend/react/react-redux/redux)
-        - [Redux Toolkit](frontend/react/react-redux/redux-toolkit)
       - 核心概念
         - [JSX语法](frontend/react/core-concepts/jsx)
         - styles
@@ -59,6 +56,9 @@ import MarkMap from './MarkMap.vue';
         - [useMemo](frontend/react/hook-api/use-memo)
         - [useContext](frontend/react/hook-api/use-context)
         - [自定义 Hook](frontend/react/hook-api/custom-hook)
+      - React Redux
+        - [Redux 核心概念](frontend/react/react-redux/redux-core-concept)
+        - [Redux Toolkit](frontend/react/react-redux/redux-toolkit)
   - 后端
     - [NodeJS](backend/nodejs/index)
       - [EventEmitter](backend/nodejs/event-emitter)
