@@ -38,23 +38,14 @@
         link: /frontend/react/dynamic-component-identifier
       - text: React 严格模式
         link: /frontend/react/strict-mode
-      - text: createPortal
-        link: /frontend/react/create-portal
       - text: memo
         link: /frontend/react/memo
-      - text: 处理表单
-        collapsed: true
-        items:
-          - text: 受控组件
-            link: /frontend/react/form/controlled-component
-          - text: 非受控组件
-            link: /frontend/react/form/uncontrolled-component
-          - text: FormData
-            link: /frontend/react/form/form-data
       - text: 核心概念
         items:
           - text: JSX 语法
             link: /frontend/react/core-concepts/jsx
+          - text: createPortal
+            link: /frontend/react/core-concepts/create-portal
           - text: styles
             items:
               - text: 内联样式
@@ -101,6 +92,14 @@
             link: /frontend/react/react-redux/redux-core-concept
           - text: Redux Toolkit
             link: /frontend/react/react-redux/redux-toolkit
+      - text: 表单
+        items:
+          - text: 受控组件
+            link: /frontend/react/form/controlled
+          - text: 非受控组件
+            link: /frontend/react/form/uncontrolled
+          - text: FormData
+            link: /frontend/react/form/form-data
 /backend:
   - text: NodeJS
     link: /backend/nodejs/index
