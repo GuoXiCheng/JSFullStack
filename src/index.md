@@ -28,14 +28,10 @@ import MarkMap from './MarkMap.vue';
       - [插槽](frontend/react/slot)
       - [动态组件标识符](frontend/react/dynamic-component-identifier)
       - [React 严格模式](frontend/react/strict-mode)
-      - [createPortal](frontend/react/create-portal)
       - [memo](frontend/react/memo)
-      - 处理表单
-        - [受控组件](frontend/react/form/controlled-component)
-        - [非受控组件](frontend/react/form/uncontrolled-component)
-        - [FormData](frontend/react/form/form-data)
       - 核心概念
         - [JSX语法](frontend/react/core-concepts/jsx)
+        - [createPortal](frontend/react/core-concepts/create-portal)
         - styles
           - [内联样式](frontend/react/core-concepts/styles/inline-style)
           - [外部样式](frontend/react/core-concepts/styles/external-style)
@@ -59,6 +55,10 @@ import MarkMap from './MarkMap.vue';
       - React Redux
         - [Redux 核心概念](frontend/react/react-redux/redux-core-concept)
         - [Redux Toolkit](frontend/react/react-redux/redux-toolkit)
+      - 表单
+        - [受控组件](frontend/react/form/controlled)
+        - [非受控组件](frontend/react/form/uncontrolled)
+        - [FormData](frontend/react/form/form-data)
   - 后端
     - [NodeJS](backend/nodejs/index)
       - [EventEmitter](backend/nodejs/event-emitter)
