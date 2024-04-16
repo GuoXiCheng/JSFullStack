@@ -25,12 +25,12 @@ import MarkMap from './MarkMap.vue';
         - [screen](javascript/bom/screen)
   - 前端
     - React
-      - [插槽](frontend/react/slot)
       - [动态组件标识符](frontend/react/dynamic-component-identifier)
       - [React 严格模式](frontend/react/strict-mode)
       - [memo](frontend/react/memo)
       - 核心概念
         - [JSX语法](frontend/react/core-concepts/jsx)
+        - [children](frontend/react/core-concepts/children)
         - [createPortal](frontend/react/core-concepts/create-portal)
         - styles
           - [内联样式](frontend/react/core-concepts/styles/inline-style)
@@ -65,4 +65,5 @@ import MarkMap from './MarkMap.vue';
       - [File System](backend/nodejs/file-system)
   - AI
     - [OpenAI API](artificial-intelligence/openai-api)
+    - [AI 专业术语](artificial-intelligence/ai-terminology)
 "/>
