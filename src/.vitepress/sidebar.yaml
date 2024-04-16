@@ -32,8 +32,6 @@
 /frontend:
   - text: React
     items:
-      - text: 插槽
-        link: /frontend/react/slot
       - text: 动态组件标识符
         link: /frontend/react/dynamic-component-identifier
       - text: React 严格模式
@@ -44,6 +42,8 @@
         items:
           - text: JSX 语法
             link: /frontend/react/core-concepts/jsx
+          - text: children
+            link: /frontend/react/core-concepts/children
           - text: createPortal
             link: /frontend/react/core-concepts/create-portal
           - text: styles
@@ -111,3 +111,5 @@
 /artificial-intelligence:
   - text: OpenAI API
     link: /artificial-intelligence/openai-api
+  - text: AI 专业术语
+    link: /artificial-intelligence/ai-terminology
