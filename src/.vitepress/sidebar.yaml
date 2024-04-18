@@ -32,12 +32,6 @@
 /frontend:
   - text: React
     items:
-      - text: 动态组件标识符
-        link: /frontend/react/dynamic-component-identifier
-      - text: React 严格模式
-        link: /frontend/react/strict-mode
-      - text: memo
-        link: /frontend/react/memo
       - text: 核心概念
         items:
           - text: JSX 语法

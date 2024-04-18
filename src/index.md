@@ -25,9 +25,6 @@ import MarkMap from './MarkMap.vue';
         - [screen](javascript/bom/screen)
   - 前端
     - React
-      - [动态组件标识符](frontend/react/dynamic-component-identifier)
-      - [React 严格模式](frontend/react/strict-mode)
-      - [memo](frontend/react/memo)
       - 核心概念
         - [JSX语法](frontend/react/core-concepts/jsx)
         - [children](frontend/react/core-concepts/children)
