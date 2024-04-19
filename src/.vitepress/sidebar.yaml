@@ -107,4 +107,10 @@
     items:
       - text: LangChain 介绍
         link: /ai/lang-chain/introduction
+      - text: 用例
+        items:
+          - text: 标记文本
+            link: /ai/lang-chain/use-case/tagging
+          - text: 文档内容总结
+            link: /ai/lang-chain/use-case/summarization
 

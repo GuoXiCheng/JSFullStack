@@ -63,4 +63,7 @@ import MarkMap from './MarkMap.vue';
   - AI
     - LangChain
       - [LangChain 介绍](ai/lang-chain/introduction)
+      - 用例
+        - [标记文本](ai/lang-chain/use-case/tagging)
+        - [文档内容总结](ai/lang-chain/use-case/summarization)
 "/>
