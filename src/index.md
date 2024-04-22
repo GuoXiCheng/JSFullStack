@@ -29,6 +29,7 @@ import MarkMap from './MarkMap.vue';
         - [JSX语法](frontend/react/core-concepts/jsx)
         - [children](frontend/react/core-concepts/children)
         - [createPortal](frontend/react/core-concepts/create-portal)
+        - [错误边界](frontend/react/core-concepts/error-boundaries)
         - styles
           - [内联样式](frontend/react/core-concepts/styles/inline-style)
           - [外部样式](frontend/react/core-concepts/styles/external-style)
