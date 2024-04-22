@@ -40,6 +40,8 @@
             link: /frontend/react/core-concepts/children
           - text: createPortal
             link: /frontend/react/core-concepts/create-portal
+          - text: 错误边界
+            link: /frontend/react/core-concepts/error-boundaries
           - text: styles
             items:
               - text: 内联样式

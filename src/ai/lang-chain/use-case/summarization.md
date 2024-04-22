@@ -6,13 +6,13 @@
 
 LLMs 可以很好的理解文本内容，因此可以用于对文档内容（PDFs、Notion Pages 等）的总结。
 
-![](https://python.langchain.com/assets/images/summarization_use_case_1-874f7b2c94f64216f1f967fb5aca7bc1.png)
+![](/images/ai/summarization_use_case_1-874f7b2c94f64216f1f967fb5aca7bc1.png)
 
 ## 输入文档的两种方式
 
 将文档内容输入到 LLMs 的上下文窗口中有两种常用方式：Stuff 和 Map-reduce。
 
-![](https://python.langchain.com/assets/images/summarization_use_case_2-f2a4d5d60980a79140085fb7f8043217.png)
+![](/images/ai/summarization_use_case_2-f2a4d5d60980a79140085fb7f8043217.png)
 
 ### Stuff
 
