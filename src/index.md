@@ -10,7 +10,9 @@ import MarkMap from './MarkMap.vue';
 <MarkMap markdown="
 - JS全栈
   - [JavaScript](javascript/index)
-      - [ECMAScript](javascript/ecma-script/index)
+      - ECMAScript
+        - [ES 的版本](javascript/ecma-script/es-version)
+        - [变量声明](javascript/ecma-script/variable-declaration)
         - 基本引用
           - [Date](javascript/ecma-script/basic-reference/date)
           - [正则表达式](javascript/ecma-script/basic-reference/reg-exp)
