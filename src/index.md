@@ -10,7 +10,9 @@ import MarkMap from './MarkMap.vue';
 <MarkMap markdown="
 - JS全栈
   - [JavaScript](javascript/index)
-      - [ECMAScript](javascript/ecma-script/index)
+      - ECMAScript
+        - [ES 的版本](javascript/ecma-script/es-version)
+        - [变量声明](javascript/ecma-script/variable-declaration)
         - 基本引用
           - [Date](javascript/ecma-script/basic-reference/date)
           - [正则表达式](javascript/ecma-script/basic-reference/reg-exp)
@@ -62,6 +64,8 @@ import MarkMap from './MarkMap.vue';
       - [EventEmitter](backend/nodejs/event-emitter)
       - [File System](backend/nodejs/file-system)
   - AI
+    - [AI 发展历程](ai/history-of-ai)
+    - [机器学习](ai/machine-learning)
     - LangChain
       - [LangChain 介绍](ai/lang-chain/introduction)
       - 用例

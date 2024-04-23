@@ -1,7 +1,10 @@
 /javascript:
   - text: ECMAScript
-    link: /javascript/ecma-script/index
     items:
+      - text: ES 的版本
+        link: /javascript/ecma-script/es-version
+      - text: 变量声明
+        link: /javascript/ecma-script/variable-declaration
       - text: 基本引用
         base: /javascript/ecma-script/basic-reference
         items:
@@ -105,6 +108,10 @@
       - text: File System
         link: /backend/nodejs/file-system
 /ai:
+  - text: AI 发展历程
+    link: /ai/history-of-ai
+  - text: 机器学习
+    link: /ai/machine-learning
   - text: LangChain
     items:
       - text: LangChain 介绍
