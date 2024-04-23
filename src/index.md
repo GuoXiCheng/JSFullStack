@@ -64,6 +64,8 @@ import MarkMap from './MarkMap.vue';
       - [EventEmitter](backend/nodejs/event-emitter)
       - [File System](backend/nodejs/file-system)
   - AI
+    - [AI 发展历程](ai/history-of-ai)
+    - [机器学习](ai/machine-learning)
     - LangChain
       - [LangChain 介绍](ai/lang-chain/introduction)
       - 用例

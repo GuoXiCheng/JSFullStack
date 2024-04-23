@@ -108,6 +108,10 @@
       - text: File System
         link: /backend/nodejs/file-system
 /ai:
+  - text: AI 发展历程
+    link: /ai/history-of-ai
+  - text: 机器学习
+    link: /ai/machine-learning
   - text: LangChain
     items:
       - text: LangChain 介绍
