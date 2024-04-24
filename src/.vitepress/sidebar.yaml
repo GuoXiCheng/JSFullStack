@@ -116,8 +116,8 @@
 /ai:
   - text: AI 发展历程
     link: /ai/history-of-ai
-  - text: 机器学习
-    link: /ai/machine-learning
+  - text: AI 领域
+    link: /ai/ai-field
   - text: LangChain
     items:
       - text: LangChain 介绍
