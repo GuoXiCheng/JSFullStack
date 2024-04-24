@@ -9,7 +9,9 @@ import MarkMap from './MarkMap.vue';
 
 <MarkMap markdown="
 - JS全栈
-  - [JavaScript](javascript/index)
+  - JavaScript
+      - [JavaScript 发展历程](javascript/history-of-javascript)
+      - [JavaScript 核心实现](javascript/core-implementation)
       - ECMAScript
         - [ES 的版本](javascript/ecma-script/es-version)
         - [变量声明](javascript/ecma-script/variable-declaration)
@@ -60,7 +62,8 @@ import MarkMap from './MarkMap.vue';
         - [非受控组件](frontend/react/form/uncontrolled)
         - [FormData](frontend/react/form/form-data)
   - 后端
-    - [NodeJS](backend/nodejs/index)
+    - NodeJS
+      - [关于 NodeJS](backend/nodejs/about-nodejs)
       - [EventEmitter](backend/nodejs/event-emitter)
       - [File System](backend/nodejs/file-system)
   - AI

@@ -1,4 +1,8 @@
 /javascript:
+  - text: JavaScript 发展历程
+    link: /javascript/history-of-javascript
+  - text: JavaScript 核心实现
+    link: /javascript/core-implementation
   - text: ECMAScript
     items:
       - text: ES 的版本
@@ -103,6 +107,8 @@
   - text: NodeJS
     link: /backend/nodejs/index
     items:
+      - text: 关于 NodeJS
+        link: /backend/nodejs/about-nodejs
       - text: EventEmitter
         link: /backend/nodejs/event-emitter
       - text: File System
