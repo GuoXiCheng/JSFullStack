@@ -20,7 +20,9 @@
         base: /javascript/ecma-script/collection-reference
         items:
           - text: Array
-            link: /array
+            items:
+              - text: 创建数组
+                link: /array/create-array
           - text: Map
             link: /map
           - text: Set
