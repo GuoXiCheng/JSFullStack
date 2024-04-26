@@ -1,14 +1,14 @@
 {
   "devDependencies": {
     "@types/js-yaml": "^4.0.9",
-    "@types/node": "^20.11.30",
+    "@types/node": "^20.12.7",
     "js-yaml": "^4.1.0",
     "markmap-lib": "^0.16.0",
     "markmap-toolbar": "^0.16.0",
     "markmap-view": "^0.16.0",
     "mermaid": "^10.9.0",
     "rimraf": "^5.0.5",
-    "vitepress": "^1.0.1",
+    "vitepress": "^1.1.3",
     "vitepress-plugin-mermaid": "^2.0.16"
   },
   "scripts": {

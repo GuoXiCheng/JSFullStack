@@ -23,6 +23,8 @@
             items:
               - text: 创建数组
                 link: /array/create-array
+              - text: 迭代数组
+                link: /array/iterate-array
           - text: Map
             link: /map
           - text: Set
