@@ -15,6 +15,7 @@ import MarkMap from './MarkMap.vue';
       - ECMAScript
         - [ES 的版本](javascript/ecma-script/es-version)
         - [变量声明](javascript/ecma-script/variable-declaration)
+        - [比较算法](javascript/ecma-script/comparison-algorithm)
         - 基本引用
           - [Date](javascript/ecma-script/basic-reference/date)
           - [正则表达式](javascript/ecma-script/basic-reference/reg-exp)
@@ -22,6 +23,7 @@ import MarkMap from './MarkMap.vue';
           - Array
             - [创建数组](javascript/ecma-script/collection-reference/array/create-array)
             - [迭代数组](javascript/ecma-script/collection-reference/array/iterate-array)
+            - [搜索数组](javascript/ecma-script/collection-reference/array/search-array)
           - [Map](javascript/ecma-script/collection-reference/map)
           - [Set](javascript/ecma-script/collection-reference/set)
         - [迭代器](javascript/ecma-script/iterator)
