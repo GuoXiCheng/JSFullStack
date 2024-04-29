@@ -9,6 +9,8 @@
         link: /javascript/ecma-script/es-version
       - text: 变量声明
         link: /javascript/ecma-script/variable-declaration
+      - text: 比较算法
+        link: /javascript/ecma-script/comparison-algorithm
       - text: 基本引用
         base: /javascript/ecma-script/basic-reference
         items:
@@ -25,6 +27,8 @@
                 link: /array/create-array
               - text: 迭代数组
                 link: /array/iterate-array
+              - text: 搜索数组
+                link: /array/search-array
           - text: Map
             link: /map
           - text: Set
