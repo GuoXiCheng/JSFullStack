@@ -78,4 +78,7 @@ import MarkMap from './MarkMap.vue';
       - 用例
         - [标记文本](ai/lang-chain/use-case/tagging)
         - [文档内容总结](ai/lang-chain/use-case/summarization)
+      - LangServe
+        - [LangServe 介绍](ai/lang-chain/lang-serve/introduction)
+        - [构建 LangServe 应用](ai/lang-chain/lang-serve/build-application)
 "/>
