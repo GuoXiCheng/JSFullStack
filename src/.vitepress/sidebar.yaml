@@ -136,4 +136,10 @@
             link: /ai/lang-chain/use-case/tagging
           - text: 文档内容总结
             link: /ai/lang-chain/use-case/summarization
+      - text: LangServe
+        items:
+          - text: LangServe 介绍
+            link: /ai/lang-chain/lang-serve/introduction
+          - text: 构建 LangServe 应用
+            link: /ai/lang-chain/lang-serve/build-application
 
