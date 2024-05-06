@@ -22,7 +22,7 @@
 
 <<< @/../projects/javascript-sandbox/src/array-method/create-array.ts#array-from-1
 
-可以使用`Array.from()`将集合对象转换为新数组。
+可以使用`Array.from()`将类数组对象（拥有一个`length`属性和索引元素）或可迭代（Map、Set 或字符串）对象转换为新数组。
 
 <<< @/../projects/javascript-sandbox/src/array-method/create-array.ts#array-from-2
 
