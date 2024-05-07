@@ -24,6 +24,7 @@ import MarkMap from './MarkMap.vue';
             - [创建数组](javascript/ecma-script/collection-reference/array/create-array)
             - [迭代数组](javascript/ecma-script/collection-reference/array/iterate-array)
             - [搜索数组](javascript/ecma-script/collection-reference/array/search-array)
+            - [数组排序](javascript/ecma-script/collection-reference/array/sort-array)
           - [Map](javascript/ecma-script/collection-reference/map)
           - [Set](javascript/ecma-script/collection-reference/set)
         - [迭代器](javascript/ecma-script/iterator)
