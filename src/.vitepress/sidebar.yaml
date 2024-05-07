@@ -29,6 +29,8 @@
                 link: /array/iterate-array
               - text: 搜索数组
                 link: /array/search-array
+              - text: 数组排序
+                link: /array/sort-array
           - text: Map
             link: /map
           - text: Set
