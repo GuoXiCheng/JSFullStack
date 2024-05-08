@@ -2,7 +2,7 @@
 
 搜索数组的方法有：`indexOf()`、`lastIndexOf()`、`find()`、`findIndex()`、`includes()`。
 
-## `indexOf()`
+## indexOf()
 
 `indexOf()`方法在数组中**从前往后**搜索，找到**第一个匹配**的元素就返回其索引。如果不存在，则返回-1。
 
@@ -16,7 +16,7 @@
 
 <<< @/../projects/javascript-sandbox/src/array-method/search-array.ts#indexOf-3
 
-## `lastIndexOf()`
+## lastIndexOf()
 
 `lastIndexOf()`方法在数组中**从后往前**搜索，找到 **第一个匹配（最后一个索引）** 的元素就返回其索引。如果不存在，则返回-1。
 
@@ -30,19 +30,19 @@
 
 <<< @/../projects/javascript-sandbox/src/array-method/search-array.ts#lastIndexOf-3
 
-## `find()`
+## find()
 
 `find()`方法返回数组中**第一个匹配**的元素。如果没有找到匹配的元素，则返回 `undefined`。
 
 <<< @/../projects/javascript-sandbox/src/array-method/search-array.ts#find
 
-## `findIndex()`
+## findIndex()
 
 `findIndex()`方法返回数组中**第一个匹配**的元素的索引。如果没有找到匹配的元素，则返回 -1。
 
 <<< @/../projects/javascript-sandbox/src/array-method/search-array.ts#findIndex
 
-## `includes()`
+## includes()
 
 `includes()`方法返回一个布尔值，表示数组中是否包含指定的值。
 
