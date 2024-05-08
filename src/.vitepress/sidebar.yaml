@@ -31,6 +31,8 @@
                 link: /array/search-array
               - text: 数组排序
                 link: /array/sort-array
+              - text: 添加或删除元素
+                link: /array/add-or-remove-element
           - text: Map
             link: /map
           - text: Set

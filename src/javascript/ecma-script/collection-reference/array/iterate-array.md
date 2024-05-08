@@ -20,7 +20,7 @@
 
 <<< @/../projects/javascript-sandbox/src/array-method/iterate-array.ts#for-loop-4
 
-## `for-of`循环
+## for-of 循环
 
 `for-of`循环是 ES6 新增的循环语法。
 
@@ -30,7 +30,7 @@
 
 <<< @/../projects/javascript-sandbox/src/array-method/iterate-array.ts#for-of-2
 
-## `forEach`方法
+## forEach 方法
 
 `forEach`方法是数组的实例方法，可以遍历数组的元素。
 
