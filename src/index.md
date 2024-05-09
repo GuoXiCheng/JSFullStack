@@ -16,6 +16,7 @@ import MarkMap from './MarkMap.vue';
         - [ES 的版本](javascript/ecma-script/es-version)
         - [变量声明](javascript/ecma-script/variable-declaration)
         - [比较算法](javascript/ecma-script/comparison-algorithm)
+        - [浅拷贝和深拷贝](javascript/ecma-script/shallow-copy-and-deep-copy)
         - 基本引用
           - [Date](javascript/ecma-script/basic-reference/date)
           - [正则表达式](javascript/ecma-script/basic-reference/reg-exp)
@@ -26,6 +27,7 @@ import MarkMap from './MarkMap.vue';
             - [搜索数组](javascript/ecma-script/collection-reference/array/search-array)
             - [数组排序](javascript/ecma-script/collection-reference/array/sort-array)
             - [添加或删除元素](javascript/ecma-script/collection-reference/array/add-or-remove-element)
+            - [检测数组](javascript/ecma-script/collection-reference/array/detect-array)
           - [Map](javascript/ecma-script/collection-reference/map)
           - [Set](javascript/ecma-script/collection-reference/set)
         - [迭代器](javascript/ecma-script/iterator)

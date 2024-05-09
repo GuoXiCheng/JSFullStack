@@ -11,6 +11,8 @@
         link: /javascript/ecma-script/variable-declaration
       - text: 比较算法
         link: /javascript/ecma-script/comparison-algorithm
+      - text: 浅拷贝和深拷贝
+        link: /javascript/ecma-script/shallow-copy-and-deep-copy
       - text: 基本引用
         base: /javascript/ecma-script/basic-reference
         items:
@@ -33,6 +35,8 @@
                 link: /array/sort-array
               - text: 添加或删除元素
                 link: /array/add-or-remove-element
+              - text: 检测数组
+                link: /array/detect-array
           - text: Map
             link: /map
           - text: Set
