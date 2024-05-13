@@ -47,6 +47,10 @@
         link: /javascript/ecma-script/generator
       - text: JSON
         link: /javascript/ecma-script/json
+      - text: 函数
+        items:
+          - text: 定义函数
+            link: /javascript/ecma-script/function/define-function
   - text: BOM
     base: /javascript/bom
     items:
