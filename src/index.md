@@ -33,6 +33,8 @@ import MarkMap from './MarkMap.vue';
         - [迭代器](javascript/ecma-script/iterator)
         - [生成器](javascript/ecma-script/generator)
         - [JSON](javascript/ecma-script/json)
+        - 函数
+          - [定义函数](javascript/ecma-script/function/define-function)
       - BOM
         - [screen](javascript/bom/screen)
   - 前端
