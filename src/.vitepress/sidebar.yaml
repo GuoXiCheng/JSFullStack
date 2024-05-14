@@ -51,6 +51,8 @@
         items:
           - text: 定义函数
             link: /javascript/ecma-script/function/define-function
+          - text: 闭包
+            link: /javascript/ecma-script/function/closure
   - text: BOM
     base: /javascript/bom
     items:

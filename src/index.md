@@ -35,6 +35,7 @@ import MarkMap from './MarkMap.vue';
         - [JSON](javascript/ecma-script/json)
         - 函数
           - [定义函数](javascript/ecma-script/function/define-function)
+          - [闭包](javascript/ecma-script/function/closure)
       - BOM
         - [screen](javascript/bom/screen)
   - 前端
