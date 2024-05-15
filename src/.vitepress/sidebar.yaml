@@ -41,10 +41,14 @@
             link: /map
           - text: Set
             link: /set
-      - text: 迭代器
-        link: /javascript/ecma-script/iterator
-      - text: 生成器
-        link: /javascript/ecma-script/generator
+      - text: 迭代器与生成器
+        items:
+          - text: 迭代器
+            link: /javascript/ecma-script/iterators-and-generators/iterator
+          - text: 自定义迭代器
+            link: /javascript/ecma-script/iterators-and-generators/custom-iterator
+          - text: 生成器
+            link: /javascript/ecma-script/iterators-and-generators/generator
       - text: JSON
         link: /javascript/ecma-script/json
       - text: 函数

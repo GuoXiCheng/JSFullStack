@@ -30,8 +30,10 @@ import MarkMap from './MarkMap.vue';
             - [检测数组](javascript/ecma-script/collection-reference/array/detect-array)
           - [Map](javascript/ecma-script/collection-reference/map)
           - [Set](javascript/ecma-script/collection-reference/set)
-        - [迭代器](javascript/ecma-script/iterator)
-        - [生成器](javascript/ecma-script/generator)
+        - 迭代器与生成器
+          - [迭代器](javascript/ecma-script/iterators-and-generators/iterator)
+          - [自定义迭代器](javascript/ecma-script/iterators-and-generators/custom-iterator)
+          - [生成器](javascript/ecma-script/iterators-and-generators/generator)
         - [JSON](javascript/ecma-script/json)
         - 函数
           - [定义函数](javascript/ecma-script/function/define-function)
