@@ -37,6 +37,10 @@
                 link: /array/add-or-remove-element
               - text: 检测数组
                 link: /array/detect-array
+              - text: 数组扁平化
+                link: /array/flatten-array
+              - text: 切片或连接数组
+                link: /array/slice-or-concat-array
           - text: Map
             link: /map
           - text: Set

@@ -48,3 +48,41 @@
 <<< @/../projects/javascript-sandbox/src/array-method/iterate-array.ts#forEach-2
 
 :::
+
+## map 方法
+
+map 方法**创建一个新数组**，这个新数组由原数组中的每个元素都调用一次提供的函数后的返回值组成。
+
+<<< @/../projects/javascript-sandbox/src/array-method/iterate-array.ts#map
+
+## filter 方法
+
+filter 方法创建给定数组一部分的浅拷贝，其中包含通过所提供函数实现的测试的所有元素。
+
+<<< @/../projects/javascript-sandbox/src/array-method/iterate-array.ts#filter
+
+## reduce 方法
+
+reduce 方法对数组中的每个元素按序执行一个 reducer 函数，每一次运行 reducer 函数会将先前元素的计算结果作为参数传入，最后将其结果汇总为单个值。
+
+::: details 不存在“先前的计算结果”时
+第一次执行 reducer 函数时，不存在“先前的计算结果”。
+
+如果需要 reducer 函数从数组索引 0 的元素开始执行，则需要传递初始值。
+
+否则，数组索引为 0 的元素将作为初始值，reducer 函数将从数组索引为 1 的元素开始执行。
+:::
+
+<<< @/../projects/javascript-sandbox/src/array-method/iterate-array.ts#reduce
+
+## every 方法
+
+every 方法测试数组的所有元素是否都通过了指定函数的测试，并返回一个布尔值。
+
+<<< @/../projects/javascript-sandbox/src/array-method/iterate-array.ts#every
+
+## some 方法
+
+some 方法测试数组中的某些元素是否通过了指定函数的测试，并返回一个布尔值。
+
+<<< @/../projects/javascript-sandbox/src/array-method/iterate-array.ts#some

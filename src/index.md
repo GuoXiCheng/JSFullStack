@@ -28,6 +28,8 @@ import MarkMap from './MarkMap.vue';
             - [数组排序](javascript/ecma-script/collection-reference/array/sort-array)
             - [添加或删除元素](javascript/ecma-script/collection-reference/array/add-or-remove-element)
             - [检测数组](javascript/ecma-script/collection-reference/array/detect-array)
+            - [数组扁平化](javascript/ecma-script/collection-reference/array/flatten-array)
+            - [切片或连接数组](javascript/ecma-script/collection-reference/array/slice-or-concat-array)
           - [Map](javascript/ecma-script/collection-reference/map)
           - [Set](javascript/ecma-script/collection-reference/set)
         - 迭代器与生成器
