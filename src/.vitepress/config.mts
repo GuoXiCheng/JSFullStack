@@ -23,6 +23,7 @@ export default defineConfig(
         { text: "JavaScript", link: "/javascript/index" },
         { text: "前端", link: "/frontend/index" },
         { text: "后端", link: "/backend/nodejs/index" },
+        { text: "云原生", link: "/cloud-native/index" },
         { text: "AI", link: "/ai/index" },
         { text: "参考", link: "/reference" },
       ],
