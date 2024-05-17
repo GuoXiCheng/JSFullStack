@@ -81,6 +81,14 @@ import MarkMap from './MarkMap.vue';
       - [关于 NodeJS](backend/nodejs/about-nodejs)
       - [EventEmitter](backend/nodejs/event-emitter)
       - [File System](backend/nodejs/file-system)
+  - 设计模式
+    - 行为模式
+    - 创建模式
+    - 结构模式
+  - 云原生
+    - docker
+      - [docker 的架构](cloud-native/docker/docker-architecture)
+    - kubernetes
   - AI
     - [AI 发展历程](ai/history-of-ai)
     - [AI 领域](ai/ai-field)
