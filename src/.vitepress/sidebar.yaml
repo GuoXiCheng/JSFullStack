@@ -152,6 +152,14 @@
     items:
       - text: docker 的架构
         link: /cloud-native/docker/docker-architecture
+      - text: docker 的镜像结构
+        link: /cloud-native/docker/docker-image-structure
+      - text: 安装 docker
+        link: /cloud-native/docker/install-docker
+      - text: docker 命令
+        link: /cloud-native/docker/docker-command
+      - text: 构建 docker 镜像
+        link: /cloud-native/docker/build-docker-image
 /ai:
   - text: AI 发展历程
     link: /ai/history-of-ai
