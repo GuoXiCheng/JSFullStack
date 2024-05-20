@@ -156,8 +156,8 @@
         link: /cloud-native/docker/docker-image-structure
       - text: 安装 docker
         link: /cloud-native/docker/install-docker
-      - text: docker 命令
-        link: /cloud-native/docker/docker-command
+      - text: docker 基本使用命令
+        link: /cloud-native/docker/basic-commands
       - text: 构建 docker 镜像
         link: /cloud-native/docker/build-docker-image
 /ai:

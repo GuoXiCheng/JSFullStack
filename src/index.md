@@ -92,7 +92,7 @@ import MarkMap from './MarkMap.vue';
       - [docker 的架构](cloud-native/docker/docker-architecture)
       - [docker 的镜像结构](cloud-native/docker/docker-image-structure)
       - [安装 docker](cloud-native/docker/install-docker)
-      - [docker 命令](cloud-native/docker/docker-command)
+      - [docker 基本使用命令](cloud-native/docker/basic-commands)
       - [构建 docker 镜像](cloud-native/docker/build-docker-image)
     - kubernetes
   - AI
