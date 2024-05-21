@@ -65,6 +65,8 @@
             link: /javascript/ecma-script/function/define-function
           - text: 闭包
             link: /javascript/ecma-script/function/closure
+          - text: 通过 call、apply 和 bind 调用函数
+            link: /javascript/ecma-script/function/call-apply-bind
   - text: BOM
     base: /javascript/bom
     items:

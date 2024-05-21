@@ -42,6 +42,7 @@ import MarkMap from './MarkMap.vue';
         - 函数
           - [定义函数](javascript/ecma-script/function/define-function)
           - [闭包](javascript/ecma-script/function/closure)
+          - [通过 call、apply 和 bind 调用函数](javascript/ecma-script/function/call-apply-bind)
       - BOM
         - [screen](javascript/bom/screen)
   - 前端
