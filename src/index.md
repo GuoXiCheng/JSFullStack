@@ -19,6 +19,11 @@ import MarkMap from './MarkMap.vue';
         - [变量声明](javascript/ecma-script/variable-declaration)
         - [比较算法](javascript/ecma-script/comparison-algorithm)
         - [浅拷贝和深拷贝](javascript/ecma-script/shallow-copy-and-deep-copy)
+        - 表达式与操作符
+          - [条件访问表达式](javascript/ecma-script/expression-and-operator/conditional-access-expression)
+          - [逻辑表达式](javascript/ecma-script/expression-and-operator/logical-expression)
+          - [空值合并操作符](javascript/ecma-script/expression-and-operator/nullish-coalescing-operator)
+          - [逻辑赋值操作符](javascript/ecma-script/expression-and-operator/logical-assignment-operator)
         - 基本引用
           - [Date](javascript/ecma-script/basic-reference/date)
           - [正则表达式](javascript/ecma-script/basic-reference/reg-exp)
