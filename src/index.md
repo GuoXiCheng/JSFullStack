@@ -14,6 +14,7 @@ import MarkMap from './MarkMap.vue';
         - [JavaScript 发展历程](javascript/introduction/history-of-javascript)
         - [JavaScript 核心实现](javascript/introduction/core-implementation)
         - [JavaScript 调用栈](javascript/introduction/call-stack)
+        - [JavaScript 作用域](javascript/introduction/scope)
       - ECMAScript
         - [ES 的版本](javascript/ecma-script/es-version)
         - [变量声明](javascript/ecma-script/variable-declaration)
