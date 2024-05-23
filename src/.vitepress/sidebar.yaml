@@ -7,6 +7,8 @@
         link: /javascript/introduction/core-implementation
       - text: JavaScript 调用栈
         link: /javascript/introduction/call-stack
+      - text: JavaScript 作用域
+        link: /javascript/introduction/scope
   - text: ECMAScript
     items:
       - text: ES 的版本
