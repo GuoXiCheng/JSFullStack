@@ -22,7 +22,7 @@ const functionName = function (arg1, arg2, ...argN) {
 
 ## 箭头函数
 
-箭头函数是 ES6 新增的函数语法，它的特点是没有自己的 `this`，`arguments`，`super` 或 `new.target`，这些值由外围最近一层非箭头函数决定。
+箭头函数是 ES6 新增的函数语法，它没有自己的上下文绑定（如`this`、`super`或`arguments`），而是继承自最近的非箭头函数的上下文。
 
 ```js
 const functionName = (arg1, arg2, ...argN) => {
