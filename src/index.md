@@ -13,10 +13,12 @@ import MarkMap from './MarkMap.vue';
       - JavaScript 介绍
         - [JavaScript 发展历程](javascript/introduction/history-of-javascript)
         - [JavaScript 核心实现](javascript/introduction/core-implementation)
-        - [JavaScript 调用栈](javascript/introduction/call-stack)
-        - [JavaScript 作用域](javascript/introduction/scope)
       - ECMAScript
         - [ES 的版本](javascript/ecma-script/es-version)
+        - JavaScript 引擎
+          - [调用栈](javascript/ecma-script/javascript-engine/call-stack)
+          - [作用域](javascript/ecma-script/javascript-engine/scope)
+          - [作用域链](javascript/ecma-script/javascript-engine/scope-chain)
         - [变量声明](javascript/ecma-script/variable-declaration)
         - [比较算法](javascript/ecma-script/comparison-algorithm)
         - [浅拷贝和深拷贝](javascript/ecma-script/shallow-copy-and-deep-copy)
@@ -53,6 +55,9 @@ import MarkMap from './MarkMap.vue';
           - [函数参数](javascript/ecma-script/function/function-arguments)
           - [闭包](javascript/ecma-script/function/closure)
           - [通过 call、apply 和 bind 调用函数](javascript/ecma-script/function/call-apply-bind)
+        - 对象
+          - [原型](javascript/ecma-script/object/prototype)
+          - [原型链](javascript/ecma-script/object/prototype-chain)
       - BOM
         - [screen](javascript/bom/screen)
   - 前端
