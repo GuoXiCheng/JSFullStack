@@ -1,4 +1,4 @@
-# JavaScript 作用域
+# 作用域
 
 ## 什么是作用域
 
@@ -49,21 +49,4 @@ if (true) {
   console.log(a);
 }
 console.log(a); // ReferenceError: a is not defined
-```
-
-## 作用域链
-
-作用域链是指在代码中查找变量和函数的过程。
-
-```javascript
-var a = 1;
-function foo() {
-  var b = 2;
-  function bar() {
-    var c = 3;
-    console.log(a, b, c);
-  }
-  bar(); // 1 2 3
-}
-foo();
 ```

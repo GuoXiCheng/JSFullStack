@@ -5,14 +5,18 @@
         link: /javascript/introduction/history-of-javascript
       - text: JavaScript 核心实现
         link: /javascript/introduction/core-implementation
-      - text: JavaScript 调用栈
-        link: /javascript/introduction/call-stack
-      - text: JavaScript 作用域
-        link: /javascript/introduction/scope
   - text: ECMAScript
     items:
       - text: ES 的版本
         link: /javascript/ecma-script/es-version
+      - text: JavaScript 引擎
+        items:
+          - text: 调用栈
+            link: /javascript/ecma-script/javascript-engine/call-stack
+          - text: 作用域
+            link: /javascript/ecma-script/javascript-engine/scope
+          - text: 作用域链
+            link: /javascript/ecma-script/javascript-engine/scope-chain
       - text: 变量声明
         link: /javascript/ecma-script/variable-declaration
       - text: 比较算法
@@ -87,6 +91,12 @@
             link: /javascript/ecma-script/function/closure
           - text: 通过 call、apply 和 bind 调用函数
             link: /javascript/ecma-script/function/call-apply-bind
+      - text: 对象
+        items:
+          - text: 原型
+            link: /javascript/ecma-script/object/prototype
+          - text: 原型链
+            link: /javascript/ecma-script/object/prototype-chain
   - text: BOM
     base: /javascript/bom
     items:
