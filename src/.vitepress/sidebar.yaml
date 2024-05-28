@@ -17,6 +17,8 @@
             link: /javascript/ecma-script/javascript-engine/scope
           - text: 作用域链
             link: /javascript/ecma-script/javascript-engine/scope-chain
+          - text: this 关键字
+            link: /javascript/ecma-script/javascript-engine/this-keyword
       - text: 变量声明
         link: /javascript/ecma-script/variable-declaration
       - text: 比较算法
@@ -89,8 +91,6 @@
             link: /javascript/ecma-script/function/function-arguments
           - text: 闭包
             link: /javascript/ecma-script/function/closure
-          - text: 通过 call、apply 和 bind 调用函数
-            link: /javascript/ecma-script/function/call-apply-bind
       - text: 对象
         items:
           - text: 原型

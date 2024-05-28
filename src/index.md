@@ -19,6 +19,7 @@ import MarkMap from './MarkMap.vue';
           - [调用栈](javascript/ecma-script/javascript-engine/call-stack)
           - [作用域](javascript/ecma-script/javascript-engine/scope)
           - [作用域链](javascript/ecma-script/javascript-engine/scope-chain)
+          - [this 关键字](javascript/ecma-script/javascript-engine/this-keyword)
         - [变量声明](javascript/ecma-script/variable-declaration)
         - [比较算法](javascript/ecma-script/comparison-algorithm)
         - [浅拷贝和深拷贝](javascript/ecma-script/shallow-copy-and-deep-copy)
@@ -54,7 +55,6 @@ import MarkMap from './MarkMap.vue';
           - [定义函数](javascript/ecma-script/function/define-function)
           - [函数参数](javascript/ecma-script/function/function-arguments)
           - [闭包](javascript/ecma-script/function/closure)
-          - [通过 call、apply 和 bind 调用函数](javascript/ecma-script/function/call-apply-bind)
         - 对象
           - [原型](javascript/ecma-script/object/prototype)
           - [原型链](javascript/ecma-script/object/prototype-chain)
