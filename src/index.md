@@ -58,6 +58,8 @@ import MarkMap from './MarkMap.vue';
         - 对象
           - [原型](javascript/ecma-script/object/prototype)
           - [原型链](javascript/ecma-script/object/prototype-chain)
+        - 异步
+          - [手写 Promise](javascript/ecma-script/async/write-promise)
       - BOM
         - [screen](javascript/bom/screen)
   - 前端
