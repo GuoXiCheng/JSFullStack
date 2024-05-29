@@ -97,6 +97,10 @@
             link: /javascript/ecma-script/object/prototype
           - text: 原型链
             link: /javascript/ecma-script/object/prototype-chain
+      - text: 异步
+        items:
+          - text: 手写 Promise
+            link: /javascript/ecma-script/async/write-promise
   - text: BOM
     base: /javascript/bom
     items:
