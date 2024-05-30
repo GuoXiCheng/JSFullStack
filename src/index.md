@@ -8,7 +8,7 @@ import MarkMap from './MarkMap.vue';
 </script>
 
 <MarkMap markdown="
-- JS全栈
+- JS全栈知识体系
   - JavaScript
       - JavaScript 介绍
         - [JavaScript 发展历程](javascript/introduction/history-of-javascript)
@@ -17,7 +17,11 @@ import MarkMap from './MarkMap.vue';
         - [ES 的版本](javascript/ecma-script/es-version)
         - JavaScript 引擎
           - [调用栈](javascript/ecma-script/javascript-engine/call-stack)
-          - [作用域](javascript/ecma-script/javascript-engine/scope)
+          - 作用域
+            - [什么是作用域](javascript/ecma-script/javascript-engine/scope#什么是作用域)
+            - [全局作用域](javascript/ecma-script/javascript-engine/scope#全局作用域)
+            - [函数作用域](javascript/ecma-script/javascript-engine/scope#函数作用域)
+            - [块级作用域](javascript/ecma-script/javascript-engine/scope#块级作用域)
           - [作用域链](javascript/ecma-script/javascript-engine/scope-chain)
           - [this 关键字](javascript/ecma-script/javascript-engine/this-keyword)
         - [变量声明](javascript/ecma-script/variable-declaration)
