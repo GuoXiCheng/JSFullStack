@@ -26,7 +26,16 @@ export default {
             if (assets.styles) loadCSS(assets.styles);
             if (assets.scripts) loadJS(assets.scripts, { getMarkmap: () => window.markmap });
 
-            Markmap.create('#markmap', null, root);
+            const savedState = JSON.parse(localStorage.getItem('markmap-state'));
+            const markmapState = savedState ? savedState : root;
+
+            const markmap = Markmap.create('#markmap', null, markmapState);
+
+            for (const item of document.getElementsByTagName('circle')) {
+                item.addEventListener('click', () => {
+                    localStorage.setItem('markmap-state', JSON.stringify(markmap.state.data));
+                });
+            }
         });
     }
 };
