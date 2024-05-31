@@ -77,6 +77,8 @@
             link: /javascript/ecma-script/iterators-and-generators/generator
       - text: JSON
         items:
+          - text: 什么是 JSON
+            link: /javascript/ecma-script/json/what-is-json
           - text: JSON 数据格式
             link: /javascript/ecma-script/json/json-data-format
           - text: 序列化

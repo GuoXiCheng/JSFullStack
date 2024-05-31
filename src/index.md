@@ -52,7 +52,13 @@ import MarkMap from './MarkMap.vue';
           - [自定义迭代器](javascript/ecma-script/iterators-and-generators/custom-iterator)
           - [生成器](javascript/ecma-script/iterators-and-generators/generator)
         - JSON
-          - [JSON 数据格式](javascript/ecma-script/json/json-data-format)
+          - 什么是 JSON
+            - [介绍](javascript/ecma-script/json/what-is-json#介绍)
+            - [历史](javascript/ecma-script/json/what-is-json#历史)
+          - JSON 数据格式
+            - [简单值](javascript/ecma-script/json/json-data-format#简单值)
+            - [对象](javascript/ecma-script/json/json-data-format#对象)
+            - [数组](javascript/ecma-script/json/json-data-format#数组)
           - [序列化](javascript/ecma-script/json/serialization)
           - [反序列化](javascript/ecma-script/json/deserialization)
         - 函数
