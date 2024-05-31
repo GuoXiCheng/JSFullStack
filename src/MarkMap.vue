@@ -26,17 +26,46 @@ export default {
             if (assets.styles) loadCSS(assets.styles);
             if (assets.scripts) loadJS(assets.scripts, { getMarkmap: () => window.markmap });
 
-            const savedState = JSON.parse(localStorage.getItem('markmap-state'));
-            const markmapState = savedState ? savedState : root;
+            const hashedRoot = "markmap-state-" + simpleHash(JSON.stringify(root));
+            const savedState = localStorage.getItem(hashedRoot);
+
+            let markmapState;
+            if (savedState == null) { // 当前思维导图没有保存过状态
+                markmapState = root;
+                clearLocalStorageWithPrefix("markmap-state-");
+            } else { // 当前思维导图保存过状态
+                markmapState = JSON.parse(savedState);
+            }
 
             const markmap = Markmap.create('#markmap', null, markmapState);
 
             for (const item of document.getElementsByTagName('circle')) {
                 item.addEventListener('click', () => {
-                    localStorage.setItem('markmap-state', JSON.stringify(markmap.state.data));
+                    localStorage.setItem(hashedRoot, JSON.stringify(markmap.state.data));
                 });
             }
         });
+
+        // 简单的哈希函数
+        function simpleHash(s) {
+            var hash = 0;
+            for (var i = 0; i < s.length; i++) {
+                var character = s.charCodeAt(i);
+                hash = ((hash << 5) - hash) + character;
+                hash = hash & hash; // 将hash转换为32位整数
+            }
+            return hash;
+        }
+
+        // 清理带有指定前缀的localStorage中的键
+        function clearLocalStorageWithPrefix(prefix) {
+            for (let i = 0; i < localStorage.length; i++) {
+                const key = localStorage.key(i);
+                if (key.startsWith(prefix)) {
+                    localStorage.removeItem(key);
+                }
+            }
+        }
     }
 };
 </script>
