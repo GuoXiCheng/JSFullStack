@@ -30,7 +30,9 @@ export default defineConfig(
 
       sidebar: getSidebar(),
 
-      socialLinks: [{ icon: "github", link: "https://github.com/GuoXiCheng" }],
+      socialLinks: [
+        { icon: "github", link: "https://github.com/GuoXiCheng/JSFullStack" },
+      ],
     },
   })
 );
