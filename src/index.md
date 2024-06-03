@@ -18,7 +18,6 @@ import MarkMap from './MarkMap.vue';
         - JavaScript 引擎
           - [调用栈](javascript/ecma-script/javascript-engine/call-stack)
           - 作用域
-            - [什么是作用域](javascript/ecma-script/javascript-engine/scope#什么是作用域)
             - [全局作用域](javascript/ecma-script/javascript-engine/scope#全局作用域)
             - [函数作用域](javascript/ecma-script/javascript-engine/scope#函数作用域)
             - [块级作用域](javascript/ecma-script/javascript-engine/scope#块级作用域)
@@ -28,10 +27,16 @@ import MarkMap from './MarkMap.vue';
         - [比较算法](javascript/ecma-script/comparison-algorithm)
         - [浅拷贝和深拷贝](javascript/ecma-script/shallow-copy-and-deep-copy)
         - 表达式与操作符
-          - [条件访问表达式](javascript/ecma-script/expression-and-operator/conditional-access-expression)
-          - [逻辑表达式](javascript/ecma-script/expression-and-operator/logical-expression)
-          - [空值合并操作符](javascript/ecma-script/expression-and-operator/nullish-coalescing-operator)
-          - [逻辑赋值操作符](javascript/ecma-script/expression-and-operator/logical-assignment-operator)
+          - [条件访问表达式（?.）](javascript/ecma-script/expression-and-operator/conditional-access-expression)
+          - 逻辑表达式
+            - [逻辑与（&&）](javascript/ecma-script/expression-and-operator/logical-expression#逻辑与)
+            - [逻辑或（||）](javascript/ecma-script/expression-and-operator/logical-expression#逻辑或)
+            - [逻辑非（!）](javascript/ecma-script/expression-and-operator/logical-expression#逻辑非)
+          - [空值合并操作符（??）](javascript/ecma-script/expression-and-operator/nullish-coalescing-operator)
+          - 逻辑赋值操作符
+            - [逻辑与赋值（&&=）](javascript/ecma-script/expression-and-operator/logical-assignment-operator#逻辑与赋值操作符)
+            - [逻辑或赋值（||=）](javascript/ecma-script/expression-and-operator/logical-assignment-operator#逻辑或赋值操作符)
+            - [逻辑空值合并赋值（??=）](javascript/ecma-script/expression-and-operator/logical-assignment-operator#空值合并赋值操作符)
         - 基本引用
           - [Date](javascript/ecma-script/basic-reference/date)
           - [正则表达式](javascript/ecma-script/basic-reference/reg-exp)
