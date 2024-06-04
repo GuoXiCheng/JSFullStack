@@ -23,8 +23,16 @@ import MarkMap from './MarkMap.vue';
             - [块级作用域](javascript/ecma-script/javascript-engine/scope#块级作用域)
           - [作用域链](javascript/ecma-script/javascript-engine/scope-chain)
           - [this 关键字](javascript/ecma-script/javascript-engine/this-keyword)
-        - [变量声明](javascript/ecma-script/variable-declaration)
-        - [比较算法](javascript/ecma-script/comparison-algorithm)
+          - [事件循环](javascript/ecma-script/javascript-engine/event-loop)
+        - 变量声明
+          - [var](javascript/ecma-script/variable-declaration#var)
+          - [let](javascript/ecma-script/variable-declaration#let)
+          - [const](javascript/ecma-script/variable-declaration#const)
+        - 比较算法
+          - [==](javascript/ecma-script/comparison-algorithm#松散相等)
+          - [===](javascript/ecma-script/comparison-algorithm#严格相等)
+          - [SameValue](javascript/ecma-script/comparison-algorithm#samevalue)
+          - [SameValueZero](javascript/ecma-script/comparison-algorithm#samevaluezero)
         - [浅拷贝和深拷贝](javascript/ecma-script/shallow-copy-and-deep-copy)
         - 表达式与操作符
           - [条件访问表达式（?.）](javascript/ecma-script/expression-and-operator/conditional-access-expression)
@@ -57,9 +65,7 @@ import MarkMap from './MarkMap.vue';
           - [自定义迭代器](javascript/ecma-script/iterators-and-generators/custom-iterator)
           - [生成器](javascript/ecma-script/iterators-and-generators/generator)
         - JSON
-          - 什么是 JSON
-            - [介绍](javascript/ecma-script/json/what-is-json#介绍)
-            - [历史](javascript/ecma-script/json/what-is-json#历史)
+          - [什么是 JSON](javascript/ecma-script/json/what-is-json)
           - JSON 数据格式
             - [简单值](javascript/ecma-script/json/json-data-format#简单值)
             - [对象](javascript/ecma-script/json/json-data-format#对象)
