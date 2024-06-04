@@ -19,6 +19,8 @@
             link: /javascript/ecma-script/javascript-engine/scope-chain
           - text: this 关键字
             link: /javascript/ecma-script/javascript-engine/this-keyword
+          - text: 事件循环
+            link: /javascript/ecma-script/javascript-engine/event-loop
       - text: 变量声明
         link: /javascript/ecma-script/variable-declaration
       - text: 比较算法
