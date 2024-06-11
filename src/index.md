@@ -11,8 +11,8 @@ import MarkMap from './MarkMap.vue';
 - JS全栈知识体系
   - JavaScript
       - JavaScript 介绍
+        - [什么是 JavaScript](javascript/introduction/what-is-javascript)
         - [JavaScript 发展历程](javascript/introduction/history-of-javascript)
-        - [JavaScript 核心实现](javascript/introduction/core-implementation)
       - ECMAScript
         - [ES 的版本](javascript/ecma-script/es-version)
         - JavaScript 引擎
@@ -117,6 +117,13 @@ import MarkMap from './MarkMap.vue';
         - [受控组件](frontend/react/form/controlled)
         - [非受控组件](frontend/react/form/uncontrolled)
         - [FormData](frontend/react/form/form-data)
+  - Vue
+    - 核心概念
+      - [模版语法](vue/core-concepts/template-syntax)
+        - [插值](vue/core-concepts/template-syntax#文本插值)
+        - [原始 HTML](vue/core-concepts/template-syntax#原始-html)
+        - [属性绑定](vue/core-concepts/template-syntax#属性绑定)
+        - [表达式](vue/core-concepts/template-syntax#表达式)
   - 后端
     - NodeJS
       - [关于 NodeJS](backend/nodejs/about-nodejs)

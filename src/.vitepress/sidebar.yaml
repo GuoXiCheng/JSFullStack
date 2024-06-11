@@ -1,10 +1,10 @@
 /javascript:
   - text: JavaScript 介绍
     items:
+      - text: 什么是 JavaScript
+        link: /javascript/introduction/what-is-javascript
       - text: JavaScript 发展历程
         link: /javascript/introduction/history-of-javascript
-      - text: JavaScript 核心实现
-        link: /javascript/introduction/core-implementation
   - text: ECMAScript
     items:
       - text: ES 的版本
@@ -110,6 +110,13 @@
     items:
       - text: screen
         link: /screen
+/vue:
+  - text: Vue
+    items:
+      - text: 核心概念
+        items:
+          - text: 模版语法
+            link: /vue/core-concepts/template-syntax
 /frontend:
   - text: React
     items:

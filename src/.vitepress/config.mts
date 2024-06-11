@@ -21,6 +21,7 @@ export default defineConfig(
       nav: [
         { text: "Home", link: "/" },
         { text: "JavaScript", link: "/javascript/index" },
+        { text: "Vue", link: "/vue/index" },
         { text: "前端", link: "/frontend/index" },
         { text: "后端", link: "/backend/nodejs/index" },
         { text: "云原生", link: "/cloud-native/index" },
