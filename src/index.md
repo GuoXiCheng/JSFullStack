@@ -11,8 +11,8 @@ import MarkMap from './MarkMap.vue';
 - JS全栈知识体系
   - JavaScript
       - JavaScript 介绍
+        - [什么是 JavaScript](javascript/introduction/what-is-javascript)
         - [JavaScript 发展历程](javascript/introduction/history-of-javascript)
-        - [JavaScript 核心实现](javascript/introduction/core-implementation)
       - ECMAScript
         - [ES 的版本](javascript/ecma-script/es-version)
         - JavaScript 引擎
