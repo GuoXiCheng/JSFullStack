@@ -110,6 +110,13 @@
     items:
       - text: screen
         link: /screen
+/vue:
+  - text: Vue
+    items:
+      - text: 核心概念
+        items:
+          - text: 模版语法
+            link: /vue/core-concepts/template-syntax
 /frontend:
   - text: React
     items:
