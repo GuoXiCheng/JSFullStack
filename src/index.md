@@ -117,13 +117,13 @@ import MarkMap from './MarkMap.vue';
         - [受控组件](frontend/react/form/controlled)
         - [非受控组件](frontend/react/form/uncontrolled)
         - [FormData](frontend/react/form/form-data)
-  - Vue
-    - 核心概念
-      - [模版语法](vue/core-concepts/template-syntax)
-        - [插值](vue/core-concepts/template-syntax#文本插值)
-        - [原始 HTML](vue/core-concepts/template-syntax#原始-html)
-        - [属性绑定](vue/core-concepts/template-syntax#属性绑定)
-        - [表达式](vue/core-concepts/template-syntax#表达式)
+    - Vue
+      - 核心概念
+        - [模版语法](frontend/vue/core-concepts/template-syntax)
+          - [插值](frontend/vue/core-concepts/template-syntax#文本插值)
+          - [原始 HTML](frontend/vue/core-concepts/template-syntax#原始-html)
+          - [属性绑定](frontend/vue/core-concepts/template-syntax#属性绑定)
+          - [表达式](frontend/vue/core-concepts/template-syntax#表达式)
   - 后端
     - NodeJS
       - [关于 NodeJS](backend/nodejs/about-nodejs)
