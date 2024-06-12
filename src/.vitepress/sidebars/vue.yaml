@@ -1,0 +1,11 @@
+/frontend/vue:
+  - text: Vue 介绍
+    items:
+      - text: 什么是 Vue
+        link: /frontend/vue/introduction/what-is-vue
+  - text: Vue
+    items:
+      - text: 核心概念
+        items:
+          - text: 模版语法
+            link: /frontend/vue/core-concepts/template-syntax
