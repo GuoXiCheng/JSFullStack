@@ -1,6 +1,14 @@
-import yaml from 'js-yaml';
-import fs from 'fs';
+import yaml from "js-yaml";
+import fs from "fs";
 
 export default function getSidebar() {
-    return yaml.load(fs.readFileSync('src/.vitepress/sidebar.yaml', 'utf8'));
+  const sidebar = fs
+    .readdirSync("src/.vitepress/sidebars")
+    .reduce(
+      (acc, file) =>
+        (acc +=
+          fs.readFileSync(`src/.vitepress/sidebars/${file}`, "utf8") + "\n"),
+      ""
+    );
+  return yaml.load(sidebar);
 }
