@@ -22,7 +22,24 @@ export default defineConfig(
         { text: "Home", link: "/" },
         {
           text: "JavaScript",
-          link: "/javascript/introduction/what-is-javascript",
+          items: [
+            {
+              text: "介绍",
+              link: "/javascript/introduction/what-is-javascript",
+            },
+            {
+              text: "ECMAScript",
+              link: "/javascript/ecma-script/es-version",
+            },
+            {
+              text: "BOM",
+              link: "/javascript/bom/what-is-bom",
+            },
+            {
+              text: "DOM",
+              link: "/javascript/dom/what-is-dom",
+            },
+          ],
         },
         {
           text: "前端",
