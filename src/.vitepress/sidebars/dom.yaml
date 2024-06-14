@@ -1,0 +1,6 @@
+/javascript/dom: 
+  - text: DOM
+    base: /javascript/dom
+    items:
+      - text: 什么是 DOM
+        link: /what-is-dom
