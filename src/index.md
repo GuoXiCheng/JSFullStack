@@ -79,6 +79,12 @@ import MarkMap from './MarkMap.vue';
         - 对象
           - [原型](javascript/ecma-script/object/prototype)
           - [原型链](javascript/ecma-script/object/prototype-chain)
+          - 属性描述符
+            - [数据描述符](javascript/ecma-script/object/property-descriptor#数据描述符)
+            - [访问器描述符](javascript/ecma-script/object/property-descriptor#访问器描述符)
+            - [定义多个属性](javascript/ecma-script/object/property-descriptor#定义多个属性)
+            - [获取属性描述符](javascript/ecma-script/object/property-descriptor#获取属性描述符)
+            - [获取所有属性描述符](javascript/ecma-script/object/property-descriptor#获取所有属性描述符)
         - 异步
           - [手写 Promise](javascript/ecma-script/async/write-promise)
       - BOM
