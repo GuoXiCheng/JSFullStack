@@ -4,155 +4,20 @@ sidebar: false
 ---
 
 <script setup>
+import { ref, onMounted } from 'vue';
 import MarkMap from './MarkMap.vue';
+
+const markdown = ref('');
+const isLoaded = ref(false);
+
+onMounted(async () => {
+  const response = await fetch('/markmap.md');
+  markdown.value = await response.text();
+  console.log(markdown.value);
+  isLoaded.value = true;
+});
 </script>
 
-<MarkMap markdown="
-- JS全栈知识体系
-  - JavaScript
-      - JavaScript 介绍
-        - [什么是 JavaScript](javascript/introduction/what-is-javascript)
-        - [JavaScript 发展历程](javascript/introduction/history-of-javascript)
-      - ECMAScript
-        - [ES 的版本](javascript/ecma-script/es-version)
-        - JavaScript 引擎
-          - [调用栈](javascript/ecma-script/javascript-engine/call-stack)
-          - 作用域
-            - [全局作用域](javascript/ecma-script/javascript-engine/scope#全局作用域)
-            - [函数作用域](javascript/ecma-script/javascript-engine/scope#函数作用域)
-            - [块级作用域](javascript/ecma-script/javascript-engine/scope#块级作用域)
-          - [作用域链](javascript/ecma-script/javascript-engine/scope-chain)
-          - [this 关键字](javascript/ecma-script/javascript-engine/this-keyword)
-          - [事件循环](javascript/ecma-script/javascript-engine/event-loop)
-        - 变量声明
-          - [var](javascript/ecma-script/variable-declaration#var)
-          - [let](javascript/ecma-script/variable-declaration#let)
-          - [const](javascript/ecma-script/variable-declaration#const)
-        - 比较算法
-          - [==](javascript/ecma-script/comparison-algorithm#松散相等)
-          - [===](javascript/ecma-script/comparison-algorithm#严格相等)
-          - [SameValue](javascript/ecma-script/comparison-algorithm#samevalue)
-          - [SameValueZero](javascript/ecma-script/comparison-algorithm#samevaluezero)
-        - [浅拷贝和深拷贝](javascript/ecma-script/shallow-copy-and-deep-copy)
-        - 表达式与操作符
-          - [条件访问表达式（?.）](javascript/ecma-script/expression-and-operator/conditional-access-expression)
-          - 逻辑表达式
-            - [逻辑与（&&）](javascript/ecma-script/expression-and-operator/logical-expression#逻辑与)
-            - [逻辑或（||）](javascript/ecma-script/expression-and-operator/logical-expression#逻辑或)
-            - [逻辑非（!）](javascript/ecma-script/expression-and-operator/logical-expression#逻辑非)
-          - [空值合并操作符（??）](javascript/ecma-script/expression-and-operator/nullish-coalescing-operator)
-          - 逻辑赋值操作符
-            - [逻辑与赋值（&&=）](javascript/ecma-script/expression-and-operator/logical-assignment-operator#逻辑与赋值操作符)
-            - [逻辑或赋值（||=）](javascript/ecma-script/expression-and-operator/logical-assignment-operator#逻辑或赋值操作符)
-            - [逻辑空值合并赋值（??=）](javascript/ecma-script/expression-and-operator/logical-assignment-operator#空值合并赋值操作符)
-        - 基本引用
-          - [Date](javascript/ecma-script/basic-reference/date)
-          - [正则表达式](javascript/ecma-script/basic-reference/reg-exp)
-        - 集合引用
-          - Array
-            - [创建数组](javascript/ecma-script/collection-reference/array/create-array)
-            - [迭代数组](javascript/ecma-script/collection-reference/array/iterate-array)
-            - [搜索数组](javascript/ecma-script/collection-reference/array/search-array)
-            - [数组排序](javascript/ecma-script/collection-reference/array/sort-array)
-            - [添加或删除元素](javascript/ecma-script/collection-reference/array/add-or-remove-element)
-            - [检测数组](javascript/ecma-script/collection-reference/array/detect-array)
-            - [数组扁平化](javascript/ecma-script/collection-reference/array/flatten-array)
-            - [切片或连接数组](javascript/ecma-script/collection-reference/array/slice-or-concat-array)
-          - [Map](javascript/ecma-script/collection-reference/map)
-          - [Set](javascript/ecma-script/collection-reference/set)
-        - 迭代器与生成器
-          - [迭代器](javascript/ecma-script/iterators-and-generators/iterator)
-          - [自定义迭代器](javascript/ecma-script/iterators-and-generators/custom-iterator)
-          - [生成器](javascript/ecma-script/iterators-and-generators/generator)
-        - JSON
-          - [什么是 JSON](javascript/ecma-script/json/what-is-json)
-          - JSON 数据格式
-            - [简单值](javascript/ecma-script/json/json-data-format#简单值)
-            - [对象](javascript/ecma-script/json/json-data-format#对象)
-            - [数组](javascript/ecma-script/json/json-data-format#数组)
-          - [序列化](javascript/ecma-script/json/serialization)
-          - [反序列化](javascript/ecma-script/json/deserialization)
-        - 函数
-          - [定义函数](javascript/ecma-script/function/define-function)
-          - [函数参数](javascript/ecma-script/function/function-arguments)
-          - [闭包](javascript/ecma-script/function/closure)
-        - 对象
-          - [原型](javascript/ecma-script/object/prototype)
-          - [原型链](javascript/ecma-script/object/prototype-chain)
-        - 异步
-          - [手写 Promise](javascript/ecma-script/async/write-promise)
-      - BOM
-        - [什么是 BOM](javascript/bom/what-is-bom)
-        - [screen](javascript/bom/screen)
-      - DOM
-        - [什么是 DOM](javascript/dom/what-is-dom)
-  - 前端
-    - React
-      - 核心概念
-        - [JSX语法](frontend/react/core-concepts/jsx)
-        - [children](frontend/react/core-concepts/children)
-        - [createPortal](frontend/react/core-concepts/create-portal)
-        - [错误边界](frontend/react/core-concepts/error-boundaries)
-        - styles
-          - [内联样式](frontend/react/core-concepts/styles/inline-style)
-          - [外部样式](frontend/react/core-concepts/styles/external-style)
-          - [CSS Modules](frontend/react/core-concepts/styles/css-modules)
-          - [Styled Components](frontend/react/core-concepts/styles/styled-components)
-          - [Tailwind CSS](frontend/react/core-concepts/styles/tailwind-css)
-        - 状态管理
-          - [state](frontend/react/core-concepts/state-management/state)
-          - [props](frontend/react/core-concepts/state-management/props)
-          - [状态提升](frontend/react/core-concepts/state-management/lifting-state-up)
-          - [Context](frontend/react/core-concepts/state-management/context)
-          - [Reducer 和 Context](frontend/react/core-concepts/state-management/reducer-and-context)
-      - Hook API
-        - [useRef](frontend/react/hook-api/use-ref)
-        - [useImperativeHandle](frontend/react/hook-api/use-imperative-handle)
-        - [useEffect](frontend/react/hook-api/use-effect)
-        - [useCallback](frontend/react/hook-api/use-callback)
-        - [useMemo](frontend/react/hook-api/use-memo)
-        - [useContext](frontend/react/hook-api/use-context)
-        - [自定义 Hook](frontend/react/hook-api/custom-hook)
-      - React Redux
-        - [Redux 核心概念](frontend/react/react-redux/redux-core-concept)
-        - [Redux Toolkit](frontend/react/react-redux/redux-toolkit)
-      - 表单
-        - [受控组件](frontend/react/form/controlled)
-        - [非受控组件](frontend/react/form/uncontrolled)
-        - [FormData](frontend/react/form/form-data)
-    - Vue
-      - 核心概念
-        - [模版语法](frontend/vue/core-concepts/template-syntax)
-          - [插值](frontend/vue/core-concepts/template-syntax#文本插值)
-          - [原始 HTML](frontend/vue/core-concepts/template-syntax#原始-html)
-          - [属性绑定](frontend/vue/core-concepts/template-syntax#属性绑定)
-          - [表达式](frontend/vue/core-concepts/template-syntax#表达式)
-  - 后端
-    - NodeJS
-      - [关于 NodeJS](backend/nodejs/about-nodejs)
-      - [EventEmitter](backend/nodejs/event-emitter)
-      - [File System](backend/nodejs/file-system)
-  - 设计模式
-    - 行为模式
-    - 创建模式
-    - 结构模式
-  - 云原生
-    - docker
-      - [docker 的架构](cloud-native/docker/docker-architecture)
-      - [docker 的镜像结构](cloud-native/docker/docker-image-structure)
-      - [安装 docker](cloud-native/docker/install-docker)
-      - [docker 基本使用命令](cloud-native/docker/basic-commands)
-      - [构建 docker 镜像](cloud-native/docker/build-docker-image)
-    - kubernetes
-  - AI
-    - [AI 发展历程](ai/history-of-ai)
-    - [AI 领域](ai/ai-field)
-    - LangChain
-      - [LangChain 介绍](ai/lang-chain/introduction)
-      - 用例
-        - [标记文本](ai/lang-chain/use-case/tagging)
-        - [文档内容总结](ai/lang-chain/use-case/summarization)
-      - LangServe
-        - [LangServe 介绍](ai/lang-chain/lang-serve/introduction)
-        - [构建 LangServe 应用](ai/lang-chain/lang-serve/build-application)
-"/>
+<div v-if="isLoaded">
+    <MarkMap :markdown="markdown" />
+</div>
