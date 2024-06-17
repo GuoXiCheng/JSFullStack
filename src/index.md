@@ -11,9 +11,8 @@ const markdown = ref('');
 const isLoaded = ref(false);
 
 onMounted(async () => {
-  const response = await fetch('/markmap.md');
+  const response = await fetch('/markmap.mdx');
   markdown.value = await response.text();
-  console.log(markdown.value);
   isLoaded.value = true;
 });
 </script>
