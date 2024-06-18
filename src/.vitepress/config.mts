@@ -56,6 +56,15 @@ export default defineConfig(
         },
         { text: "后端", link: "/backend/nodejs/index" },
         { text: "云原生", link: "/cloud-native/index" },
+        {
+          text: "方法论",
+          items: [
+            {
+              text: "12 因素应用",
+              link: "/methodology/12-factor-app/what-is-12-factor-app",
+            },
+          ],
+        },
         { text: "AI", link: "/ai/index" },
         { text: "参考", link: "/reference" },
       ],
