@@ -1,0 +1,31 @@
+/methodology/12-factor-app:
+  - text: 12 因素应用介绍
+    items:
+      - text: 什么是 12 因素应用
+        link: /methodology/12-factor-app/what-is-12-factor-app
+  - text: 主要内容
+    items:
+      - text: 基准代码
+        link: /methodology/12-factor-app/codebase
+      - text: 依赖
+        link: /methodology/12-factor-app/dependencies
+      - text: 配置
+        link: /methodology/12-factor-app/config
+      - text: 后端服务
+        link: /methodology/12-factor-app/backing-services
+      - text: 构建、发布、运行
+        link: /methodology/12-factor-app/build-release-run
+      - text: 进程
+        link: /methodology/12-factor-app/processes
+      - text: 端口绑定
+        link: /methodology/12-factor-app/port-binding
+      - text: 并发
+        link: /methodology/12-factor-app/concurrency
+      - text: 易处理
+        link: /methodology/12-factor-app/disposability
+      - text: 开发与生产环境等价
+        link: /methodology/12-factor-app/dev-prod-parity
+      - text: 日志
+        link: /methodology/12-factor-app/logs
+      - text: 管理进程
+        link: /methodology/12-factor-app/admin-processes
