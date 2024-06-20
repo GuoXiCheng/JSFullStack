@@ -1,8 +1,7 @@
 /javascript/bom: 
   - text: BOM
-    base: /javascript/bom
     items:
       - text: 什么是 BOM
-        link: /what-is-bom
+        link: /javascript/bom/what-is-bom
       - text: screen
-        link: /screen
+        link: /javascript/bom/screen
