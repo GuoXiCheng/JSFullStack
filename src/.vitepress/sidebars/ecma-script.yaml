@@ -32,33 +32,31 @@
           - text: 逻辑赋值操作符
             link: /javascript/ecma-script/expression-and-operator/logical-assignment-operator
       - text: 基本引用
-        base: /javascript/ecma-script/basic-reference
         items:
           - text: Date
-            link: /date
+            link: /javascript/ecma-script/basic-reference/date
           - text: 正则表达式
-            link: /reg-exp
+            link: /javascript/ecma-script/basic-reference/reg-exp
       - text: 集合引用
-        base: /javascript/ecma-script/collection-reference
         items:
           - text: Array
             items:
               - text: 创建数组
-                link: /array/create-array
+                link: /javascript/ecma-script/collection-reference/array/create-array
               - text: 迭代数组
-                link: /array/iterate-array
+                link: /javascript/ecma-script/collection-reference/array/iterate-array
               - text: 搜索数组
-                link: /array/search-array
+                link: /javascript/ecma-script/collection-reference/array/search-array
               - text: 数组排序
-                link: /array/sort-array
+                link: /javascript/ecma-script/collection-reference/array/sort-array
               - text: 添加或删除元素
-                link: /array/add-or-remove-element
+                link: /javascript/ecma-script/collection-reference/array/add-or-remove-element
               - text: 检测数组
-                link: /array/detect-array
+                link: /javascript/ecma-script/collection-reference/array/detect-array
               - text: 数组扁平化
-                link: /array/flatten-array
+                link: /javascript/ecma-script/collection-reference/array/flatten-array
               - text: 切片或连接数组
-                link: /array/slice-or-concat-array
+                link: /javascript/ecma-script/collection-reference/array/slice-or-concat-array
           - text: Map
             link: /map
           - text: Set
