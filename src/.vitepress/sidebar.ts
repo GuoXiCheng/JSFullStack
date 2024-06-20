@@ -6,8 +6,9 @@ export default function getSidebar() {
     .readdirSync("src/.vitepress/sidebars")
     .reduce(
       (acc, file) =>
-        (acc +=
-          fs.readFileSync(`src/.vitepress/sidebars/${file}`, "utf8") + "\n"),
+        (acc += file.endsWith("yaml")
+          ? fs.readFileSync(`src/.vitepress/sidebars/${file}`, "utf8") + "\n"
+          : ""),
       ""
     );
   return yaml.load(sidebar);

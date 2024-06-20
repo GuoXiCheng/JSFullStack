@@ -24,7 +24,7 @@ export default defineConfig(
           text: "JavaScript",
           items: [
             {
-              text: "介绍",
+              text: "JavaScript 介绍",
               link: "/javascript/introduction/what-is-javascript",
             },
             {
@@ -46,16 +46,27 @@ export default defineConfig(
           items: [
             {
               text: "Vue",
-              link: "frontend/vue/introduction/what-is-vue",
+              link: "/frontend/vue/introduction/what-is-vue",
             },
             {
               text: "React",
-              link: "frontend/react/introduction/what-is-react",
+              link: "/frontend/react/introduction/what-is-react",
             },
           ],
         },
-        { text: "后端", link: "/backend/nodejs/index" },
-        { text: "云原生", link: "/cloud-native/index" },
+        {
+          text: "后端",
+          items: [{ text: "NodeJS", link: "/backend/nodejs/about-nodejs" }],
+        },
+        {
+          text: "云原生",
+          items: [
+            {
+              text: "docker",
+              link: "/cloud-native/docker/docker-architecture",
+            },
+          ],
+        },
         {
           text: "方法论",
           items: [
@@ -65,7 +76,7 @@ export default defineConfig(
             },
           ],
         },
-        { text: "AI", link: "/ai/index" },
+        // { text: "AI", link: "/ai/index" },
         { text: "参考", link: "/reference" },
       ],
 

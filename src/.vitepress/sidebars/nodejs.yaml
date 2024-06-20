@@ -1,6 +1,5 @@
-/backend:
+/backend/nodejs:
   - text: NodeJS
-    link: /backend/nodejs/index
     items:
       - text: 关于 NodeJS
         link: /backend/nodejs/about-nodejs
