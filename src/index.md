@@ -6,17 +6,13 @@ sidebar: false
 <script setup>
 import { ref, onMounted } from 'vue';
 import MarkMap from './MarkMap.vue';
+import { useData } from 'vitepress';
+import { convertToMarkdown } from './handle-markmap';
 
 const markdown = ref('');
-const isLoaded = ref(false);
+const { theme: {_value: {nav, sidebar}} } = useData();
 
-onMounted(async () => {
-  const response = await fetch('/markmap.mdx');
-  markdown.value = await response.text();
-  isLoaded.value = true;
-});
+markdown.value = convertToMarkdown(nav, sidebar);
 </script>
 
-<div v-if="isLoaded">
-    <MarkMap :markdown="markdown" />
-</div>
+<MarkMap :markdown="markdown" />

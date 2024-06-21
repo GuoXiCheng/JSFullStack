@@ -9,3 +9,12 @@
         items:
           - text: 模版语法
             link: /frontend/vue/core-concepts/template-syntax
+            items:
+              - text: 文本插值
+                link: /frontend/vue/core-concepts/template-syntax#文本插值
+              - text: 原始 HTML
+                link: /frontend/vue/core-concepts/template-syntax#原始-html
+              - text: 属性绑定
+                link: /frontend/vue/core-concepts/template-syntax#属性绑定
+              - text: 表达式
+                link: /frontend/vue/core-concepts/template-syntax#表达式
