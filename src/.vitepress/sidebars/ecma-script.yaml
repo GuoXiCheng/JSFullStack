@@ -9,6 +9,13 @@
             link: /javascript/ecma-script/javascript-engine/call-stack
           - text: 作用域
             link: /javascript/ecma-script/javascript-engine/scope
+            items:
+              - text: 全局作用域
+                link: /javascript/ecma-script/javascript-engine/scope#全局作用域
+              - text: 函数作用域
+                link: /javascript/ecma-script/javascript-engine/scope#函数作用域
+              - text: 块级作用域
+                link: /javascript/ecma-script/javascript-engine/scope#块级作用域
           - text: 作用域链
             link: /javascript/ecma-script/javascript-engine/scope-chain
           - text: this 关键字
@@ -17,8 +24,24 @@
             link: /javascript/ecma-script/javascript-engine/event-loop
       - text: 变量声明
         link: /javascript/ecma-script/variable-declaration
+        items:
+          - text: var
+            link: /javascript/ecma-script/variable-declaration#var
+          - text: let
+            link: /javascript/ecma-script/variable-declaration#let
+          - text: const
+            link: /javascript/ecma-script/variable-declaration#const
       - text: 比较算法
         link: /javascript/ecma-script/comparison-algorithm
+        items:
+          - text: 松散相等
+            link: /javascript/ecma-script/comparison-algorithm#松散相等
+          - text: 严格相等
+            link: /javascript/ecma-script/comparison-algorithm#严格相等
+          - text: SameValue
+            link: /javascript/ecma-script/comparison-algorithm#samevalue
+          - text: SameValueZero
+            link: /javascript/ecma-script/comparison-algorithm#samevaluezero
       - text: 浅拷贝和深拷贝
         link: /javascript/ecma-script/shallow-copy-and-deep-copy
       - text: 表达式与操作符
@@ -27,10 +50,24 @@
             link: /javascript/ecma-script/expression-and-operator/conditional-access-expression
           - text: 逻辑表达式
             link: /javascript/ecma-script/expression-and-operator/logical-expression
+            items:
+              - text: 逻辑与 (&&)
+                link: /javascript/ecma-script/expression-and-operator/logical-expression#逻辑与
+              - text: 逻辑或 (||)
+                link: /javascript/ecma-script/expression-and-operator/logical-expression#逻辑或
+              - text: 逻辑非 (!)
+                link: /javascript/ecma-script/expression-and-operator/logical-expression#逻辑非
           - text: 空值合并操作符
             link: /javascript/ecma-script/expression-and-operator/nullish-coalescing-operator
           - text: 逻辑赋值操作符
             link: /javascript/ecma-script/expression-and-operator/logical-assignment-operator
+            items:
+              - text: 逻辑与赋值 (&&=)
+                link: /javascript/ecma-script/expression-and-operator/logical-assignment-operator#逻辑与赋值操作符
+              - text: 逻辑或赋值 (||=)
+                link: /javascript/ecma-script/expression-and-operator/logical-assignment-operator#逻辑或赋值操作符
+              - text: 逻辑空值合并赋值 (??=)
+                link: /javascript/ecma-script/expression-and-operator/logical-assignment-operator#空值合并赋值操作符
       - text: 基本引用
         items:
           - text: Date
@@ -65,6 +102,15 @@
         items:
           - text: 迭代器
             link: /javascript/ecma-script/iterators-and-generators/iterator
+            items:
+              - text: 什么是迭代器
+                link: /javascript/ecma-script/iterators-and-generators/iterator#什么是迭代器
+              - text: 可迭代协议
+                link: /javascript/ecma-script/iterators-and-generators/iterator#可迭代协议
+              - text: 迭代器协议
+                link: /javascript/ecma-script/iterators-and-generators/iterator#迭代器协议
+              - text: 提前终止迭代
+                link: /javascript/ecma-script/iterators-and-generators/iterator#提前终止迭代
           - text: 自定义迭代器
             link: /javascript/ecma-script/iterators-and-generators/custom-iterator
           - text: 生成器
@@ -75,6 +121,13 @@
             link: /javascript/ecma-script/json/what-is-json
           - text: JSON 数据格式
             link: /javascript/ecma-script/json/json-data-format
+            items:
+              - text: 简单值
+                link: /javascript/ecma-script/json/json-data-format#简单值
+              - text: 对象
+                link: /javascript/ecma-script/json/json-data-format#对象
+              - text: 数组
+                link: /javascript/ecma-script/json/json-data-format#数组
           - text: 序列化
             link: /javascript/ecma-script/json/serialization
           - text: 反序列化
@@ -95,6 +148,17 @@
             link: /javascript/ecma-script/object/prototype-chain
           - text: 属性描述符
             link: /javascript/ecma-script/object/property-descriptor
+            items:
+              - text: 数据描述符
+                link: /javascript/ecma-script/object/property-descriptor#数据描述符
+              - text: 访问器描述符
+                link: /javascript/ecma-script/object/property-descriptor#访问器描述符
+              - text: 定义多个属性
+                link: /javascript/ecma-script/object/property-descriptor#定义多个属性
+              - text: 获取属性描述符
+                link: /javascript/ecma-script/object/property-descriptor#获取属性描述符
+              - text: 获取所有属性描述符
+                link: /javascript/ecma-script/object/property-descriptor#获取所有属性描述符
       - text: 异步
         items:
           - text: 手写 Promise
