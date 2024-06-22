@@ -3,5 +3,17 @@
     items:
       - text: 什么是 BOM
         link: /javascript/bom/what-is-bom
-      - text: screen
+      - text: screen 对象
         link: /javascript/bom/screen
+        items:
+          - text: 什么是 screen 对象
+            link: /javascript/bom/screen#什么是-screen-对象
+          - text: screen 对象属性
+            link: /javascript/bom/screen#screen-对象属性
+      - text: history 对象
+        link: /javascript/bom/history
+        items:
+          - text: 什么是 history 对象
+            link: /javascript/bom/history#什么是-history-对象
+          - text: 使用 history 导航
+            link: /javascript/bom/history#使用-history-导航

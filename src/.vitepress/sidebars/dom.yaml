@@ -3,3 +3,10 @@
     items:
       - text: 什么是 DOM
         link: /javascript/dom/what-is-dom
+      - text: 节点层级
+        link: /javascript/dom/node-hierarchy
+        items:
+          - text: 什么是节点层级
+            link: /javascript/dom/node-hierarchy#什么是节点层级
+          - text: 节点层级结构
+            link: /javascript/dom/node-hierarchy#节点层级结构
