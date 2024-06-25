@@ -19,34 +19,32 @@ export default {
         }
     },
     setup(props) {
-        onMounted(() => {
+
+        let markmapInstance = null;
+        function createOrUpdateMarkmap() {
             const transformer = new Transformer();
             const { root, features } = transformer.transform(props.markdown);
+
+            localStorage.setItem('markmap-state-raw', JSON.stringify(root));
+
             const assets = transformer.getAssets();
 
             if (assets.styles) loadCSS(assets.styles);
             if (assets.scripts) loadJS(assets.scripts, { getMarkmap: () => window.markmap });
 
-            const hashedRoot = "markmap-state-" + simpleHash(JSON.stringify(root));
-            const savedState = localStorage.getItem(hashedRoot);
-
-            let markmapState;
-            if (savedState == null) { // 当前思维导图没有保存过状态
-                markmapState = root;
-                clearLocalStorageWithPrefix("markmap-state-");
-            } else { // 当前思维导图保存过状态
-                markmapState = JSON.parse(savedState);
+            if (markmapInstance) {
+                markmapInstance.destroy();
             }
 
-            const markmap = Markmap.create('#markmap', null, markmapState);
+            const selected = localStorage.getItem('markmap-state-selected');
+            markmapInstance = Markmap.create('#markmap', null, selected ? JSON.parse(selected) : root);
 
+            return markmapInstance;
+        }
+
+        onMounted(() => {
+            const markmap = createOrUpdateMarkmap();
             addToolbar(markmap);
-
-            for (const item of document.getElementsByTagName('circle')) {
-                item.addEventListener('click', () => {
-                    localStorage.setItem(hashedRoot, JSON.stringify(markmap.state.data));
-                });
-            }
         });
 
         // 简单的哈希函数
@@ -75,10 +73,48 @@ export default {
             const js = document.createElement('div');
             js.innerHTML = 'JS';
             js.setAttribute('style', 'cursor: pointer;');
+
+            const all = document.createElement('div');
+            all.innerHTML = 'All';
+            all.setAttribute('style', 'cursor: pointer;');
+
+            const react = document.createElement('div');
+            react.innerHTML = 'React';
+            react.setAttribute('style', 'cursor: pointer;');
+
+            const vue = document.createElement('div');
+            vue.innerHTML = 'Vue';
+            vue.setAttribute('style', 'cursor: pointer;');
             Toolbar.defaultItems = [{
                 content: js,
+                title: 'JavaScript',
                 onClick: () => {
-
+                    const raw = JSON.parse(localStorage.getItem('markmap-state-raw'));
+                    localStorage.setItem('markmap-state-selected', JSON.stringify(raw.children[0]));
+                    createOrUpdateMarkmap();
+                }
+            }, {
+                content: react,
+                title: 'React',
+                onClick: () => {
+                    const raw = JSON.parse(localStorage.getItem('markmap-state-raw'));
+                    localStorage.setItem('markmap-state-selected', JSON.stringify(raw.children[1].children[1]));
+                    createOrUpdateMarkmap();
+                }
+            }, {
+                content: vue,
+                title: 'Vue',
+                onClick: () => {
+                    const raw = JSON.parse(localStorage.getItem('markmap-state-raw'));
+                    localStorage.setItem('markmap-state-selected', JSON.stringify(raw.children[1].children[0]));
+                    createOrUpdateMarkmap();
+                }
+            }, {
+                content: all,
+                title: 'All',
+                onClick: () => {
+                    localStorage.removeItem('markmap-state-selected');
+                    createOrUpdateMarkmap();
                 }
             }];
             const toolbar = Toolbar.create(markmap);
