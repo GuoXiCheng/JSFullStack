@@ -70,21 +70,10 @@ export default {
 
         // 添加Toolbar
         function addToolbar(markmap) {
-            const js = document.createElement('div');
-            js.innerHTML = 'JS';
-            js.setAttribute('style', 'cursor: pointer;');
-
-            const all = document.createElement('div');
-            all.innerHTML = 'All';
-            all.setAttribute('style', 'cursor: pointer;');
-
-            const react = document.createElement('div');
-            react.innerHTML = 'React';
-            react.setAttribute('style', 'cursor: pointer;');
-
-            const vue = document.createElement('div');
-            vue.innerHTML = 'Vue';
-            vue.setAttribute('style', 'cursor: pointer;');
+            const js = createElementDiv('JS');
+            const all = createElementDiv('All');
+            const react = createElementDiv('React');
+            const vue = createElementDiv('Vue');
             Toolbar.defaultItems = [{
                 content: js,
                 title: 'JavaScript',
@@ -124,6 +113,13 @@ export default {
             toolbar.el.style.bottom = '0.5rem';
             toolbar.el.style.right = '0.5rem';
             document.getElementById('container').appendChild(toolbar.el);
+        }
+
+        function createElementDiv(title) {
+            const div = document.createElement('div');
+            div.innerHTML = title;
+            div.setAttribute('style', 'cursor: pointer;');
+            return div;
         }
     }
 };
