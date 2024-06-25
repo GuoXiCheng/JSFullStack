@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="container">
         <svg id="markmap" style="width: 100%; height: 90vh"></svg>
     </div>
 </template>
@@ -8,6 +8,7 @@
 import { onMounted } from 'vue';
 import { Transformer } from 'markmap-lib';
 import { Markmap, loadCSS, loadJS } from 'markmap-view';
+import { Toolbar } from 'markmap-toolbar';
 
 export default {
     name: 'MarkMap',
@@ -39,6 +40,8 @@ export default {
 
             const markmap = Markmap.create('#markmap', null, markmapState);
 
+            addToolbar(markmap);
+
             for (const item of document.getElementsByTagName('circle')) {
                 item.addEventListener('click', () => {
                     localStorage.setItem(hashedRoot, JSON.stringify(markmap.state.data));
@@ -65,6 +68,26 @@ export default {
                     localStorage.removeItem(key);
                 }
             }
+        }
+
+        // 添加Toolbar
+        function addToolbar(markmap) {
+            const js = document.createElement('div');
+            js.innerHTML = 'JS';
+            js.setAttribute('style', 'cursor: pointer;');
+            Toolbar.defaultItems = [{
+                content: js,
+                onClick: () => {
+
+                }
+            }];
+            const toolbar = Toolbar.create(markmap);
+            toolbar.setBrand(false)
+
+            toolbar.el.style.position = 'absolute';
+            toolbar.el.style.bottom = '0.5rem';
+            toolbar.el.style.right = '0.5rem';
+            document.getElementById('container').appendChild(toolbar.el);
         }
     }
 };
