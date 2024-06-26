@@ -47,65 +47,35 @@ export default {
             addToolbar(markmap);
         });
 
-        // 简单的哈希函数
-        function simpleHash(s) {
-            var hash = 0;
-            for (var i = 0; i < s.length; i++) {
-                var character = s.charCodeAt(i);
-                hash = ((hash << 5) - hash) + character;
-                hash = hash & hash; // 将hash转换为32位整数
-            }
-            return hash;
-        }
-
-        // 清理带有指定前缀的localStorage中的键
-        function clearLocalStorageWithPrefix(prefix) {
-            for (let i = 0; i < localStorage.length; i++) {
-                const key = localStorage.key(i);
-                if (key.startsWith(prefix)) {
-                    localStorage.removeItem(key);
-                }
-            }
-        }
-
         // 添加Toolbar
         function addToolbar(markmap) {
-            const js = createElementDiv('JS');
-            const all = createElementDiv('All');
-            const react = createElementDiv('React');
-            const vue = createElementDiv('Vue');
-            Toolbar.defaultItems = [{
-                content: js,
-                title: 'JavaScript',
-                onClick: () => {
-                    const raw = JSON.parse(localStorage.getItem('markmap-state-raw'));
-                    localStorage.setItem('markmap-state-selected', JSON.stringify(raw.children[0]));
-                    createOrUpdateMarkmap();
+            const raw = JSON.parse(localStorage.getItem('markmap-state-raw'));
+
+            Toolbar.defaultItems = [
+                {
+                    title: 'JavaScript',
+                    data: raw.children[0],
+                }, {
+                    title: 'NodeJS',
+                    data: raw.children[2].children[0],
+                }, {
+                    title: '云原生',
+                    data: raw.children[3],
+                }, {
+                    title: '方法论',
+                    data: raw.children[4],
+                }, {
+                    title: 'React',
+                    data: raw.children[1].children[1],
+                }, {
+                    title: 'Vue',
+                    data: raw.children[1].children[0],
+                }, {
+                    title: 'All',
+                    data: raw,
                 }
-            }, {
-                content: react,
-                title: 'React',
-                onClick: () => {
-                    const raw = JSON.parse(localStorage.getItem('markmap-state-raw'));
-                    localStorage.setItem('markmap-state-selected', JSON.stringify(raw.children[1].children[1]));
-                    createOrUpdateMarkmap();
-                }
-            }, {
-                content: vue,
-                title: 'Vue',
-                onClick: () => {
-                    const raw = JSON.parse(localStorage.getItem('markmap-state-raw'));
-                    localStorage.setItem('markmap-state-selected', JSON.stringify(raw.children[1].children[0]));
-                    createOrUpdateMarkmap();
-                }
-            }, {
-                content: all,
-                title: 'All',
-                onClick: () => {
-                    localStorage.removeItem('markmap-state-selected');
-                    createOrUpdateMarkmap();
-                }
-            }];
+            ].map(item => createToolbarItem(item.title, item.data));
+
             const toolbar = Toolbar.create(markmap);
             toolbar.setBrand(false)
 
@@ -115,11 +85,18 @@ export default {
             document.getElementById('container').appendChild(toolbar.el);
         }
 
-        function createElementDiv(title) {
+        function createToolbarItem(title, data) {
             const div = document.createElement('div');
             div.innerHTML = title;
-            div.setAttribute('style', 'cursor: pointer;');
-            return div;
+            div.setAttribute('style', 'cursor: pointer;text-align: center;');
+            return {
+                content: div,
+                title,
+                onClick: () => {
+                    localStorage.setItem('markmap-state-selected', JSON.stringify(data));
+                    createOrUpdateMarkmap();
+                }
+            }
         }
     }
 };
