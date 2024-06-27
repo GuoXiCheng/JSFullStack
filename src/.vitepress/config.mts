@@ -9,6 +9,12 @@ export default defineConfig(
     description: "JavaScript full stack knowledge",
     base: "/",
     lastUpdated: true,
+    head: [
+      [
+        "link",
+        { rel: "icon", type: "image/x-icon", href: "/images/favicon.ico" },
+      ],
+    ],
     themeConfig: {
       editLink: {
         pattern:
