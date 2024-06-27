@@ -1,3 +1,7 @@
+---
+aside: false
+---
+
 # 什么是 Vue
 
 ## Vue 是什么

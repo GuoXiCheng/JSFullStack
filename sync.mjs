@@ -7,12 +7,13 @@ import fs from "fs";
     const repoURLs = [
         'https://github.com/GuoXiCheng/react-sandbox.git',
         'https://github.com/GuoXiCheng/javascript-sandbox.git',
+        'https://github.com/GuoXiCheng/vue-sandbox.git',
     ];
-    
+
     if (!fs.existsSync(projectsDir)) {
         fs.mkdirSync(projectsDir);
     }
-    
+
     repoURLs.forEach(repoURL => {
         let cloneCommand;
 
