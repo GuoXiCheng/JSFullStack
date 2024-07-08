@@ -159,6 +159,15 @@
                 link: /javascript/ecma-script/object/property-descriptor#获取属性描述符
               - text: 获取所有属性描述符
                 link: /javascript/ecma-script/object/property-descriptor#获取所有属性描述符
+      - text: 模块 
+        items:
+          - text: 理解模块
+            link: /javascript/ecma-script/module/understand-module
+            items:
+              - text: 理解模块模式
+                link: /javascript/ecma-script/module/understand-module#理解模块模式
+              - text: 模块模式的实现
+                link: /javascript/ecma-script/module/understand-module#模块模式的实现
       - text: 异步
         items:
           - text: 手写 Promise

@@ -9,16 +9,10 @@ export default defineConfig(
     description: "JavaScript full stack knowledge",
     base: "/",
     lastUpdated: true,
-    head: [
-      [
-        "link",
-        { rel: "icon", type: "image/x-icon", href: "/images/favicon.ico" },
-      ],
-    ],
+    head: [["link", { rel: "icon", type: "image/x-icon", href: "/images/favicon.ico" }]],
     themeConfig: {
       editLink: {
-        pattern:
-          "https://github.com/GuoXiCheng/JSFullStack/edit/main/src/:path",
+        pattern: "https://github.com/GuoXiCheng/JSFullStack/edit/main/src/:path",
       },
       outline: {
         level: "deep",
@@ -88,9 +82,7 @@ export default defineConfig(
 
       sidebar: getSidebar(),
 
-      socialLinks: [
-        { icon: "github", link: "https://github.com/GuoXiCheng/JSFullStack" },
-      ],
+      socialLinks: [{ icon: "github", link: "https://github.com/GuoXiCheng/JSFullStack" }],
     },
   })
 );
