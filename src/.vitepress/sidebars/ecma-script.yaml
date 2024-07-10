@@ -163,11 +163,18 @@
         items:
           - text: 理解模块
             link: /javascript/ecma-script/module/understand-module
+          - text: ES6 之前的模块
             items:
-              - text: 理解模块模式
-                link: /javascript/ecma-script/module/understand-module#理解模块模式
-              - text: 模块模式的实现
-                link: /javascript/ecma-script/module/understand-module#模块模式的实现
+              - text: IIFE
+                link: /javascript/ecma-script/module/module-before-es6/iife
+              - text: CommonJS
+                link: /javascript/ecma-script/module/module-before-es6/commonjs
+              - text: AMD
+                link: /javascript/ecma-script/module/module-before-es6/amd
+              - text: UMD
+                link: /javascript/ecma-script/module/module-before-es6/umd
+          # - text: ES6 的模块
+          #   link: /javascript/ecma-script/module/module-in-es6
       - text: 异步
         items:
           - text: 手写 Promise
