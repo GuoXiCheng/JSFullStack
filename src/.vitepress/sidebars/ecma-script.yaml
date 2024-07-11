@@ -173,8 +173,8 @@
                 link: /javascript/ecma-script/module/module-before-es6/amd
               - text: UMD
                 link: /javascript/ecma-script/module/module-before-es6/umd
-          # - text: ES6 的模块
-          #   link: /javascript/ecma-script/module/module-in-es6
+          - text: ES6 的模块
+            link: /javascript/ecma-script/module/module-in-es6
       - text: 异步
         items:
           - text: 手写 Promise
