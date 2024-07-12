@@ -30,6 +30,18 @@ const createOrUpdateMarkmap = (markmapFormat) => {
     }
 
     markmapInstance = Markmap.create('#markmap', undefined, markmapFormat);
+
+    // 滚动到当前节点
+    document.querySelectorAll(".markmap-node").forEach((node) => {
+        node.addEventListener('click', (event) => {
+            setTimeout(() => {
+                const activeNode = document.querySelector('.is-active');
+                if (activeNode) {
+                    activeNode.scrollIntoView({ behavior: 'auto', block: 'center' });
+                }
+            }, 500)
+        });
+    });
 }
 
 const convertMarkdown = (markdown) => {
