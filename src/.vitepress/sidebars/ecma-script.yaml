@@ -94,6 +94,17 @@
                 link: /javascript/ecma-script/collection-reference/array/flatten-array
               - text: 切片或连接数组
                 link: /javascript/ecma-script/collection-reference/array/slice-or-concat-array
+              - text: 稀疏数组
+                link: /javascript/ecma-script/collection-reference/array/sparse-array
+                items:
+                  - text: 什么是稀疏数组
+                    link: /javascript/ecma-script/collection-reference/array/sparse-array#什么是稀疏数组
+                  - text: 创建稀疏数组
+                    link: /javascript/ecma-script/collection-reference/array/sparse-array#创建稀疏数组
+                  - text: 检查稀疏数组
+                    link: /javascript/ecma-script/collection-reference/array/sparse-array#检查稀疏数组
+                  - text: 遍历稀疏数组
+                    link: /javascript/ecma-script/collection-reference/array/sparse-array#遍历稀疏数组
           - text: Map
             link: /javascript/ecma-script/collection-reference/map
           - text: Set

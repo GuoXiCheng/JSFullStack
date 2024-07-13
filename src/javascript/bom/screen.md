@@ -1,7 +1,3 @@
----
-aside: false
----
-
 # screen 对象
 
 ## 什么是 screen 对象

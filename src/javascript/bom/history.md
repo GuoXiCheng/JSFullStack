@@ -1,7 +1,3 @@
----
-aside: false
----
-
 # history 对象
 
 ## 什么是 history 对象

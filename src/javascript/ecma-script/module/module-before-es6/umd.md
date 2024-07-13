@@ -1,7 +1,3 @@
----
-aside: false
----
-
 # UMD
 
 UMD（Universal Module Definition）是一种通用模块定义规范，它是为了统一 CommonJS 和 AMD 两种模块定义规范而设计的。
