@@ -1,7 +1,3 @@
----
-aside: false
----
-
 # 什么是 DOM
 
 DOM 的全称是“文档对象模型”，它是 HTML 和 XML 文档的编程接口。

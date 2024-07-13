@@ -1,7 +1,3 @@
----
-aside: false
----
-
 # AMD
 
 AMD（Asynchronous Module Definition）是一种异步模块定义规范，它以浏览器为目标执行环境。
