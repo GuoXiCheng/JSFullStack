@@ -170,6 +170,17 @@
                 link: /javascript/ecma-script/object/property-descriptor#获取属性描述符
               - text: 获取所有属性描述符
                 link: /javascript/ecma-script/object/property-descriptor#获取所有属性描述符
+      - text: 代理与反射
+        items:
+          - text: 代理
+            link: /javascript/ecma-script/proxy-and-reflect/proxy
+            items:
+              - text: 什么是代理
+                link: /javascript/ecma-script/proxy-and-reflect/proxy#什么是代理
+              - text: 创建代理
+                link: /javascript/ecma-script/proxy-and-reflect/proxy#创建代理
+              - text: 创建可撤销代理
+                link: /javascript/ecma-script/proxy-and-reflect/proxy#创建可撤销代理
       - text: 模块 
         items:
           - text: 理解模块
