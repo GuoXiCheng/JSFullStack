@@ -4,6 +4,7 @@
       - text: ES 的版本
         link: /javascript/ecma-script/es-version
       - text: JavaScript 引擎
+        collapsed: true
         items:
           - text: 调用栈
             link: /javascript/ecma-script/javascript-engine/call-stack
@@ -23,6 +24,7 @@
           - text: 事件循环
             link: /javascript/ecma-script/javascript-engine/event-loop
       - text: 变量声明
+        collapsed: true
         link: /javascript/ecma-script/variable-declaration
         items:
           - text: var
@@ -32,6 +34,7 @@
           - text: const
             link: /javascript/ecma-script/variable-declaration#const
       - text: 比较算法
+        collapsed: true
         link: /javascript/ecma-script/comparison-algorithm
         items:
           - text: 松散相等
@@ -45,6 +48,7 @@
       - text: 浅拷贝和深拷贝
         link: /javascript/ecma-script/shallow-copy-and-deep-copy
       - text: 表达式与操作符
+        collapsed: true
         items:
           - text: 条件访问表达式
             link: /javascript/ecma-script/expression-and-operator/conditional-access-expression
@@ -69,12 +73,14 @@
               - text: 逻辑空值合并赋值 (??=)
                 link: /javascript/ecma-script/expression-and-operator/logical-assignment-operator#空值合并赋值操作符
       - text: 基本引用
+        collapsed: true
         items:
           - text: Date
             link: /javascript/ecma-script/basic-reference/date
           - text: 正则表达式
             link: /javascript/ecma-script/basic-reference/reg-exp
       - text: 集合引用
+        collapsed: true
         items:
           - text: Array
             items:
@@ -110,6 +116,7 @@
           - text: Set
             link: /javascript/ecma-script/collection-reference/set
       - text: 迭代器与生成器
+        collapsed: true
         items:
           - text: 迭代器
             link: /javascript/ecma-script/iterators-and-generators/iterator
@@ -127,6 +134,7 @@
           - text: 生成器
             link: /javascript/ecma-script/iterators-and-generators/generator
       - text: JSON
+        collapsed: true
         items:
           - text: 什么是 JSON
             link: /javascript/ecma-script/json/what-is-json
@@ -144,6 +152,7 @@
           - text: 反序列化
             link: /javascript/ecma-script/json/deserialization
       - text: 函数
+        collapsed: true
         items:
           - text: 定义函数
             link: /javascript/ecma-script/function/define-function
@@ -152,6 +161,7 @@
           - text: 闭包
             link: /javascript/ecma-script/function/closure
       - text: 对象
+        collapsed: true
         items:
           - text: 原型
             link: /javascript/ecma-script/object/prototype
@@ -171,6 +181,7 @@
               - text: 获取所有属性描述符
                 link: /javascript/ecma-script/object/property-descriptor#获取所有属性描述符
       - text: 代理与反射
+        collapsed: true
         items:
           - text: 代理
             link: /javascript/ecma-script/proxy-and-reflect/proxy
@@ -182,6 +193,7 @@
               - text: 创建可撤销代理
                 link: /javascript/ecma-script/proxy-and-reflect/proxy#创建可撤销代理
       - text: 模块 
+        collapsed: true
         items:
           - text: 理解模块
             link: /javascript/ecma-script/module/understand-module
@@ -198,6 +210,7 @@
           - text: ES6 的模块
             link: /javascript/ecma-script/module/module-in-es6
       - text: 异步
+        collapsed: true
         items:
           - text: 手写 Promise
             link: /javascript/ecma-script/async/write-promise
