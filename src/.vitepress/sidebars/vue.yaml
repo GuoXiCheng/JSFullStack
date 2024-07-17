@@ -9,6 +9,15 @@
         items:
           - text: 插值表达式
             link: /frontend/vue/template-syntax/interpolation
+          - text: 属性绑定
+            link: /frontend/vue/template-syntax/attribute-binding
+            items:
+              - text: 绑定元素属性
+                link: /frontend/vue/template-syntax/attribute-binding#绑定元素属性
+              - text: 绑定布尔值属性
+                link: /frontend/vue/template-syntax/attribute-binding#绑定布尔值属性
+              - text: 绑定对象属性
+                link: /frontend/vue/template-syntax/attribute-binding#绑定对象属性
       # - text: 核心概念
       #   items:
       #     - text: 模版语法
