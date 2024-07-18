@@ -18,6 +18,13 @@
                 link: /frontend/vue/template-syntax/attribute-binding#绑定布尔值属性
               - text: 绑定对象属性
                 link: /frontend/vue/template-syntax/attribute-binding#绑定对象属性
+          - text: 样式绑定
+            link: /frontend/vue/template-syntax/style-binding
+            items:
+              - text: class 类样式绑定
+                link: /frontend/vue/template-syntax/style-binding#class-类样式绑定
+              - text: style 内联样式绑定
+                link: /frontend/vue/template-syntax/style-binding#style-内联样式绑定
       # - text: 核心概念
       #   items:
       #     - text: 模版语法
