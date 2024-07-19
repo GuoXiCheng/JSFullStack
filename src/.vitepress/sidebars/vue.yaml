@@ -25,6 +25,30 @@
                 link: /frontend/vue/template-syntax/style-binding#class-类样式绑定
               - text: style 内联样式绑定
                 link: /frontend/vue/template-syntax/style-binding#style-内联样式绑定
+          - text: 条件渲染
+            link: /frontend/vue/template-syntax/conditional-rendering
+            items:
+              - text: v-if-else
+                link: /frontend/vue/template-syntax/conditional-rendering#v-if-else
+              - text: template 上的 v-if
+                link: /frontend/vue/template-syntax/conditional-rendering#template-上的-v-if
+              - text: v-show
+                link: /frontend/vue/template-syntax/conditional-rendering#v-show
+              - text: v-if vs. v-show
+                link: /frontend/vue/template-syntax/conditional-rendering#v-if-vs-v-show
+          - text: 列表渲染
+            link: /frontend/vue/template-syntax/list-rendering
+            items:
+              - text: 基于数组的渲染
+                link: /frontend/vue/template-syntax/list-rendering#基于数组的渲染
+              - text: 基于对象的渲染
+                link: /frontend/vue/template-syntax/list-rendering#基于对象的渲染
+              - text: 基于范围的渲染
+                link: /frontend/vue/template-syntax/list-rendering#基于范围的渲染
+              - text: template 上的 v-for
+                link: /frontend/vue/template-syntax/list-rendering#template-上的-v-for
+              - text: v-for 与 v-if
+                link: /frontend/vue/template-syntax/list-rendering#v-for-与-v-if
       # - text: 核心概念
       #   items:
       #     - text: 模版语法
