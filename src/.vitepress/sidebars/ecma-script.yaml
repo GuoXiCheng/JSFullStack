@@ -192,6 +192,15 @@
                 link: /javascript/ecma-script/proxy-and-reflect/proxy#创建代理
               - text: 创建可撤销代理
                 link: /javascript/ecma-script/proxy-and-reflect/proxy#创建可撤销代理
+          - text: 反射
+            link: /javascript/ecma-script/proxy-and-reflect/reflect
+            items:
+              - text: 什么是反射
+                link: /javascript/ecma-script/proxy-and-reflect/reflect#什么是反射
+              - text: 直接使用反射
+                link: /javascript/ecma-script/proxy-and-reflect/reflect#直接使用反射
+              - text: 代理捕获器中使用反射
+                link: /javascript/ecma-script/proxy-and-reflect/reflect#代理捕获器中使用反射
       - text: 模块 
         collapsed: true
         items:
