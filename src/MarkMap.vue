@@ -39,7 +39,7 @@ const createOrUpdateMarkmap = (markmapFormat) => {
                 if (activeNode) {
                     activeNode.scrollIntoView({ behavior: 'auto', block: 'center' });
                 }
-            }, 500)
+            }, 600)
         });
     });
 }
