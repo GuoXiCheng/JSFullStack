@@ -49,16 +49,27 @@
                 link: /frontend/vue/template-syntax/list-rendering#template-上的-v-for
               - text: v-for 与 v-if
                 link: /frontend/vue/template-syntax/list-rendering#v-for-与-v-if
-      # - text: 核心概念
-      #   items:
-      #     - text: 模版语法
-      #       link: /frontend/vue/core-concepts/template-syntax
-      #       items:
-      #         - text: 文本插值
-      #           link: /frontend/vue/core-concepts/template-syntax#文本插值
-      #         - text: 原始 HTML
-      #           link: /frontend/vue/core-concepts/template-syntax#原始-html
-      #         - text: 属性绑定
-      #           link: /frontend/vue/core-concepts/template-syntax#属性绑定
-      #         - text: 表达式
-      #           link: /frontend/vue/core-concepts/template-syntax#表达式
+      - text: 表单
+        items:
+          - text: 双向绑定
+            link: /frontend/vue/form/two-way-binding
+            items:
+              - text: 什么是双向绑定
+                link: /frontend/vue/form/two-way-binding#什么是双向绑定
+              - text: 文本框
+                link: /frontend/vue/form/two-way-binding#文本框
+              - text: 复选框
+                link: /frontend/vue/form/two-way-binding#复选框
+              - text: 单选框
+                link: /frontend/vue/form/two-way-binding#单选框
+              - text: 下拉选框
+                link: /frontend/vue/form/two-way-binding#下拉选框
+          - text: 修饰符
+            link: /frontend/vue/form/modifiers
+            items:
+              - text: .lazy
+                link: /frontend/vue/form/modifiers#lazy
+              - text: .number
+                link: /frontend/vue/form/modifiers#number
+              - text: .trim
+                link: /frontend/vue/form/modifiers#trim
