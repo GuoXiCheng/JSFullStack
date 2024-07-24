@@ -6,6 +6,7 @@
   - text: Vue
     items:
       - text: 模版语法
+        collapsed: true
         items:
           - text: 插值表达式
             link: /frontend/vue/template-syntax/interpolation
@@ -50,6 +51,7 @@
               - text: v-for 与 v-if
                 link: /frontend/vue/template-syntax/list-rendering#v-for-与-v-if
       - text: 表单
+        collapsed: true
         items:
           - text: 双向绑定
             link: /frontend/vue/form/two-way-binding

@@ -201,6 +201,23 @@
                 link: /javascript/ecma-script/proxy-and-reflect/reflect#直接使用反射
               - text: 代理捕获器中使用反射
                 link: /javascript/ecma-script/proxy-and-reflect/reflect#代理捕获器中使用反射
+          - text: 代理模式
+            link: /javascript/ecma-script/proxy-and-reflect/proxy-pattern
+            items:
+              - text: 跟踪属性访问
+                link: /javascript/ecma-script/proxy-and-reflect/proxy-pattern#跟踪属性访问
+              - text: 隐藏属性
+                link: /javascript/ecma-script/proxy-and-reflect/proxy-pattern#隐藏属性
+              - text: 属性验证
+                link: /javascript/ecma-script/proxy-and-reflect/proxy-pattern#属性验证
+              - text: 函数参数验证
+                link: /javascript/ecma-script/proxy-and-reflect/proxy-pattern#函数参数验证
+              - text: 构造函数参数验证
+                link: /javascript/ecma-script/proxy-and-reflect/proxy-pattern#构造函数参数验证
+              - text: 数据绑定
+                link: /javascript/ecma-script/proxy-and-reflect/proxy-pattern#数据绑定
+              - text: 可观察对象
+                link: /javascript/ecma-script/proxy-and-reflect/proxy-pattern#可观察对象
       - text: 模块 
         collapsed: true
         items:
