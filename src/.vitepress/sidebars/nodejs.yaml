@@ -27,6 +27,31 @@
                 link: /backend/nodejs/file-system/file-operation#文件追加
               - text: 文件删除
                 link: /backend/nodejs/file-system/file-operation#文件删除
+          - text: 目录操作
+            link: /backend/nodejs/file-system/directory-operation
+            items:
+              - text: 创建目录
+                link: /backend/nodejs/file-system/directory-operation#创建目录
+              - text: 读取目录
+                link: /backend/nodejs/file-system/directory-operation#读取目录
+              - text: 删除目录
+                link: /backend/nodejs/file-system/directory-operation#删除目录
+          - text: 文件状态
+            link: /backend/nodejs/file-system/file-status
+            items:
+              - text: 获取文件状态
+                link: /backend/nodejs/file-system/file-status#获取文件状态
+              - text: 文件状态对象
+                link: /backend/nodejs/file-system/file-status#文件状态对象
+          - text: 流操作
+            link: /backend/nodejs/file-system/stream-operation
+            items:
+              - text: 读取流
+                link: /backend/nodejs/file-system/stream-operation#读取流
+              - text: 写入流
+                link: /backend/nodejs/file-system/stream-operation#写入流
+              - text: 管道流
+                link: /backend/nodejs/file-system/stream-operation#管道流
           - text: 文件系统标志
             link: /backend/nodejs/file-system/file-system-flag
             
