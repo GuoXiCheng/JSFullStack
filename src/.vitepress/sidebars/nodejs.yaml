@@ -43,6 +43,15 @@
                 link: /backend/nodejs/file-system/file-status#获取文件状态
               - text: 文件状态对象
                 link: /backend/nodejs/file-system/file-status#文件状态对象
+          - text: 流操作
+            link: /backend/nodejs/file-system/stream-operation
+            items:
+              - text: 读取流
+                link: /backend/nodejs/file-system/stream-operation#读取流
+              - text: 写入流
+                link: /backend/nodejs/file-system/stream-operation#写入流
+              - text: 管道流
+                link: /backend/nodejs/file-system/stream-operation#管道流
           - text: 文件系统标志
             link: /backend/nodejs/file-system/file-system-flag
             
