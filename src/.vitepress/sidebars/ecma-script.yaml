@@ -123,14 +123,22 @@
             items:
               - text: 什么是迭代器
                 link: /javascript/ecma-script/iterators-and-generators/iterator#什么是迭代器
+              - text: 迭代方式的演变
+                link: /javascript/ecma-script/iterators-and-generators/iterator#迭代方式的演变
+          - text: 迭代器模式
+            link: /javascript/ecma-script/iterators-and-generators/iterator-pattern
+            items:
               - text: 可迭代协议
-                link: /javascript/ecma-script/iterators-and-generators/iterator#可迭代协议
+                link: /javascript/ecma-script/iterators-and-generators/iterator-pattern#可迭代协议
               - text: 迭代器协议
-                link: /javascript/ecma-script/iterators-and-generators/iterator#迭代器协议
-              - text: 提前终止迭代
-                link: /javascript/ecma-script/iterators-and-generators/iterator#提前终止迭代
+                link: /javascript/ecma-script/iterators-and-generators/iterator-pattern#迭代器协议
           - text: 自定义迭代器
-            link: /javascript/ecma-script/iterators-and-generators/custom-iterator
+            link: /javascript/ecma-script/iterators-and-generators/iterator-custom
+            items:
+              - text: 实现迭代器接口
+                link: /javascript/ecma-script/iterators-and-generators/iterator-custom#实现迭代器接口
+              - text: 提前终止迭代
+                link: /javascript/ecma-script/iterators-and-generators/iterator-custom#提前终止迭代
           - text: 生成器
             link: /javascript/ecma-script/iterators-and-generators/generator
       - text: JSON
