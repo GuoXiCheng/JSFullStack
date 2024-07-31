@@ -141,6 +141,27 @@
                 link: /javascript/ecma-script/iterators-and-generators/iterator-custom#提前终止迭代
           - text: 生成器
             link: /javascript/ecma-script/iterators-and-generators/generator
+            items:
+              - text: 什么是生成器
+                link: /javascript/ecma-script/iterators-and-generators/generator#什么是生成器
+              - text: 定义生成器
+                link: /javascript/ecma-script/iterators-and-generators/generator#定义生成器
+          - text: yield 关键字
+            link: /javascript/ecma-script/iterators-and-generators/generator-yield
+            items:
+              - text: 什么是 yield 关键字
+                link: /javascript/ecma-script/iterators-and-generators/generator-yield#什么是-yield-关键字
+              - text: yield 与 yield*
+                link: /javascript/ecma-script/iterators-and-generators/generator-yield#yield-与-yield
+              - text: yield 关键字的用法
+                link: /javascript/ecma-script/iterators-and-generators/generator-yield#yield-关键字的用法
+          - text: 提前终止生成器
+            link: /javascript/ecma-script/iterators-and-generators/generator-terminate
+            items:
+              - text: 使用 return 提前终止生成器
+                link: /javascript/ecma-script/iterators-and-generators/generator-terminate#使用-return-提前终止生成器
+              - text: 使用 throw 提前终止生成器
+                link: /javascript/ecma-script/iterators-and-generators/generator-terminate#使用-throw-提前终止生成器
       - text: JSON
         collapsed: true
         items:
