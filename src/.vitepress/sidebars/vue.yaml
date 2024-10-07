@@ -50,6 +50,18 @@
                 link: /frontend/vue/template-syntax/list-rendering#template-上的-v-for
               - text: v-for 与 v-if
                 link: /frontend/vue/template-syntax/list-rendering#v-for-与-v-if
+      - text: 计算属性和侦听器
+        collapsed: true
+        items:
+          - text: 计算属性
+            link: /frontend/vue/computed-and-watch/computed
+            items:
+              - text: 基本用法
+                link: /frontend/vue/computed-and-watch/computed#基本用法
+              - text: 可写计算属性
+                link: /frontend/vue/computed-and-watch/computed#可写计算属性
+              - text: 最佳实践
+                link: /frontend/vue/computed-and-watch/computed#最佳实践
       - text: 表单
         collapsed: true
         items:
