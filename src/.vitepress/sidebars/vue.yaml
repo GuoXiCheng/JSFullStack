@@ -50,18 +50,48 @@
                 link: /frontend/vue/template-syntax/list-rendering#template-上的-v-for
               - text: v-for 与 v-if
                 link: /frontend/vue/template-syntax/list-rendering#v-for-与-v-if
-      - text: 计算属性和侦听器
+      - text: 计算属性
         collapsed: true
         items:
-          - text: 计算属性
-            link: /frontend/vue/computed-and-watch/computed
+          - text: 基本用法
+            link: /frontend/vue/computed#基本用法
+          - text: 可写计算属性
+            link: /frontend/vue/computed#可写计算属性
+          - text: 最佳实践
+            link: /frontend/vue/computed#最佳实践
             items:
-              - text: 基本用法
-                link: /frontend/vue/computed-and-watch/computed#基本用法
-              - text: 可写计算属性
-                link: /frontend/vue/computed-and-watch/computed#可写计算属性
-              - text: 最佳实践
-                link: /frontend/vue/computed-and-watch/computed#最佳实践
+              - text: 计算属性缓存
+                link: /frontend/vue/computed#计算属性缓存
+              - text: getter 方法不应有副作用
+                link: /frontend/vue/computed#getter-方法不应有副作用
+              - text: 避免直接修改计算属性值
+                link: /frontend/vue/computed#避免直接修改计算属性值
+      - text: 侦听器
+        collapsed: true
+        items:
+          - text: 基本用法
+            link: /frontend/vue/watch/basic
+            items:
+              - text: 基本示例
+                link: /frontend/vue/watch/basic#基本示例
+              - text: 侦听源数据类型
+                link: /frontend/vue/watch/basic#侦听源数据类型
+                items:
+                  - text: ref 或 reactive
+                    link: /frontend/vue/watch/basic#ref-或-reactive
+                  - text: getter 函数
+                    link: /frontend/vue/watch/basic#getter-函数
+                  - text: 多个侦听源
+                    link: /frontend/vue/watch/basic#多个侦听源
+          - text: 侦听器的类型
+            link: /frontend/vue/watch/types
+            items:
+              - text: 深层侦听
+                link: /frontend/vue/watch/types#深层侦听
+              - text: 即时侦听
+                link: /frontend/vue/watch/types#即时侦听
+              - text: 一次性侦听
+                link: /frontend/vue/watch/types#一次性侦听
       - text: 表单
         collapsed: true
         items:
