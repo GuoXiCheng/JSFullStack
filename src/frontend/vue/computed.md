@@ -6,7 +6,9 @@
 
 `getter函数`会在计算属性的依赖项（`author.books`）发生变化时重新计算。
 
+::: details 查看示例
 <<< @/../projects/vue-sandbox/src/components/ComputedAndWatch/ComputedBasic.vue
+:::
 
 ## 可写计算属性
 
@@ -14,7 +16,9 @@
 
 可以同时提供`getter`和`setter`函数创建可写的计算属性。
 
+::: details 查看示例
 <<< @/../projects/vue-sandbox/src/components/ComputedAndWatch/ComputedWritable.vue
+:::
 
 ## 最佳实践
 
