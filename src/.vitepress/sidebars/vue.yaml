@@ -74,15 +74,31 @@
             items:
               - text: 基本示例
                 link: /frontend/vue/watch/basic#基本示例
-              - text: 侦听源数据类型
-                link: /frontend/vue/watch/basic#侦听源数据类型
+              - text: 回调的触发时机
+                link: /frontend/vue/watch/basic#回调的触发时机
                 items:
-                  - text: ref 或 reactive
-                    link: /frontend/vue/watch/basic#ref-或-reactive
-                  - text: getter 函数
-                    link: /frontend/vue/watch/basic#getter-函数
-                  - text: 多个侦听源
-                    link: /frontend/vue/watch/basic#多个侦听源
+                  - text: Vue 更新之前触发
+                    link: /frontend/vue/watch/basic#vue-更新之前触发
+                  - text: Vue 更新之后触发
+                    link: /frontend/vue/watch/basic#vue-更新之后触发
+              - text: 副作用清理
+                link: /frontend/vue/watch/basic#副作用清理
+                items:
+                  - text: onCleanup
+                    link: /frontend/vue/watch/basic#oncleanup
+                  - text: onWatcherCleanup
+                    link: /frontend/vue/watch/basic#onwatchercleanup
+              - text: 停止侦听
+                link: /frontend/vue/watch/basic#停止侦听
+          - text: 侦听源数据类型 
+            link: /frontend/vue/watch/source-type
+            items:
+              - text: ref 或 reactive
+                link: /frontend/vue/watch/source-type#ref-或-reactive
+              - text: getter 函数
+                link: /frontend/vue/watch/source-type#getter-函数
+              - text: 多个侦听源
+                link: /frontend/vue/watch/source-type#多个侦听源
           - text: 侦听器的类型
             link: /frontend/vue/watch/types
             items:
@@ -92,6 +108,13 @@
                 link: /frontend/vue/watch/types#即时侦听
               - text: 一次性侦听
                 link: /frontend/vue/watch/types#一次性侦听
+          - text: watch vs. watchEffect
+            link: /frontend/vue/watch/watch-effect
+            items:
+              - text: watcheffect 的使用场景
+                link: /frontend/vue/watch/watch-effect#watcheffect-的使用场景
+              - text: 比较 watch 和 watcheffect
+                link: /frontend/vue/watch/watch-effect#比较-watch-和-watcheffect
       - text: 表单
         collapsed: true
         items:
