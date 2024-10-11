@@ -9,7 +9,10 @@ export default defineConfig(
     description: "JavaScript full stack knowledge",
     base: "/",
     lastUpdated: true,
-    head: [["link", { rel: "icon", type: "image/x-icon", href: "/images/favicon.ico" }]],
+    head: [
+      ["link", { rel: "icon", type: "image/x-icon", href: "/images/favicon.ico" }],
+      ["script", { src: "/js/baidu-analytics.js", async: true }],
+    ],
     themeConfig: {
       editLink: {
         pattern: "https://github.com/GuoXiCheng/JSFullStack/edit/main/src/:path",
