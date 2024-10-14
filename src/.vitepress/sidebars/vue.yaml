@@ -115,6 +115,24 @@
                 link: /frontend/vue/watch/watch-effect#watcheffect-的使用场景
               - text: 比较 watch 和 watcheffect
                 link: /frontend/vue/watch/watch-effect#比较-watch-和-watcheffect
+      - text: 事件监听
+        items:
+          - text: 事件处理器
+            link: /frontend/vue/event-handling/handler
+            items:
+              - text: 监听事件
+                link: /frontend/vue/event-handling/handler#监听事件
+              - text: 内联事件处理器
+                link: /frontend/vue/event-handling/handler#内联事件处理器
+              - text: 方法事件处理器
+                link: /frontend/vue/event-handling/handler#方法事件处理器
+          - text: 事件处理参数
+            link: /frontend/vue/event-handling/arguments
+            items:
+              - text: 访问自定义参数
+                link: /frontend/vue/event-handling/arguments#访问自定义参数
+              - text: 访问原生事件参数
+                link: /frontend/vue/event-handling/arguments#访问原生事件参数
       - text: 表单
         collapsed: true
         items:
