@@ -133,6 +133,22 @@
                 link: /frontend/vue/event-handling/arguments#访问自定义参数
               - text: 访问原生事件参数
                 link: /frontend/vue/event-handling/arguments#访问原生事件参数
+          - text: 修饰符
+            link: /frontend/vue/event-handling/modifiers
+            items:
+              - text: 事件修饰符
+                link: /frontend/vue/event-handling/modifiers#事件修饰符
+              - text: 按键修饰符
+                link: /frontend/vue/event-handling/modifiers#按键修饰符
+                items:
+                  - text: 常用按键别名
+                    link: /frontend/vue/event-handling/modifiers#常用按键别名
+                  - text: 系统按键修饰符
+                    link: /frontend/vue/event-handling/modifiers#系统按键修饰符
+                  - text: .exact 修饰符
+                    link: /frontend/vue/event-handling/modifiers#exact-修饰符
+              - text: 鼠标按键修饰符
+                link: /frontend/vue/event-handling/modifiers#鼠标按键修饰符
       - text: 表单
         collapsed: true
         items:
