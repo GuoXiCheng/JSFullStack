@@ -7,3 +7,4 @@
 - [React Documentation](https://react.dev)
 - [MDN Web Docs](https://developer.mozilla.org/en-US/)
 - [Vue.js](https://cn.vuejs.org/)
+- [Vuex](https://vuex.vuejs.org/zh/)

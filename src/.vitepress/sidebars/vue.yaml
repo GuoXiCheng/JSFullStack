@@ -174,3 +174,29 @@
                 link: /frontend/vue/form/modifiers#number
               - text: .trim
                 link: /frontend/vue/form/modifiers#trim
+      - text: 状态管理
+        collapsed: true
+        items:
+          - text: Vuex
+            items:
+              - text: Vuex 介绍
+                link: /frontend/vue/state-management/vuex/introduction
+                items:
+                  - text: 什么是 Vuex
+                    link: /frontend/vue/state-management/vuex/introduction#什么是-vuex
+                  - text: 什么是状态管理模式
+                    link: /frontend/vue/state-management/vuex/introduction#什么是状态管理模式
+                  - text: 单向数据流
+                    link: /frontend/vue/state-management/vuex/introduction#单向数据流
+                  - text: 多组件共享状态
+                    link: /frontend/vue/state-management/vuex/introduction#多组件共享状态
+              - text: Vuex 基础
+                link: /frontend/vue/state-management/vuex/basics
+                items:
+                  - text: 安装 Vuex
+                    link: /frontend/vue/state-management/vuex/basics#安装-vuex
+                  - text: 最简单的 Store
+                    link: /frontend/vue/state-management/vuex/basics#最简单的-store
+                  - text: Vuex 和单纯的全局对象的两点区别
+                    link: /frontend/vue/state-management/vuex/basics#vuex-和单纯的全局对象的两点区别
+              - text: Vuex 核心概念
