@@ -116,6 +116,7 @@
               - text: 比较 watch 和 watcheffect
                 link: /frontend/vue/watch/watch-effect#比较-watch-和-watcheffect
       - text: 事件监听
+        collapsed: true
         items:
           - text: 事件处理器
             link: /frontend/vue/event-handling/handler
@@ -174,29 +175,20 @@
                 link: /frontend/vue/form/modifiers#number
               - text: .trim
                 link: /frontend/vue/form/modifiers#trim
-      - text: 状态管理
+      - text: Pinia
         collapsed: true
         items:
-          - text: Vuex
+          - text: Pinia 介绍
+            link: /frontend/vue/pinia/introduction
             items:
-              - text: Vuex 介绍
-                link: /frontend/vue/state-management/vuex/introduction
-                items:
-                  - text: 什么是 Vuex
-                    link: /frontend/vue/state-management/vuex/introduction#什么是-vuex
-                  - text: 什么是状态管理模式
-                    link: /frontend/vue/state-management/vuex/introduction#什么是状态管理模式
-                  - text: 单向数据流
-                    link: /frontend/vue/state-management/vuex/introduction#单向数据流
-                  - text: 多组件共享状态
-                    link: /frontend/vue/state-management/vuex/introduction#多组件共享状态
-              - text: Vuex 基础
-                link: /frontend/vue/state-management/vuex/basics
-                items:
-                  - text: 安装 Vuex
-                    link: /frontend/vue/state-management/vuex/basics#安装-vuex
-                  - text: 最简单的 Store
-                    link: /frontend/vue/state-management/vuex/basics#最简单的-store
-                  - text: Vuex 和单纯的全局对象的两点区别
-                    link: /frontend/vue/state-management/vuex/basics#vuex-和单纯的全局对象的两点区别
-              - text: Vuex 核心概念
+              - text: 什么是 pinia
+                link: /frontend/vue/pinia/introduction#什么是-pinia
+              - text: 完整的 Pinia API 示例
+                link: /frontend/vue/pinia/introduction#完整的-pinia-api-示例
+          - text: 开始使用 Pinia
+            link: /frontend/vue/pinia/getting-started
+            items:
+              - text: 安装 Pinia
+                link: /frontend/vue/pinia/getting-started#安装-pinia
+              - text: 创建 Pinia 实例
+                link: /frontend/vue/pinia/getting-started#创建-pinia-实例
