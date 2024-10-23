@@ -1,0 +1,7 @@
+/database/sqlite:
+  - text: SQLite 介绍
+    items:
+      - text: 什么是 SQLite
+        link: /database/sqlite/introduction/what-is-sqlite
+      - text: 安装 SQLite
+        link: /database/sqlite/introduction/install-sqlite

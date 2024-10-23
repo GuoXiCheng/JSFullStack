@@ -62,6 +62,10 @@ export default defineConfig(
           items: [{ text: "NodeJS", link: "/backend/nodejs/about-nodejs" }],
         },
         {
+          text: "数据库",
+          items: [{ text: "SQLite", link: "/database/sqlite/introduction/what-is-sqlite" }],
+        },
+        {
           text: "云原生",
           items: [
             {
