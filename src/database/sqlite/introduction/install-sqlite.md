@@ -17,7 +17,3 @@ Enter ".help" for usage hints.
 Connected to a transient in-memory database.
 Use ".open FILENAME" to reopen on a persistent database.
 ```
-
-继续输入命令 `.open test.db` 可以创建一个数据库文件。
-
-输入 `.quit` 退出 SQLite 命令行。

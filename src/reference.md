@@ -8,3 +8,4 @@
 - [MDN Web Docs](https://developer.mozilla.org/en-US/)
 - [Vue.js](https://cn.vuejs.org/)
 - [Vuex](https://vuex.vuejs.org/zh/)
+- [SQLite 教程](https://www.runoob.com/sqlite/sqlite-tutorial.html)

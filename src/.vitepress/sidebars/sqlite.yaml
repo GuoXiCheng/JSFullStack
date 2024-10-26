@@ -5,3 +5,40 @@
         link: /database/sqlite/introduction/what-is-sqlite
       - text: 安装 SQLite
         link: /database/sqlite/introduction/install-sqlite
+  - text: 核心概念
+    items:
+      - text: 数据类型
+        link: /database/sqlite/core-concepts/data-types
+        items:
+          - text: 存储类
+            link: /database/sqlite/core-concepts/data-types#存储类
+          - text: Boolean 数据类型
+            link: /database/sqlite/core-concepts/data-types#boolean-数据类型
+          - text: 日期和时间数据类型
+            link: /database/sqlite/core-concepts/data-types#日期和时间数据类型
+      - text: 数据库操作
+        link: /database/sqlite/core-concepts/database-operations
+        items:
+          - text: 创建数据库
+            link: /database/sqlite/core-concepts/database-operations#创建数据库
+          - text: 检查数据库
+            link: /database/sqlite/core-concepts/database-operations#检查数据库
+      - text: 数据表操作
+        link: /database/sqlite/core-concepts/table-operations
+        items:
+          - text: 创建表
+            link: /database/sqlite/core-concepts/table-operations#创建表
+          - text: 查看表
+            link: /database/sqlite/core-concepts/table-operations#查看表
+          - text: 修改表
+            link: /database/sqlite/core-concepts/table-operations#修改表
+            items: 
+              - text: 添加列
+                link: /database/sqlite/core-concepts/table-operations#添加列
+              - text: 重命名列
+                link: /database/sqlite/core-concepts/table-operations#重命名列
+              - text: 删除列
+                link: /database/sqlite/core-concepts/table-operations#删除列
+          - text: 删除表
+            link: /database/sqlite/core-concepts/table-operations#删除表
+          
