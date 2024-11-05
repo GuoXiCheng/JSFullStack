@@ -41,4 +41,26 @@
                 link: /database/sqlite/core-concepts/table-operations#删除列
           - text: 删除表
             link: /database/sqlite/core-concepts/table-operations#删除表
+      - text: Insert 语句
+        link: /database/sqlite/core-concepts/insert-statement
+        items:
+          - text: 为指定列插入值
+            link: /database/sqlite/core-concepts/insert-statement#为指定列插入值
+          - text: 为所有列插入值
+            link: /database/sqlite/core-concepts/insert-statement#为所有列插入值
+      - text: Delete 语句
+        link: /database/sqlite/core-concepts/delete-statement
+        items:
+          - text: 删除所有行
+            link: /database/sqlite/core-concepts/delete-statement#删除所有行
+          - text: 删除指定行
+            link: /database/sqlite/core-concepts/delete-statement#删除指定行
+      - text: Update 语句
+        link: /database/sqlite/core-concepts/update-statement
+        items:
+          - text: 更新所有行
+            link: /database/sqlite/core-concepts/update-statement#更新所有行
+          - text: 更新指定行
+            link: /database/sqlite/core-concepts/update-statement#更新指定行
+        
           
