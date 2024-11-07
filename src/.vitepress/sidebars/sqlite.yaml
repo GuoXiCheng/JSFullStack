@@ -62,5 +62,27 @@
             link: /database/sqlite/core-concepts/update-statement#更新所有行
           - text: 更新指定行
             link: /database/sqlite/core-concepts/update-statement#更新指定行
+      - text: Select 语句
+        link: /database/sqlite/core-concepts/select-statement
+        items:
+          - text: 基本语法
+            link: /database/sqlite/core-concepts/select-statement#基本语法
+          - text: Where 子句
+            link: /database/sqlite/core-concepts/select-statement#where-子句
+            items:
+              - text: 比较
+                link: /database/sqlite/core-concepts/select-statement#比较
+              - text: 逻辑
+                link: /database/sqlite/core-concepts/select-statement#逻辑
+              - text: IN
+                link: /database/sqlite/core-concepts/select-statement#in
+              - text: Between And
+                link: /database/sqlite/core-concepts/select-statement#between-and
+              - text: Exists
+                link: /database/sqlite/core-concepts/select-statement#exists
+              - text: Is Null
+                link: /database/sqlite/core-concepts/select-statement#is-null
+          - text: Like 子句
+            link: /database/sqlite/core-concepts/select-statement#like-子句
         
           
