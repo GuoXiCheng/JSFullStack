@@ -84,5 +84,11 @@
                 link: /database/sqlite/core-concepts/select-statement#is-null
           - text: Like 子句
             link: /database/sqlite/core-concepts/select-statement#like-子句
+          - text: Glob 子句
+            link: /database/sqlite/core-concepts/select-statement#glob-子句
+          - text: Limit 子句
+            link: /database/sqlite/core-concepts/select-statement#limit-子句
+          - text: Order By 子句
+            link: /database/sqlite/core-concepts/select-statement#order-by-子句
         
           
