@@ -90,5 +90,11 @@
             link: /database/sqlite/core-concepts/select-statement#limit-子句
           - text: Order By 子句
             link: /database/sqlite/core-concepts/select-statement#order-by-子句
+          - text: Group By 子句
+            link: /database/sqlite/core-concepts/select-statement#group-by-子句
+          - text: Having 子句
+            link: /database/sqlite/core-concepts/select-statement#having-子句
+          - text: Distinct 关键字
+            link: /database/sqlite/core-concepts/select-statement#distinct-关键字
         
           

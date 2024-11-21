@@ -238,3 +238,62 @@ SELECT name, age FROM students ORDER BY age DESC;
 ```
 
 :::
+
+## Group By 子句
+
+Group By 子句用于对查询结果进行分组。
+
+::: tip
+在 SELECT 语句中，GROUP BY 子句必须在 WHERE 子句之后，ORDER BY 子句之前。
+:::
+
+::: code-group
+
+```sql [语法]
+SELECT column1, column2, ... FROM table_name
+GROUP BY [column1, column2, ...];
+```
+
+```sql [实例]
+SELECT name, count(*) FROM students GROUP BY name;
+```
+
+:::
+
+## Having 子句
+
+Having 子句用于对 GROUP BY 子句返回的结果进行过滤。
+
+::: tip
+HAVING 子句必须在 GROUP BY 子句之后，ORDER BY 子句之前。
+:::
+
+::: code-group
+
+```sql [语法]
+SELECT column1, column2, ... FROM table_name
+GROUP BY [column1, column2, ...]
+HAVING [condition];
+```
+
+```sql [实例]
+SELECT name, count(*) FROM students GROUP BY name HAVING count(*) > 1;
+```
+
+:::
+
+## Distinct 关键字
+
+Distinct 关键字用于返回唯一不同的值。
+
+::: code-group
+
+```sql [语法]
+SELECT DISTINCT column1, column2, ... FROM table_name;
+```
+
+```sql [实例]
+SELECT DISTINCT name FROM students;
+```
+
+:::
