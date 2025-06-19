@@ -83,6 +83,7 @@ export default defineConfig(
             },
           ],
         },
+        { text: "面试", link: "/interview" },
         // { text: "AI", link: "/ai/index" },
         { text: "参考", link: "/reference" },
       ],
