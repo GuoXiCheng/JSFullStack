@@ -12,7 +12,7 @@ export function convertToMarkdown(nav: NavItem[], sidebar: Sidebar) {
   const copyNav = JSON.parse(JSON.stringify(nav)) as NavItem[];
   const copySidebar = JSON.parse(JSON.stringify(sidebar)) as Sidebar;
 
-  const navPart = copyNav.slice(1, -1);
+  const navPart = copyNav.slice(1, -2);
 
   const jsonData = navPart.map((navItem) => {
     const items = navItem.items as NavItem[];
@@ -27,9 +27,7 @@ export function convertToMarkdown(nav: NavItem[], sidebar: Sidebar) {
     return { ...navItem, items: newItems };
   });
 
-  const formattedText = jsonData
-    .map((item) => formatItem(item).join("\n"))
-    .join("\n");
+  const formattedText = jsonData.map((item) => formatItem(item).join("\n")).join("\n");
 
   return "# JavaScript 全栈知识体系" + "\n" + formattedText;
 }
