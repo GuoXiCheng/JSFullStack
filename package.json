@@ -1,14 +1,14 @@
 {
   "devDependencies": {
     "@types/js-yaml": "^4.0.9",
-    "@types/node": "^20.17.6",
+    "@types/node": "^24.0.3",
     "js-yaml": "^4.1.0",
-    "markmap-lib": "^0.16.1",
-    "markmap-toolbar": "^0.16.0",
-    "markmap-view": "^0.16.0",
-    "mermaid": "^10.9.3",
-    "rimraf": "^5.0.10",
-    "vitepress": "^1.5.0",
+    "markmap-lib": "^0.18.12",
+    "markmap-toolbar": "^0.18.12",
+    "markmap-view": "^0.18.12",
+    "mermaid": "^11.6.0",
+    "rimraf": "^6.0.1",
+    "vitepress": "^1.6.3",
     "vitepress-plugin-mermaid": "^2.0.17"
   },
   "scripts": {
