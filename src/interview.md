@@ -39,18 +39,16 @@
 
 ## 你是否自己实现过简化版的依赖注入容器
 
-```java
+```typescript
 // [!code focus]
 
 我会先创建一个Map作为容器对象，用来保存服务的构造函数或实例。
 
 然后提供一个register方法注册服务，一个resolve方法创建实例，
 resolve方法会自动查找构造函数的参数，递归地实例化依赖。
-```
 
-简化版依赖注入容器
+/** 简化版依赖注入容器 */
 
-```typescript
 class Container {
   private providers = new Map();
 
@@ -65,35 +63,34 @@ class Container {
     return new Provider(...instances);
   }
 }
-```
 
-进阶版带装饰器的依赖注入容器
+class DatabaseService {}
 
-```typescript
-import "reflect-metadata";
+class UserService {
+  constructor(private db: DatabaseService) {}
 
-class Container {
-  private providers = new Map();
-
-  register(token: any) {
-    this.providers.set(token, token);
-  }
-
-  resolve<T>(token: new (...args: any[]) => T): T {
-    const target = this.providers.get(token);
-    const deps = Reflect.getMetadata("design:paramtypes", target) || [];
-    const instances = deps.map((dep: any) => this.resolve(dep));
-    return new target(...instances);
+  getUser() {
+    return this.db.query("SELECT * FROM users");
   }
 }
+
+// 创建容器实例
+const container = new Container();
+// 注册服务
+container.register(DatabaseService, DatabaseService);
+container.register(UserService, UserService);
+// 解析服务
+const userService = container.resolve(UserService);
+userService.getUser();
+
+/** 进阶版带装饰器的依赖注入容器 */
+import "reflect-metadata";
 
 // 装饰器：用于自动注册类
 function Injectable(target: any) {
   container.register(target);
 }
-```
 
-```typescript
 const container = new Container();
 
 @Injectable
